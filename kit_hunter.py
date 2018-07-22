@@ -150,7 +150,7 @@ f.close()
 # 1. The opening line points the administrator to the directory where detection took place.
 # 2. After that, the log reports the exact file name that caused the detection.
 # 3. Line three shows the tag responsible for the warning in the first place.
-# 4. Finally, the log displays the complete line of code whre the tag is visible.
+# 4. Finally, the log displays the complete line of code where the tag is visible.
 #
 # During testing, the script generated false positives using the 'unescape' tag, so it was removed...
 # ...but adding such a tag will generate several useful hits when obfuscation is used. It's a trade-off.
