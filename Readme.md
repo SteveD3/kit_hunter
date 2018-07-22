@@ -4,8 +4,8 @@ Version 0.2.20
 20 JULY 2018
 
 Testing and development took place on the following:
-Python 2.7.14 (Linux, Mac)
-Python 2.7.15 (Windows)
+* Python 2.7.14 (Linux, Mac)
+* Python 2.7.15 (Windows)
 
 **Note:**
 _As things stand, this early version of the script does not work well with Python 3+ (that will change)_
