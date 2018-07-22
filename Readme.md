@@ -31,16 +31,16 @@ Make sure you keep kit_hunter.py and tags.tag in the same directory.
 
 To run this script on Linux, Mac, etc. use: **_python kit_hunter.py_**
 
-If you're on Windows, see the following DOC pages for assistance.
+If you're on Windows, see the following DOC pages for assistance:
 
-1 https://docs.python.org/3.3/using/windows.html
-2 https://docs.python.org/2/faq/windows.html
+1. [Documentation for using Python on Windows in the 3.x branch](https://docs.python.org/3.3/using/windows.html)
+2. [Documentation for using Python on Windows in the 2.x branch](https://docs.python.org/2/faq/windows.html)
 
 Also, the following has been helpful during testing.
 
-3 http://www.pitt.edu/~naraehan/python3/getting_started_win_first_try.html
+3. [Getting started with Python on Windows](http://www.pitt.edu/~naraehan/python3/getting_started_win_first_try.html)
 
-Archive of 3: http://archive.fo/p7bzb
+[Here is an archive of link 3 if needed](http://archive.fo/p7bzb)
 
 
 When it comes to the tags.tag file, make sure you don't have any white spaces. For each tag you'd like to include, place it on its own line. The tag file has been populated with several common markers, but you can add to the list if you choose.
