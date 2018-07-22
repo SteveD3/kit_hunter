@@ -39,9 +39,9 @@
 # [Archive of 3] http://archive.fo/p7bzb
 #
 #
-# When it comes to the tags.tag file, make sure you don't have any whitespaces.
+# When it comes to the tags.tag file, make sure you don't have any white spaces.
 # For each tag you'd like to include, place it on its own line.
-# The tag file has been pre-populated with several common markers, but you can add to the list if you choose.
+# The tag file has been populated with several common markers, but you can add to the list if you choose.
 ################################################
 
 import os
