@@ -1,94 +1,130 @@
 #-=-=-=FUNCTION_TAGS=-=-=-#
 #-------------------------#
-whoer
-geoplugin
-geoiptool
-HTTrack
-saved from url
-ip-api.com
-theseotools.net
-webtoolhub.com
-curl.haxx.se
+bin2hex
 bins.pro
 curl-to-PHP
-spyeyes
+curl.haxx.se
 eval(gzinflate(base64_decode
+geoiptool
+geoplugin
+HTTrack
+ip-api.com
+likemyphp.com
+saved from url
+spyeyes
+theseotools.net
+webtoolhub.com
+whoer
+www.nutopia.com.au
 #-=-=-=DIRECTED_TAGS=-=-=-#
 #-------------------------#
+---Amex Information---
+--Amex Card Details---
+0utl00k
+=ReZulT=
 Ad0be
+C4rd chase
+Capital1
+DropB0x Info
+FUDTOOL
+Fudtools
+fudtools
 fudpages
+Fully Undetected by LulzSec
+G M@Ail
+Infoos
+Match-Logs
+Official3655
+ROAMNETLOG INC
+ReSulT
+ReZulT
+Recovery Credentials
+SBCGLOBAL
+USAA SpammeD AUTO REzulTY
 Vict!m Info
+#-=-=-=Author_TAGS=-=-=-#
+#-------------------------#
+$$ Dr.Don  $$
+$4ridon
+*MR?LT•MRC404*
+1GW3 HACKZ
+?Mafiousia?
+AJONWA
+ANTIBOTS DZEB
+Agung Satrio Kuy
+Akun PP
+Anonisma
+Anonymous Cyber Team
+BA3BA3 SERGIO
+BESMELLAH
+Blackmon3y.ID
+Blessed Jboi
+BocahShop X BocahTeam
+Coded by LAPARI
+Created By yb
+D4rkL4B
+DOLLAR
+Escobar
 GMGANG
 GRooT
-1GW3 HACKZ
-Blessed Jboi
-NoBODY
-Escobar
-*MRΔLT•MRC404*
-DOLLAR
-STARBOY
-AJONWA
-BA3BA3 SERGIO
-nOobAssas!n
-Noob Assassin
-ツMafiousiaツ
-ZOMRA Result
-l33bo_phishers
-L33bo phishers
-Agung Satrio Kuy
-Blackmon3y.ID
-Anonymous Cyber Team
-SHADOW Z118
-ShadowZ118
-ANTIBOTS DZEB
-BESMELLAH
-MAJNOONJREMA
 JOkEr7
-FUDTOOL
-=ReZulT=
-snsv-crew.id
-Maded By Legendary
-BocahShop X BocahTeam
-Mr-Anobs
-Rezult GSX
-Anonisma
-XM-HACK
-Akun PP
 KinGz
-devilscream
+L33bo phishers
+Lord PoPpA
+MAJNOONJREMA
+Maded By Legendary
+Mckuzinno
+Mr-Anobs
+NoBODY
+Noob Assassin
+Rezult GSX
+SHADOW Z118
+STARBOY
+ShadowZ118
+TIKTAK 2017
+XM-HACK
+ZOMRA Result
 Zetas Oujdi
+billiondollarsman
+devilscream
+l33bo_phishers
+lizzyrose
+lizzyrose/billiondollarsman
+nOobAssas!n
+snsv-crew.id
 #-=-=-=Web_Shell_TAGS=-=-=-#
 #-------------------------#
-KingDefacer
-Arjun
 AK-74 Security Team
-Ironfist
-Grinay
+Arjun
 Ayyildiz Tim
 CCTeaM.
-c999
-c99
-ccteam.ru
-[CT] TEAM SCRIPTING - RODNOC
-SultanMehmed
-RST/GHC
-Xorro
 DrSpy
-r57
-WSO
+Grinay
+Ironfist
+KingDefacer
+RST/GHC
 Shor7cut
-cr1p.blogspot.com
+SultanMehmed
+WSO
+Xorro
+[CT] TEAM SCRIPTING - RODNOC
 b374k
+c99
+c999
+ccteam.ru
+cr1p.blogspot.com
+r57
 #-=-=-=SECURITY_TAGS=-=-=-#
 #-------------------------#
-Tor-exit
-safebrowsing-cache
-bad_bot
-blocker.php
-antibots
-All Boot Crypted
 $Abuse_Filter
+All Boot Crypted
+GODADDY
 NETCRAFT
 PHISHTANK
 RACKSPACE
-GODADDY
+Tor-exit
+tor-exit
+antibots
+bad_bot
+blocker.php
+safebrowsing-cache
