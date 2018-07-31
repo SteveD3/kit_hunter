@@ -9,8 +9,8 @@
 # Development:
 # Steve Ragan (@SteveD3)
 #
-# Version 0.2.20
-# 20 JULY 2018
+# Version 0.2.21
+# 31 JULY 2018
 #
 # Testing and development took place on the following:
 # Python 2.7.14 (Linux, Mac)
@@ -116,6 +116,7 @@ for phish_trk_tags in phish_trk_tags_list:
 
 # - - - -
 # Now that the magic has happened. It's time to generate TMP_kit_hunter_log.
+# The blocks generated in the tmp log are usable, but unsorted.
 # - - - -
 
 print("Creating TMP_kit_hunter_log")
@@ -180,7 +181,7 @@ def read_file(filename):
         for line in log_file:
             if len(line) <= 1:  # blank line
                 continue
-            if line.count('=') > 10:  # ========== line
+            if line.count('=') > 10:  # ========== line from tmp, used to define block splits
                 continue
             if BLOCK_PHISHING_KIT in line:
                 current_block = "phishing"
@@ -195,9 +196,9 @@ def read_file(filename):
                 current_block = "line"
                 continue
 
-            block[current_block] = line.strip()  # store the block content
+            block[current_block] = line.strip()  # store the block content, loop again, otherwise write the thing
 
-            # finish reading the block
+            # finish reading the block, thing being written
             if current_block == "line":
                 if len(block) > 0:
                     if block['tag'] not in tag_blocks:
@@ -217,7 +218,8 @@ def generate_the_block(tag):
         filenames.add(b['filename'])
         lines.add(b['line'])
 
-    # construct the block
+    # Construct the block, an attempt was made to make this look decent and easy to read.
+	# We're stripping the content out of the tmp and ordering it in the final log.
     block.append("                 ==============               ")
     block.append("                 START OF BLOCK               ")
     block.append("="*50)
@@ -252,7 +254,7 @@ def generate_the_block(tag):
     block.append("")
     return block
 
-# write the block
+# Write the block, loop until done or the thing dies. So far, it doesn't die and that is a good thing.
 def write_summary_file():
     with open(phish_trk_log_output + "kit_hunter_report.log", "w") as final_log:
         for tag in tag_blocks:
@@ -260,11 +262,12 @@ def write_summary_file():
             for line in block:
                 final_log.write(line + "\n")
 
-# clean things up a bit
+# Clean things up a bit, including our tmp
 iterate_files()
 write_summary_file()
 os.remove("TMP_kit_hunter_log.tmp")
 
+# None of the print stuff was really needed, but it's there so the user knows the script is doing something.
 print("")
 print("TMP_kit_hunter_log removed")
 print("")
