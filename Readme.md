@@ -22,6 +22,7 @@ The report is basic:
 
 _During testing, the script generated false positives using the 'unescape' tag, so it was removed, but adding such a tag will generate several useful hits when obfuscation is used. It's a trade-off. Run the script a few times and check the results, tune the tag file as needed._
 
+![Kit Hunter Log Example](https://raw.githubusercontent.com/SteveD3/kit_hunter/master/kit_hunter_example.jpg "Example of Kit Hunter log showing kit detection")
 
 ## Usage:
 
