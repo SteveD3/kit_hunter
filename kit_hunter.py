@@ -219,7 +219,7 @@ def generate_the_block(tag):
         lines.add(b['line'])
 
     # Construct the block, an attempt was made to make this look decent and easy to read.
-	# We're stripping the content out of the tmp and ordering it in the final log.
+    # We're stripping the content out of the tmp and ordering it in the final log.
     block.append("                 ==============               ")
     block.append("                 START OF BLOCK               ")
     block.append("="*50)
