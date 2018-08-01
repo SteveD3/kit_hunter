@@ -2,6 +2,7 @@
 #-------------------------#
 bin2hex
 bins.pro
+bincodes.com
 curl-to-PHP
 curl.haxx.se
 eval(gzinflate(base64_decode
@@ -52,17 +53,20 @@ $4ridon
 AJONWA
 ANTIBOTS DZEB
 Agung Satrio Kuy
+aKangRudin
 Akun PP
 Anonisma
 Anonymous Cyber Team
 BA3BA3 SERGIO
 BESMELLAH
+billiondollarsman
 Blackmon3y.ID
 Blessed Jboi
 BocahShop X BocahTeam
 Coded by LAPARI
 Created By yb
 D4rkL4B
+devilscream
 DOLLAR
 Escobar
 GMGANG
@@ -70,28 +74,27 @@ GRooT
 JOkEr7
 KinGz
 L33bo phishers
+l33bo_phishers
 Lord PoPpA
+lizzyrose
+lizzyrose/billiondollarsman
 MAJNOONJREMA
 Maded By Legendary
 Mckuzinno
 Mr-Anobs
 NoBODY
 Noob Assassin
+nOobAssas!n
 Rezult GSX
+Semngka2K18
 SHADOW Z118
-STARBOY
 ShadowZ118
+snsv-crew.id
+STARBOY
 TIKTAK 2017
 XM-HACK
 ZOMRA Result
 Zetas Oujdi
-billiondollarsman
-devilscream
-l33bo_phishers
-lizzyrose
-lizzyrose/billiondollarsman
-nOobAssas!n
-snsv-crew.id
 #-=-=-=Web_Shell_TAGS=-=-=-#
 #-------------------------#
 AK-74 Security Team
@@ -118,6 +121,7 @@ r57
 #-------------------------#
 $Abuse_Filter
 All Boot Crypted
+FOPO - Free Online PHP Obfuscator
 GODADDY
 NETCRAFT
 PHISHTANK
@@ -127,4 +131,6 @@ tor-exit
 antibots
 bad_bot
 blocker.php
+blockers.php
 safebrowsing-cache
+BAN USER BY IP
