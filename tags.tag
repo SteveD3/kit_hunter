@@ -96,28 +96,6 @@ TIKTAK 2017
 XM-HACK
 ZOMRA Result
 Zetas Oujdi
-#-=-=-=Web_Shell_TAGS=-=-=-#
-#-------------------------#
-AK-74 Security Team
-Arjun
-Ayyildiz Tim
-CCTeaM.
-DrSpy
-Grinay
-Ironfist
-KingDefacer
-RST/GHC
-Shor7cut
-SultanMehmed
-WSO
-Xorro
-[CT] TEAM SCRIPTING - RODNOC
-b374k
-c99
-c999
-ccteam.ru
-cr1p.blogspot.com
-r57
 #-=-=-=SECURITY_TAGS=-=-=-#
 #-------------------------#
 $Abuse_Filter
