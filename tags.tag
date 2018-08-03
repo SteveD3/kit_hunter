@@ -3,8 +3,10 @@
 bin2hex
 bins.pro
 bincodes.com
+lookup.binlist.net
 curl-to-PHP
 curl.haxx.se
+ip-api.com
 eval(gzinflate(base64_decode
 geoiptool
 geoplugin
@@ -70,6 +72,7 @@ Created By yb
 D4rkL4B
 devilscream
 DOLLAR
+Dr.jOker
 Escobar
 GMGANG
 GRooT
@@ -102,6 +105,7 @@ Zetas Oujdi
 #-------------------------#
 $Abuse_Filter
 All Boot Crypted
+allantibots
 FOPO - Free Online PHP Obfuscator
 GODADDY
 NETCRAFT
