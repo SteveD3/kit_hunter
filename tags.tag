@@ -33,6 +33,7 @@ FUDTOOL
 Fudtools
 fudtools
 fudpages
+FUDPAGEs [.] RU
 Fully Undetected by LulzSec
 G M@Ail
 GOxGOxPOWERxRANGERS
