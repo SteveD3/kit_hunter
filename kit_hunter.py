@@ -48,8 +48,7 @@ import os
 
 # - - - -
 # Some basic variables for the script.
-# Don't alter the phish_trk_log paths, this keeps everything in the same
-# directory.
+# Don't alter the phish_trk_log paths, this keeps everything in the same directory.
 # - - - -
 
 phish_trk_log_path = "./"
@@ -67,16 +66,17 @@ BLOCK_LINE = "ACTUAL LINE OF CODE RESPONSIBLE FOR THIS ALERT:"
 
 print("Reading TAGS file.....")
 print("")
-f = open(phish_trk_tag_path, 'r')
-phish_trk_tags_list = (f.read()).split('\n')
-if phish_trk_tags_list[-1] == "" or phish_trk_tags_list[-1] == " ":
-    phish_trk_tags_list = phish_trk_tags_list[:-1]
+f=open(phish_trk_tag_path,'r')
+phish_trk_tags_list =(f.read()).split('\n')
+if phish_trk_tags_list[-1]=="" or phish_trk_tags_list[-1]==" ":
+	phish_trk_tags_list=phish_trk_tags_list[:-1]
 
 # - - - -
-# Some DEBUG to test out the tags file and make sure blank spaces don't bother
-# the script. It isn't needed anymore, but we're keeping it here just in case.
+# Some DEBUG to test out the tags file and make sure blank spaces don't bother the script.
+# It isn't needed anymore, but we're keeping it here just in case.
 # - - - -
-# print phish_trk_tags_list
+#print phish_trk_tags_list
+
 
 f.close()
 
@@ -84,7 +84,7 @@ f.close()
 # Open a new file to log the results.
 # - - - -
 
-f = open('TMP_kit_hunter_log.tmp', 'w')  # Don't change the file name.
+f=open('TMP_kit_hunter_log.tmp','w') # Don't change the file name.
 
 # - - - -
 # Here is the core.
@@ -92,28 +92,27 @@ f = open('TMP_kit_hunter_log.tmp', 'w')  # Don't change the file name.
 # We're searching for TXT, PHP, .DAT, .HTM / .HTML, and .HTACCESS files.
 # - - - -
 
-data = []
-
-
+data=[]
 def phish_trk(location, phish_tag):
-    for dir_path, dirs, file_names in os.walk(location):
-        for file_name in file_names:
-            if '.txt' in file_name or '.php' in file_name or '.dat' in file_name or '.html' in file_name or '.htm' in file_name or '.htaccess' in file_name:
-                fullpath = os.path.join(dir_path, file_name)
-                with open(fullpath) as potential_kit:
-                    for line in potential_kit:
-                        if phish_tag in line:
-                            record = []
-                            record.append(dir_path)
-                            record.append(file_name)
-                            record.append(phish_tag)
-                            record.append(line)
-                            data.append(record)
-                            break
-
+   for dir_path, dirs, file_names in os.walk(location):
+      for file_name in file_names:
+         if '.txt' in file_name or '.php' in file_name or '.dat' in file_name or '.html' in file_name or '.htm' in file_name or '.htaccess' in file_name:
+            fullpath = os.path.join(dir_path, file_name)
+            for line in file(fullpath):
+               if phish_tag in line:
+                  if file_name=="tags.tag":
+                     pass
+                  else:
+                     record=[]
+                     record.append(dir_path)
+                     record.append(file_name)
+                     record.append(phish_tag)
+                     record.append(line)
+                     data.append(record)
+                     break
 
 for phish_trk_tags in phish_trk_tags_list:
-    phish_trk(os.getcwd(), phish_trk_tags)
+   phish_trk(os.getcwd(), phish_trk_tags)
 
 # - - - -
 # Now that the magic has happened. It's time to generate TMP_kit_hunter_log.
@@ -123,44 +122,42 @@ for phish_trk_tags in phish_trk_tags_list:
 print("Creating TMP_kit_hunter_log")
 print("")
 
-for i in range(0, len(data)):
-    f.write("=========================================================" + '\n'
-            "POSSIBLE PHISHING KIT DISCOVERED IN: " + '\n' + '\n'
-            '     ' + data[i][0] + '\n' + "" + '\n'
-            "SUSPECT FILENAME IS: " + '\n' + '\n'
-            '     ' + data[i][1] + '\n' + "" + '\n'
-            "SUSPECT FILE DETECTED BY THE FOLLOWING PHISHING TAG: " + '\n' +
-            '\n'
-            '     ' + data[i][2] + '\n' + "" + '\n'
-            "ACTUAL LINE OF CODE RESPONSIBLE FOR THIS ALERT:: "
-            '\n' + '\n' + data[i][3] + '\n')
+for i in range(0,len(data)):
+      f.write(
+	"========================================================="+'\n'
+	"POSSIBLE PHISHING KIT DISCOVERED IN: "+'\n'+'\n'
+	'     '+data[i][0]+'\n'+
+	""+'\n'
+	"SUSPECT FILENAME IS: "+'\n'+'\n'
+	'     '+data[i][1]+'\n'+
+	""+'\n'
+	"SUSPECT FILE DETECTED BY THE FOLLOWING PHISHING TAG: "+'\n'+'\n'
+	'     '+data[i][2]+'\n'+
+	""+'\n'
+	"ACTUAL LINE OF CODE RESPONSIBLE FOR THIS ALERT:: "'\n'+'\n'
+	+data[i][3]+'\n'
+	)
+
 
 f.close()
 
-# - - - -
-# Now we're going to sort TMP_kit_hunter_log into blocks and make it easier to
-# read and follow.
-# The goal here is to group files and directories, so you get a block for
-# multiple hits and not a wall of text.
+#- - - -
+# Now we're going to sort TMP_kit_hunter_log into blocks and make it easier to read and follow.
+# The goal here is to group files and directories, so you get a block for multiple hits and not a wall of text.
 #
 # You will get a block on each tag detected. This is intentional.
 #
 # The report is basic:
-# 1. The opening line points the administrator to the directory where
-# detection took place.
+# 1. The opening line points the administrator to the directory where detection took place.
 # 2. After that, the log reports the exact file name that caused the detection.
 # 3. Line three shows the tag responsible for the warning in the first place.
-# 4. Finally, the log displays the complete line of code where the tag is
-# visible.
+# 4. Finally, the log displays the complete line of code where the tag is visible.
 #
-# During testing, the script generated false positives using the 'unescape'
-# tag, so it was removed...
-# ...but adding such a tag will generate several useful hits when obfuscation
-# is used. It's a trade-off.
+# During testing, the script generated false positives using the 'unescape' tag, so it was removed...
+# ...but adding such a tag will generate several useful hits when obfuscation is used. It's a trade-off.
 #
-# Run the script a few times and check the results, tune the tag file as
-# needed.
-# - - - -
+# Run the script a few times and check the results, tune the tag file as needed.
+#- - - -
 
 print("Creating final log using TMP_kit_hunter_log")
 print("")
@@ -184,8 +181,7 @@ def read_file(filename):
         for line in log_file:
             if len(line) <= 1:  # blank line
                 continue
-            # ========== line from tmp, used to define block splits
-            if line.count('=') > 10:
+            if line.count('=') > 10:  # ========== line from tmp, used to define block splits
                 continue
             if BLOCK_PHISHING_KIT in line:
                 current_block = "phishing"
@@ -199,8 +195,8 @@ def read_file(filename):
             if BLOCK_LINE in line:
                 current_block = "line"
                 continue
-            # store the block content, loop again, otherwise write the thing
-            block[current_block] = line.strip()
+
+            block[current_block] = line.strip()  # store the block content, loop again, otherwise write the thing
 
             # finish reading the block, thing being written
             if current_block == "line":
@@ -222,36 +218,34 @@ def generate_the_block(tag):
         filenames.add(b['filename'])
         lines.add(b['line'])
 
-    # Construct the block, an attempt was made to make this look decent and
-    # easy to read.
-    # We're stripping the content out of the tmp and ordering it in the final
-    # log.
+    # Construct the block, an attempt was made to make this look decent and easy to read.
+    # We're stripping the content out of the tmp and ordering it in the final log.
     block.append("                 ==============               ")
     block.append("                 START OF BLOCK               ")
-    block.append("=" * 50)
+    block.append("="*50)
     block.append(BLOCK_PHISHING_KIT)
     block.append("")
     for k in kits:
         block.append('\t' + k)
     block.append("")
-    block.append("-" * 50)
+    block.append("-"*50)
     block.append(BLOCK_FILENAME)
     block.append("")
     for f in filenames:
         block.append('\t' + f)
     block.append("")
-    block.append("-" * 50)
+    block.append("-"*50)
     block.append(BLOCK_TAG)
     block.append("")
     block.append('\t' + tag)
     block.append("")
-    block.append("-" * 50)
+    block.append("-"*50)
     block.append(BLOCK_LINE)
     block.append("")
     for l in lines:
         block.append('\t' + l)
     block.append("")
-    block.append("=" * 50)
+    block.append("="*50)
     block.append("                  END OF BLOCK               ")
     block.append("                 ==============               ")
     block.append("")
@@ -260,25 +254,20 @@ def generate_the_block(tag):
     block.append("")
     return block
 
-
-# Write the block, loop until done or the thing dies. So far, it doesn't die
-# and that is a good thing.
+# Write the block, loop until done or the thing dies. So far, it doesn't die and that is a good thing.
 def write_summary_file():
-    with open(phish_trk_log_output + "kit_hunter_report.log",
-              "w") as final_log:
+    with open(phish_trk_log_output + "kit_hunter_report.log", "w") as final_log:
         for tag in tag_blocks:
             block = generate_the_block(tag)
             for line in block:
                 final_log.write(line + "\n")
-
 
 # Clean things up a bit, including our tmp
 iterate_files()
 write_summary_file()
 os.remove("TMP_kit_hunter_log.tmp")
 
-# None of the print stuff was really needed, but it's there so the user knows
-# the script is doing something.
+# None of the print stuff was really needed, but it's there so the user knows the script is doing something.
 print("")
 print("TMP_kit_hunter_log removed")
 print("")
@@ -287,8 +276,7 @@ print("")
 print("FINISHED! Check kit_hunter_report.log for details.")
 print("")
 print("Unless you've changed paths, and you shouldn't have...")
-print(
-    "...kit_hunter_report.log is located in the same directory as kit_hunter.")
+print("...kit_hunter_report.log is located in the same directory as kit_hunter.")
 print("")
 print("-30-")
 
