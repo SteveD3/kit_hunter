@@ -94,6 +94,7 @@ Mr-Anobs
 NoBODY
 Noob Assassin
 nOobAssas!n
+REDSON
 Rezult GSX
 Semngka2K18
 SHADOW Z118
@@ -101,6 +102,7 @@ ShadowZ118
 snsv-crew.id
 STARBOY
 TIKTAK 2017
+TH3MRXYEAR
 XM-HACK
 ZOMRA Result
 Zetas Oujdi
