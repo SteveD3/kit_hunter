@@ -79,6 +79,7 @@ Dr.jOker
 Escobar
 GMGANG
 GRooT
+H4rKy H4rK
 JOkEr7
 KinGz
 L33bo phishers
@@ -99,6 +100,7 @@ Rezult GSX
 Semngka2K18
 SHADOW Z118
 ShadowZ118
+Sir D
 snsv-crew.id
 STARBOY
 TIKTAK 2017
