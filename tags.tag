@@ -1,5 +1,6 @@
 #-=-=-=FUNCTION_TAGS=-=-=-#
 #-------------------------#
+$domain<west>
 bin2hex
 bins.pro
 bincodes.com
@@ -95,6 +96,7 @@ Mr-Anobs
 NoBODY
 Noob Assassin
 nOobAssas!n
+OUTLAWZ
 REDSON
 Rezult GSX
 Semngka2K18
