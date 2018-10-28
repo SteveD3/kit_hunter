@@ -9,8 +9,8 @@
 # Development:
 # Steve Ragan (@SteveD3)
 #
-# Version 0.2.21
-# 31 JULY 2018
+# Version 0.2.27
+# 27 OCTOBER 2018
 #
 # Testing and development took place on the following:
 # Python 2.7.14 (Linux, Mac)
@@ -64,7 +64,9 @@ BLOCK_LINE = "ACTUAL LINE OF CODE RESPONSIBLE FOR THIS ALERT:"
 # Going to open the tags list and make sure the whitespaces are taken care of.
 # - - - -
 
-print("Reading TAGS file.....")
+print("Reading TAGS file...")
+print("")
+print("...Please wait...This could take some time...")
 print("")
 f=open(phish_trk_tag_path,'r')
 phish_trk_tags_list =(f.read()).split('\n')
