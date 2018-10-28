@@ -1,7 +1,7 @@
 # Kit Hunter: A basic phishing kit detection tool
 
-* Version 0.2.21
-* 31 JULY 2018
+* Version 0.2.27
+* 27 OCTOBER 2018
 
 Testing and development took place on the following:
 * Python 2.7.14 (Linux, Mac)
@@ -44,4 +44,4 @@ Also, the following has been helpful during testing.
 [Here is an archive of link 3 if needed](http://archive.fo/p7bzb)
 
 
-When it comes to the tags.tag file, make sure you don't have any white spaces. For each tag you'd like to include, place it on its own line. The tag file has been populated with several common markers, but you can add to the list if you choose.
+When it comes to the tags.tag file, make sure you don't have any white spaces. For each tag you'd like to include, place it on its own line. The tag file has been populated with several common markers, but you can add to the list if you choose. Keep in mind, the longer the tag file is, the longer it will take for the script to read it. As things stand now, at 200 lines, the tag file still only takes a few seconds to read.
