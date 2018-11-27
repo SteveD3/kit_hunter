@@ -18,6 +18,7 @@ geoiptool
 geoplugin
 ip-api.com
 ip-api.com
+ipinfo.io
 likemyphp.com
 lookup.binlist.net
 priv8tool.club
