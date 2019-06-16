@@ -9,8 +9,8 @@
 # Development:
 # Steve Ragan (@SteveD3)
 #
-# Version 0.2.27
-# 27 OCTOBER 2018
+# Version 0.3.0
+# 15 JUNE 2019
 #
 # Testing and development took place on the following:
 # Python 2.7.14 (Linux, Mac)
@@ -18,7 +18,7 @@
 #
 # Note:
 # As things stand, this early version of the script
-# does not work well with Python 3+ (that will change)
+# does not work well with Python 3+ (that will change... eventually)
 #
 ################################################
 # Usage:
@@ -277,8 +277,7 @@ print("FINAL REPORT GENERATED...")
 print("")
 print("FINISHED! Check kit_hunter_report.log for details.")
 print("")
-print("Unless you've changed paths, and you shouldn't have...")
-print("...kit_hunter_report.log is located in the same directory as kit_hunter.")
+print("The kit_hunter_report.log is located in the same directory as kit_hunter.")
 print("")
 print("-30-")
 
