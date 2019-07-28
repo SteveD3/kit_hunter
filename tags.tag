@@ -6,12 +6,15 @@ $Z118_HEADERS
 $Z118xF0rm3XX
 $domain<west>
 $xqiswxnwxf=
+$_F=__FILE__;$_X
+$ak47_Hacker
 B-Z118
 G-Z118
 HTTrack
 Validate_cc.js
 bin2hex
 bincodes.com
+binlist.net
 bins.pro
 cardNumberInputLabel
 cc_validate.js
@@ -23,6 +26,8 @@ geoplugin
 ip-api.com
 ip-api.org
 ipinfo.io
+ip2geo.com
+kerio_
 likemyphp.com
 lookup.binlist.net
 priv8tool.club
@@ -37,9 +42,12 @@ Spry.Widget.
 spyeyes
 tidak
 theseotools.net
+UA-23581568-13
 webtoolhub.com
 whoer
+wipmania
 www.nutopia.com.au
+Zіflаг-InЬοχ-Μаіlег
 #-=-=-=DIRECTED_TAGS=-=-=-#
 #-------------------------#
 + Docusign +
@@ -53,6 +61,9 @@ www.nutopia.com.au
 163.goooo
 365.4g.logz
 Ad0be
+Apple.Info
+Amazon.Info
+app-id=com.vzw.hss.myverizon
 BrnV3y
 C4rd chase
 Capital1
@@ -61,6 +72,7 @@ customer-support
 DADDA Recovery
 DropB0x Info
 Esraa3zzo
+Facebook.Info
 FRESH [SPAM] TOOLS DOT COM
 FUDPAGEs [.] RU
 FUDTOOL
@@ -71,11 +83,17 @@ Fullzz
 Ghost Logs
 G6m4il
 G M@Ail
+Gmail.Info
 GOxGOxPOWERxRANGERS
 G001G0012
+googletagmanager
+gLoginCredMgtWA
+HMRC Full Info
 Halifax Payment
 INTENTOS DE CODIGOS
 Infoos
+id82927
+imgur
 Kullanıcı Adı
 Login Type Selection --
 Match-Logs
@@ -83,17 +101,25 @@ NEW DEVICE A B S A
 Nzube Post
 Official3655
 PNC
+Paypal.Info
+PC Optimum - oman3
 ROAMNETLOG INC
 ReSulT
 ReZulT
+rezult.txt
 Recovery Credentials
+RSJKINGDOM
+SF Express Rezult
 shellg2corecss
 SBCGLOBAL
+Sifre
+SCOTIARESULTS
 TUrbo Acc Result
 TUrbo Email Access
 TurboTax
 USAA SpammeD AUTO REzulTY
 Vict!m Info
+Verizon Wireless.Info
 amx@amx.com
 fudpages
 fudtools
@@ -145,9 +171,11 @@ Dangerous Mailer
 DoubiLA
 Dr Hard
 Dr.jOker
+D-Young
 El Senor
 Escobar
 Esraa3zzo
+FawadKHAN
 FR33M4N
 fr13nds.teams
 GMGANG
@@ -159,27 +187,33 @@ Hacked by futo
 Hacklilc
 Hot-UK->
 HijaIyh Project
+Hitman
 IzlAden BenGazi
 Indramayu CyBer
 JOkEr7
+JSARZ
 KinGz
 l33bo_phishers
 L33bo phishers
 lexx
 lizzyrose
 Limitless
+LINGCHI
 Lord PoPpA
 MAJNOONJREMA
+MerLin
 man4ever
 MR AT888
 MR DUDU
 Mr.K4w4!
 Maded By Legendary
+MADEMEN CYBER TEAM
 Mckuzinno
 Modsrule
 Moka
 Mr-Anobs
 Mr-Unknown
+Mr-Sace
 Mrx Joker
 N1Y3R0
 NoBODY
@@ -204,17 +238,28 @@ Semngka2K18
 ShadowZ118
 shutdown57
 Sir D
+Sir ShOcKs
+SPAIROW DA_VINCCI
+S.Wire
+!-S.Wire-!
 TH3MRXYEAR
+TheLords
 TIKTAK 2017
 Techroins
+Tn Ph0enix
 VINOX
 vi3nas
 WeStGiRl
 W3LL BOSS
+XBALTI
+X1 Fullz
+X-GHOST MA
+XaMaNi
 XM-HACK
 Xclusiv-3D-Logs
 Xwanted - Rezlt
 YAH-ALLAH
+YOUNG XA+MA+Ni
 ZOMRA Result
 Zetas Oujdi
 Zetas Oujdi
@@ -241,3 +286,4 @@ blockers.php
 ia_archiver
 safebrowsing-cache
 tor-exit
+paypal
