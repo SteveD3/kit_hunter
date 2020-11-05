@@ -9,8 +9,8 @@
 # Development:
 # Steve Ragan (@SteveD3)
 #
-# Version 0.3.1
-# 28 JULY 2019
+# Version 0.3.6.1
+# 05 November 2020
 #
 # Testing and development took place on the following:
 # Python 2.7.14 (Linux, Mac)

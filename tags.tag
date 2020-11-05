@@ -1,5 +1,6 @@
 #-=-=-=FUNCTION_TAGS=-=-=-#
 #-------------------------#
+J9QGYobZy3jVIV1MEHXWlORmqxCeu8PW
 _j124456733ebe933255be
 13InboxLight
 $Z118_HEADERS
@@ -8,8 +9,12 @@ $domain<west>
 $xqiswxnwxf=
 $_F=__FILE__;$_X
 $ak47_Hacker
+$fuck_tor
+$fuck_vpn
+2m.ma
 B-Z118
 G-Z118
+acsh33nz0key
 HTTrack
 Validate_cc.js
 bin2hex
@@ -48,6 +53,8 @@ whoer
 wipmania
 www.nutopia.com.au
 Zіflаг-InЬοχ-Μаіlег
+moneyissues.ng
+STOR AKUN ML BOSKUR!
 #-=-=-=DIRECTED_TAGS=-=-=-#
 #-------------------------#
 + Docusign +
@@ -71,6 +78,7 @@ chalbhai
 customer-support
 DADDA Recovery
 DropB0x Info
+DNThirTeen
 Esraa3zzo
 Facebook.Info
 FRESH [SPAM] TOOLS DOT COM
@@ -95,6 +103,7 @@ Infoos
 id82927
 imgur
 Kullanıcı Adı
+L34K.C0de
 Login Type Selection --
 Match-Logs
 NEW DEVICE A B S A
@@ -114,6 +123,7 @@ shellg2corecss
 SBCGLOBAL
 Sifre
 SCOTIARESULTS
+ScAm Inf0
 TUrbo Acc Result
 TUrbo Email Access
 TurboTax
@@ -125,6 +135,10 @@ fudpages
 fudtools
 instagramstatic-a.akamaihd.net
 WVxoNFu
+Brannen Bank
+Huntington
+test.com
+safetrustbanking.com
 #-=-=-=Author_TAGS=-=-=-#
 #-------------------------#
 [SPAM]
@@ -172,6 +186,7 @@ DoubiLA
 Dr Hard
 Dr.jOker
 D-Young
+DOCX 2019
 El Senor
 Escobar
 Esraa3zzo
@@ -181,6 +196,7 @@ fr13nds.teams
 GMGANG
 GRooT
 GOBE
+Gucci
 H4rKy H4rK
 Hackery Tm.
 Hacked by futo
@@ -241,6 +257,7 @@ Sir D
 Sir ShOcKs
 SPAIROW DA_VINCCI
 S.Wire
+Spox_dz
 !-S.Wire-!
 TH3MRXYEAR
 TheLords
@@ -272,18 +289,28 @@ $Abuse_Filter
 All Boot Crypted
 BAN USER BY IP
 calyxinstitute
+comrise.ru
 FOPO - Free Online PHP Obfuscator
 GODADDY
 NETCRAFT
 PHISHTANK
 RACKSPACE
-Tor-exit
+kyivstar.net
 allantibots
 antibots
 bad_bot
 blocker.php
 blockers.php
+cyveillance
+dreamhost
 ia_archiver
+feedfetcher
 safebrowsing-cache
+softlayer
 tor-exit
+tlh.ro
 paypal
+p3pwgdsn
+vultr
+upcloud.host
+urlredirectresolver
