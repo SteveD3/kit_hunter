@@ -1,8 +1,6 @@
-#
 #-------------------------#
 #-=-=-=FUNCTION_TAGS=-=-=-#
 #-------------------------#
-#
 $Z118_HEADERS
 $Z118xF0rm3XX
 $_F=__FILE__;$_X
@@ -26,11 +24,9 @@ Spry.Widget.
 UA-23581568-13
 Validate_cc.js
 Z?fl??-In???-???l??
-#
 #-------------------------#
 #-=-=-=KIT_IOC_TAGS=-=-=-#
 #-------------------------#
-#
 _j124456733ebe933255be
 acsh33nz0key
 bin2hex
@@ -66,11 +62,9 @@ webtoolhub.com
 whoer
 wipmania
 www.nutopia.com.au
-#
 #-------------------------#
 #-=-=-=DIRECTED_TAGS=-=-=-#
 #-------------------------#
-#
 + Docusign +
 + Reserved +
 +_ #NoLimiT _+
@@ -88,6 +82,7 @@ Brannen Bank
 BrnV3y
 C4rd chase
 Capital1
+CREDIT AGRICOLE
 DADDA Recovery
 DHL-Express-
 DNThirTeen
@@ -138,12 +133,11 @@ TurboTax
 USAA SpammeD AUTO REzulTY
 Verizon Wireless.Info
 Vict!m Info
+Wetspac Acc Info
 WVxoNFu
-#
 #-------------------------#
 #-=-=-=DIRS_IOC_TAGS=-=-=-#
 #-------------------------#
-#
 amx@amx.com
 app-id=com.vzw.hss.myverizon
 chalbhai
@@ -159,11 +153,9 @@ rezult.txt
 safetrustbanking.com
 shellg2corecss
 test.com
-#
 #-------------------------#
 #-=-=-=Authors_TAGS=-=-=--#
 #-------------------------#
-#
 !-S.Wire-!
 $$ Dr.Don  $$
 $4ridon
@@ -185,6 +177,7 @@ Anonymous Cyber Team
 Atom!c Bomb
 BA3BA3 SERGIO
 BESMELLAH
+BY MOET
 BY Mr Oreo
 Blackmon3y.ID
 Blessed E Moni
@@ -198,6 +191,7 @@ CODED BY CYBER_SOFT
 CiPhErHat
 Coded by LAPARI
 Created BY unknown
+CrEaTeD bY VeNzA
 Created By yb
 D-Young
 D4rkL4B
@@ -280,21 +274,21 @@ WeStGiRl
 X-GHOST MA
 X1 Fullz
 XBALTI
+xLs
 XM-HACK
 XaMaNi
 Xclusiv-3D-Logs
 Xwanted - Rezlt
 YAH-ALLAH
 YOUNG XA+MA+Ni
+z0n51
 ZOMRA Result
 Zetas Oujdi
 Zetas Oujdi
 Zooks Info
-#
 #-------------------------#
 #-=-=-=ALT_Auth_TAGS=-=-=-#
 #-------------------------#
-#
 [PP V LITE]
 [SFR]
 [SPAM]
@@ -314,11 +308,9 @@ rzlt2day
 rzlts
 shutdown57
 vi3nas
-#
 #-------------------------#
 #-=-=-=Security_TAGS=-=-=-#
 #-------------------------#
-#
 $Abuse_Filter
 All Boot Crypted
 BAN USER BY IP
