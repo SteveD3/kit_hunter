@@ -50,7 +50,6 @@ likemyphp.com
 lookup.binlist.net
 moneyissues.ng
 priv8tool.club
-rand=13InboxLight.aspx
 rc21x6p3
 saved from url
 snsv-crew.id
@@ -136,7 +135,7 @@ Vict!m Info
 Wetspac Acc Info
 WVxoNFu
 #-------------------------#
-#-=-=-=DIRS_IOC_TAGS=-=-=-#
+#-=-=-=-=IOC_TAGS-=-=-=-=-#
 #-------------------------#
 amx@amx.com
 app-id=com.vzw.hss.myverizon
@@ -293,7 +292,6 @@ Zooks Info
 [SFR]
 [SPAM]
 aKangRudin
-billiondollarsman
 billiondollarsman
 d4rkl4b
 devilscream

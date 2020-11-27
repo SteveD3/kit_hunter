@@ -6,54 +6,35 @@
 #
 # Also, thanks to sara_us and ns9666 for the coaching and help tweaking the code.
 #
-# Development:
+# Kit Hunter Development:
 # Steve Ragan (@SteveD3)
 #
-# Version 0.3.6.1
-# 05 November 2020
+# Version 1.0.0
+# 26 November 2020
 #
-# Testing and development took place on the following:
+#Testing and development took place on the following:
+# Python 3.7.3 (Linux)
+# Python 2.7.16 (Linux)
 # Python 2.7.14 (Linux, Mac)
 # Python 2.7.15 (Windows)
 #
 # Note:
-# As things stand, this early version of the script
-# does not work well with Python 3+ (that will change... eventually)
+# This version of the script is working with Python 3.
+# However, testing is still ongoing.
+# See the testing and development section for confirmed versions.
 #
-################################################
-# Usage:
-#
-# The ideal place for this script is one directory above your webroot (htdocs, public_html, etc.)
-# Make sure you keep kit_hunter.py and tags.tag in the same directory.
-#
-# To run this script on Linux, Mac, etc. use: python kit_hunter.py
-#
-# If you're on Windows, see the following DOC pages for assistance.
-#
-# [1] https://docs.python.org/3.3/using/windows.html
-# [2] https://docs.python.org/2/faq/windows.html
-#
-# Also, the following has been helpful during testing.
-#
-# [3] http://www.pitt.edu/~naraehan/python3/getting_started_win_first_try.html
-# [Archive of 3] http://archive.fo/p7bzb
-#
-#
-# When it comes to the tags.tag file, make sure you don't have any white spaces.
-# For each tag you'd like to include, place it on its own line.
-# The tag file has been populated with several common markers, but you can add to the list if you choose.
 ################################################
 
 import os
 
 # - - - -
 # Some basic variables for the script.
-# Don't alter the phish_trk_log paths, this keeps everything in the same directory.
+# Don't alter the kh_log paths, this keeps everything in the same directory.
 # - - - -
 
-phish_trk_log_path = "./"
-phish_trk_log_output = "./"
-phish_trk_tag_path = "tags.tag"
+kh_log_path = "./"
+kh_log_output = "./"
+kh_tag_path = "tags.tag"
 
 BLOCK_PHISHING_KIT = "POSSIBLE PHISHING KIT DISCOVERED IN:"
 BLOCK_FILENAME = "SUSPECT FILENAME IS:"
@@ -68,16 +49,16 @@ print("Reading TAGS file...")
 print("")
 print("...Please wait...This could take some time...")
 print("")
-f=open(phish_trk_tag_path,'r')
-phish_trk_tags_list =(f.read()).split('\n')
-if phish_trk_tags_list[-1]=="" or phish_trk_tags_list[-1]==" ":
-	phish_trk_tags_list=phish_trk_tags_list[:-1]
+f=open(kh_tag_path,'r')
+kh_tags_list =(f.read()).split('\n')
+if kh_tags_list[-1]=="" or kh_tags_list[-1]==" ":
+	kh_tags_list=kh_tags_list[:-1]
 
 # - - - -
 # Some DEBUG to test out the tags file and make sure blank spaces don't bother the script.
 # It isn't needed anymore, but we're keeping it here just in case.
 # - - - -
-#print phish_trk_tags_list
+#print kh_tags_list
 
 
 f.close()
@@ -100,7 +81,8 @@ def phish_trk(location, phish_tag):
       for file_name in file_names:
          if '.txt' in file_name or '.php' in file_name or '.dat' in file_name or '.html' in file_name or '.htm' in file_name or '.htaccess' in file_name:
             fullpath = os.path.join(dir_path, file_name)
-            for line in file(fullpath):
+            for line in open(fullpath, encoding='utf8', errors='ignore'): #Replaced 'file' with 'open' and added encoding stripping to deal with bad characters in Python3. See below for alternate code.
+#            for line in open(fullpath): #Uncomment and use this line in Python 2.x if you receive errors about encoding and 'errors' not being allowed in this function.
                if phish_tag in line:
                   if file_name=="tags.tag":
                      pass
@@ -113,7 +95,7 @@ def phish_trk(location, phish_tag):
                      data.append(record)
                      break
 
-for phish_trk_tags in phish_trk_tags_list:
+for phish_trk_tags in kh_tags_list:
    phish_trk(os.getcwd(), phish_trk_tags)
 
 # - - - -
@@ -168,9 +150,9 @@ tag_blocks = {}
 
 
 def iterate_files():
-    for filename in os.listdir(phish_trk_log_path):
+    for filename in os.listdir(kh_log_path):
         if filename.endswith(".tmp"):
-            read_file(os.path.join(phish_trk_log_path, filename))
+            read_file(os.path.join(kh_log_path, filename))
         else:
             print("Ignoring file ", filename)
 
@@ -224,30 +206,30 @@ def generate_the_block(tag):
     # We're stripping the content out of the tmp and ordering it in the final log.
     block.append("                 ==============               ")
     block.append("                 START OF BLOCK               ")
-    block.append("="*50)
+    block.append("-"*50)
     block.append(BLOCK_PHISHING_KIT)
     block.append("")
     for k in kits:
         block.append('\t' + k)
-    block.append("")
+#    block.append("")
     block.append("-"*50)
     block.append(BLOCK_FILENAME)
     block.append("")
     for f in filenames:
         block.append('\t' + f)
-    block.append("")
+#    block.append("")
     block.append("-"*50)
     block.append(BLOCK_TAG)
     block.append("")
     block.append('\t' + tag)
-    block.append("")
+#    block.append("")
     block.append("-"*50)
     block.append(BLOCK_LINE)
     block.append("")
     for l in lines:
         block.append('\t' + l)
     block.append("")
-    block.append("="*50)
+    block.append("-"*50)
     block.append("                  END OF BLOCK               ")
     block.append("                 ==============               ")
     block.append("")
@@ -258,7 +240,7 @@ def generate_the_block(tag):
 
 # Write the block, loop until done or the thing dies. So far, it doesn't die and that is a good thing.
 def write_summary_file():
-    with open(phish_trk_log_output + "kit_hunter_report.log", "w") as final_log:
+    with open(kh_log_output + "kit_hunter_report.log", "w") as final_log:
         for tag in tag_blocks:
             block = generate_the_block(tag)
             for line in block:

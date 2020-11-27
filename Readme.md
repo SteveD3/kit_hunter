@@ -1,14 +1,16 @@
 # Kit Hunter: A basic phishing kit detection tool
 
-* Version 0.3.6.1
-* 05 November 2020
+* Version 1.0.0
+* 26 November 2020
 
 Testing and development took place on the following:
+* Python 3.7.3 (Linux)
+* Python 2.7.16 (Linux)
 * Python 2.7.14 (Linux, Mac)
 * Python 2.7.15 (Windows)
 
 **Note:**
-_As things stand, this early version of the script does not work well with Python 3+ (that will change)_
+This version of the script is working with Python 3, but testing is still ongoing. See the testing and development section for confirmed versions.
 
 ## What is Kit Hunter?
 Kit Hunter is a basic scanning tool that will search directories and locate phishing kits based on established markers. As detection happens, a report is generated for administrators.
@@ -44,4 +46,6 @@ Also, the following has been helpful during testing.
 [Here is an archive of link 3 if needed](http://archive.fo/p7bzb)
 
 
-When it comes to the tags.tag file, make sure you don't have any white spaces. For each tag you'd like to include, place it on its own line. The tag file has been populated with several common markers, but you can add to the list if you choose. Keep in mind, the longer the tag file is, the longer it will take for the script to read it. As things stand now, at 200 lines, the tag file still only takes a few seconds to read.
+When it comes to the tags.tag file, make sure you don't have any white spaces. For each tag you'd like to include, place it on its own line. The tag file has been populated with several common markers, but you can add to the list if you choose.
+
+Keep in mind, the longer the tag file is, the longer it will take for the script to read it. As things stand now, the tag file still only takes a few seconds to read.
