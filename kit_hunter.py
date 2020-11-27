@@ -22,7 +22,7 @@
 # This version of the script is working with Python 3.
 # However, testing is still ongoing.
 # See the testing and development section for confirmed versions.
-#
+# You should run this script in Python 3 as default.
 ################################################
 
 import os

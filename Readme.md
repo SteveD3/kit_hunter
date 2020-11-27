@@ -28,11 +28,13 @@ _During testing, the script generated false positives using the 'unescape' tag, 
 
 ## Usage:
 
+NOTE: Run this script in Python 3. There are instructions in the script for those using Python 2.
+
 The ideal place for this script is one directory above your webroot (htdocs, public_html, etc.)
 
 Make sure you keep kit_hunter.py and tags.tag in the same directory.
 
-To run this script on Linux, Mac, etc. use: **_python kit_hunter.py_**
+To run this script use: **_python3 kit_hunter.py_**
 
 If you're on Windows, see the following DOC pages for assistance:
 
