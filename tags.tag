@@ -45,6 +45,7 @@ ip-api.com
 ip-api.org
 ip2geo.com
 ipinfo.io
+ipinfodb.com
 kerio_
 likemyphp.com
 lookup.binlist.net
