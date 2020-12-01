@@ -272,7 +272,9 @@ Tn Ph0enix
 VINOX
 W3LL BOSS
 WeStGiRl
+Wolfost
 X-GHOST MA
+xWaliGhost
 X1 Fullz
 XBALTI
 xLs
