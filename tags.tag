@@ -46,6 +46,7 @@ ip-api.org
 ip2geo.com
 ipinfo.io
 ipinfodb.com
+ip2location
 kerio_
 likemyphp.com
 lookup.binlist.net
@@ -187,9 +188,10 @@ BocahShop X BocahTeam
 Bodibag
 Brothers V!rus
 Burhan
+CiPhErHat
 CODED BY BLACK JACK
 CODED BY CYBER_SOFT
-CiPhErHat
+CODE~SPIRIT
 Coded by LAPARI
 Created BY unknown
 CrEaTeD bY VeNzA
