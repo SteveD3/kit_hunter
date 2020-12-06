@@ -15,6 +15,7 @@ $xqiswxnwxf=
 2m.ma
 B-Z118
 G-Z118
+hali_live
 HTTrack
 J9QGYobZy3jVIV1MEHXWlORmqxCeu8PW
 PHP_URL_HOST
@@ -87,6 +88,7 @@ C4rd chase
 Capital1
 CREDIT AGRICOLE
 DADDA Recovery
+DCSext.hasTealium
 DHL-Express-
 DNThirTeen
 DropB0x Info
@@ -106,7 +108,7 @@ GOxGOxPOWERxRANGERS
 Ghost Logs
 Gmail.Info
 HMRC Full Info
-Halifax Payment
+Halifax
 Huntington
 INTENTOS DE CODIGOS
 Infoos
