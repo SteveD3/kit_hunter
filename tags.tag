@@ -51,6 +51,7 @@ ip2location
 kerio_
 likemyphp.com
 lookup.binlist.net
+nexmo.com
 Market0day.com
 moneyissues.ng
 priv8tool.club
@@ -261,6 +262,7 @@ ReDeYeS$$$
 Rezult GSX
 S.Wire
 SHADOW Z118
+SNIPNET
 SPAIROW DA_VINCCI
 STARBOY
 Semngka2K18
