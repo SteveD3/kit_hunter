@@ -48,6 +48,7 @@ ip2geo.com
 ipinfo.io
 ipinfodb.com
 ip2location
+IPQ_API
 kerio_
 likemyphp.com
 lookup.binlist.net
@@ -81,6 +82,8 @@ www.nutopia.com.au
 365.4g.logz
 =ReZulT=
 Ad0be
+ADOBE XZ
+Adobe Rez
 Amazon.Info
 Apple.Info
 Brannen Bank
@@ -110,6 +113,7 @@ Ghost Logs
 Gmail.Info
 HMRC Full Info
 Halifax
+HLFX-RG
 Huntington
 INTENTOS DE CODIGOS
 Infoos
