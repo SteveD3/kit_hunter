@@ -45,6 +45,7 @@ geoplugincode
 ip-api.com
 ip-api.org
 ip2geo.com
+iplocationtools.com
 ipinfo.io
 ipinfodb.com
 ip2location
@@ -101,6 +102,7 @@ FRESH [SPAM] TOOLS DOT COM
 FUDPAGEs [.] RU
 FUDTOOL
 Facebook.Info
+F4ceb00k
 FilesMan
 Fudtools
 Fully Undetected by LulzSec
@@ -131,6 +133,7 @@ ROAMNETLOG INC
 RSJKINGDOM
 ReSulT
 ReZulT
+Resultz
 Recovery Credentials
 SBCGLOBAL
 SCOTIARESULTS
@@ -253,6 +256,7 @@ Mr.K4w4!
 Mrx Joker
 N1Y3R0
 NoBODY
+Nourblog1
 Noob Assassin
 Nzube Post
 OPETE WIRE
@@ -279,6 +283,7 @@ TH3MRXYEAR
 TIKTAK 2017
 Techroins
 TheLords
+tin4.cole
 Tn Ph0enix
 VINOX
 W3LL BOSS
