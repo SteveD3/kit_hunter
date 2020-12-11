@@ -51,6 +51,7 @@ ipinfodb.com
 ip2location
 IPQ_API
 kerio_
+killbot.org
 likemyphp.com
 lookup.binlist.net
 nexmo.com
