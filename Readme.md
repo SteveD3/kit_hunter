@@ -1,53 +1,42 @@
 # Kit Hunter: A basic phishing kit detection tool
 
-* Version 1.0.0
-* 26 November 2020
+* Version 2.5.8
+* 07 September 2021
 
-Testing and development took place on the following:
-* Python 3.7.3 (Linux)
-* Python 2.7.16 (Linux)
-* Python 2.7.14 (Linux, Mac)
-* Python 2.7.15 (Windows)
-
-**Note:**
-This version of the script is working with Python 3, but testing is still ongoing. See the testing and development section for confirmed versions.
+Testing and development took place on Python 3.7.3 (Linux)
 
 ## What is Kit Hunter?
 Kit Hunter is a basic scanning tool that will search directories and locate phishing kits based on established markers. As detection happens, a report is generated for administrators.
 
-The report is basic:
-
-1. The opening line points the administrator to the directory where detection took place.
-2. After that, the log reports the exact file name that caused the detection.
-3. Line three shows the tag responsible for the warning in the first place.
-4. Finally, the log displays the complete line of code where the tag is visible.
-
-_During testing, the script generated false positives using the 'unescape' tag, so it was removed, but adding such a tag will generate several useful hits when obfuscation is used. It's a trade-off. Run the script a few times and check the results, tune the tag file as needed._
+By default the script will generate a report that shows the files that were detected as potentially problematic, list the markers that indicated them as problematic (a.k.a. tags), and then show the exact line of code where the detection happened.
 
 ![Kit Hunter Log Example](https://raw.githubusercontent.com/SteveD3/kit_hunter/master/kit_hunter_example.jpg "Example of Kit Hunter log showing kit detection")
 
 ## Usage:
 
-NOTE: Run this script in Python 3. There are instructions in the script for those using Python 2.
+Detailed [installation and usage instructions](https://steved3.io/data/Kit-Hunter-2.0-Getting-Started/2021/09/07/) are available at SteveD3.io
 
-The ideal place for this script is one directory above your webroot (htdocs, public_html, etc.)
+To launch a full scan using the default settings:
+`python3 kit_hunter_2.py`
 
-Make sure you keep kit_hunter.py and tags.tag in the same directory.
+To launch a quick scan, using minimal detection rules:
+`python3 kit_hunter_2.py -q`
 
-To run this script use: **_python3 kit_hunter.py_**
+To launch a custom scan:
+`python3 kit_hunter_2.py -c`
 
-If you're on Windows, see the following DOC pages for assistance:
+>**Note:** When using the `-c` switch, you must place a tag file in the same location as Kit Hunter. You can name this file whatever you want, but the extension must be `.tag`. Please remember that the formatting is important. There should only be one item per line, and no whitespaces. You can look at the other tag files if you need examples.
 
-1. [Documentation for using Python on Windows in the 3.x branch](https://docs.python.org/3.3/using/windows.html)
-2. [Documentation for using Python on Windows in the 2.x branch](https://docs.python.org/2/faq/windows.html)
+You can run `kit_hunter_2.py` from any location using the `-d` switch to select a directory to scan.
 
-Also, the following has been helpful during testing.
+However, it is easier if you place `kit_hunter_2.py` in the directory above your web root (e.g. `/www/` or `/public_html/`) and call the script from there.
 
-3. [Getting started with Python on Windows](http://www.pitt.edu/~naraehan/python3/getting_started_win_first_try.html)
+The final report will be generated in the directory being scanned.
 
-[Here is an archive of link 3 if needed](http://archive.fo/p7bzb)
+>In my usage, I call Kit Hunter from my `/kit/download/` directory where new phishing kits are saved. My reports are then generated and saved to that folder. However, if I call Kit Hunter and scan my `/PHISHING/Archive/` folder using the `-d` switch, then the report will save to `/PHISHING/Archive/`.
 
+Once scanning is complete, output from the script will point you to the location of the saved scan report.
 
-When it comes to the tags.tag file, make sure you don't have any white spaces. For each tag you'd like to include, place it on its own line. The tag file has been populated with several common markers, but you can add to the list if you choose.
+When it comes to the tag files, there are 41 tag files shipping with Kit Hunter. These tag files detect targeted phishing campaigns, as well as various types of phishing tricks, such as obfuscation, templating, theming, and even branded kits like Kr3pto and Ex-Robotos.
 
-Keep in mind, the longer the tag file is, the longer it will take for the script to read it. As things stand now, the tag file still only takes a few seconds to read.
+As was the case with v1.0, the longer the tag file is, the longer it will take for the script to read it. Currently, the tag files still only take a few seconds to read.
