@@ -14,7 +14,9 @@ By default the script will generate a report that shows the files that were dete
 
 ## Usage:
 
-Detailed [installation and usage instructions](https://steved3.io/data/Kit-Hunter-2.0-Getting-Started/2021/09/07/) are available at SteveD3.io
+Detailed [installation and usage instructions](https://steved3.io/data/Kit-Hunter-2.0-Getting-Started/2021/09/07/) are available at SteveD3.io 
+
+To get quick help: `python3 kit_hunter_2.py -h`
 
 To launch a full scan using the default settings:
 `python3 kit_hunter_2.py`
