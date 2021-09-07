@@ -1,7 +1,7 @@
 # Kit Hunter: A basic phishing kit detection tool
 
 * Version 2.5.8
-* 07 September 2021
+* 06 September 2021
 
 Testing and development took place on Python 3.7.3 (Linux)
 
