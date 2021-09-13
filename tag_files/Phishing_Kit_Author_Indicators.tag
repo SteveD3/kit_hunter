@@ -70,6 +70,7 @@ By Shaun
 by T.DOX
 By VMA
 by ZaiTsev X
+Cazanova
 C0d3d by Cybersuperstar
 CiPhErHat
 CODED BY BLACK JACK
@@ -136,6 +137,7 @@ FawadKHAN
 FilesMan
 fr13nds.teams
 FR33M4N
+francescoolmeo45
 [ ❤️ FreakzBrothers ❤️ ]
 FREAKZBROTHERS
 [ FREAKZBROTHERS V2.0 ]
@@ -189,6 +191,7 @@ KaSha
 KeyBank INFO 1 BY A2ZTOOLZ
 KinGz
 KRIS WOY
+KTS team
 L0 JuaL gu4 B3li
 L33bo phishers
 L34K.C0de

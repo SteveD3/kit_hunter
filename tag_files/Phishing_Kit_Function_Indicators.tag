@@ -3,6 +3,26 @@
 # and more. They're cause for an immediate inspection, as these code elements are often not used for legitimate reasons, and instead are
 # recycled and used by crimials in their phishing kit development.
 #------------------------------------------------------------------------------------------------------------------------
+#                                                Google Firebase
+#------------------------------------------------------------------------------------------------------------------------
+firebase-
+firebasestorage.googleapis.com
+#------------------------------------------------------------------------------------------------------------------------
+#                                                CodeIgnighter Calls / Cazanova Haxor
+#------------------------------------------------------------------------------------------------------------------------
+define('X_RESULT_NAME
+define('X_RESULT_EMAIL
+define('X_TEXT_ENCRYPTION
+define('X_ANTIBOT
+define('X_CAPTCHA
+define('X_USE_SMTP
+define('X_SMTP_HOST
+define('X_SMTP_PORT
+define('X_SMTP_USER
+define('X_SMTP_PASS
+define('X_SMTP_CRYP
+$config['sess_cookie_name'] = 'cazanova'
+#------------------------------------------------------------------------------------------------------------------------
 #                                                Known Phishing Kit Function Calls
 #------------------------------------------------------------------------------------------------------------------------
 $a370a
@@ -53,17 +73,12 @@ AP___
 av88f16Deus102030
 bin2hex
 cardNumberInputLabel
+cazanova_helper.php
 cc_validate.js
 Checksum: b2d1bed66c34c0d462e33111a6d08c37
 coopetyx_copo
 curl-to-PHP
 EA1610330223UK
-firebase-app.js
-firebase-auth.js
-firebase-database.js
-firebase-messaging.js
-firebasestorage.googleapis.com
-firebase-storage.js
 FZ32FEZ234
 geoiptool
 geoplugin
@@ -129,3 +144,5 @@ zajoba130997
 zanubis
 Z?fl??-In???-???l??
 ZmlsZXMvZGF0YS9zc28ucGhw
+localhost/uadmin/gates/
+git/uadmin/gate.php
