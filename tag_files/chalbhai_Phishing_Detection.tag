@@ -13,12 +13,14 @@
 #------------------------------------------------------------------------------------------------------------------------
 name=chalbhai
 id=chalbhai
-id="formimage1"
 id=aramsejao
 id=bhaagjoa
 id=dafahoja
 id=puranakhtab
+name=bhoolgya
 name=gulbahar
+name=khannalao
+name=khanalao
 name=mundachok
 name=alvisab
 onsubmit="return validateANZ()"

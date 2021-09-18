@@ -65,10 +65,12 @@ BY MEGRIA
 BY MOET
 BY Mr.fnetwork
 BY Mr Oreo
+BY RANGER
 BY Mr S!CKICK
 By Shaun
 by T.DOX
 By VMA
+by Z10n
 by ZaiTsev X
 Cazanova
 C0d3d by Cybersuperstar
@@ -76,6 +78,7 @@ CiPhErHat
 CODED BY BLACK JACK
 CODED BY CYBER_SOFT
 Coded By Dsox DZ
+Coded by vikky_banti
 Coded By x-Phisher
 Coded & Tools By Hitman
 CODE~SPIRIT
@@ -179,6 +182,7 @@ Hot-UK->
 iamcoke.boi
 iDiot's
 Indramayu CyBer
+IndoXploit
 \\ ISI PESAN //
 IzlAden BenGazi
 JBoy®
@@ -230,6 +234,7 @@ Mr-Sace
 Mr-Unknown
 Mrx Joker
 N1Y3R0
+New redirect Thor:
 Ngecek Saja
 NoBODY
 nOob-Assasin

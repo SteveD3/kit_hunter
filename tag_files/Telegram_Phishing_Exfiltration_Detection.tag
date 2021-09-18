@@ -15,6 +15,8 @@ api.telegram.org
 #------------------------------------------------------------------------------------------------------------------------
 $botToken
 bot" . $token . "
+$TGBotToken_Ranger
+$TGYourID_Ranger
 $token = '
 $token = "
 $tiko
@@ -118,3 +120,4 @@ AAHrBhLklGA2Dk7vuO0Acq5GNBtbhusqrjA
 AAHu7pzbt0AyIJEzdBFI-7AKGLd_YmXAzhM
 AAHVmffcdPORa97th5bsv_hPBYbu18fuCoo
 AAHX59qVR4u83u9wfnpOb7kF2ZSW0f6myrA
+AAHwRbzSCP3IkZai_dK5HtkHli_OZOSoX3o

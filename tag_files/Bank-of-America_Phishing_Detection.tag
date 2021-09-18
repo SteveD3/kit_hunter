@@ -33,4 +33,5 @@ Bank of America | Online Banking | Account | Overview
 Bаnk оf Αmеrіса | Οnlіnе Βаnkіng | Ѕіgn Ιn | Οnlіnе ΙD
 B.O.A Your account has been locked due to violation of terms of condition and services.
 B0A Info
+BOA Info
 + ~!BOA Customer!~ +

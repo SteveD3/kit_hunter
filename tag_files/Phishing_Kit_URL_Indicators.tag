@@ -165,6 +165,7 @@ nexmo.com
 onetrust.com
 onlinehome.de
 optimum.net
+rackspace.com
 sailpoint.com
 siteserve.jp
 static.licdn.com
@@ -189,6 +190,7 @@ i.ibb.co
 ip2geo.com
 ip-api.com
 ip-api.org
+api.ipapi.com
 ip-geo.ru
 ipinfodb.com
 ipinfo.io
@@ -201,7 +203,6 @@ lookup.binlist.net
 postimg.org
 proxy.mind-media.com
 remotemysql.com
-test.com
 upcloud.host
 xooimage.com
 yimg.com
@@ -209,19 +210,36 @@ yimg.com
 #                                                Kit Markets and Advertising
 #------------------------------------------------------------------------------------------------------------------------
 7812w.pl
+7jyewu.cn
 a2ztoolz.com
+anonymousfox.com
+buyshellsites.com
+cdnsw.com
 fudscript.com
+ghc.ru
+indoxploit.blogspot.co.id
 kuzuluy.app
 l34kc0de.today
 Market0day.com
 marketx.bz
 orvx.pw
 priv8tool.club
+rst.void.ru
 s3curity.tn
 sh33nz0.com
+shem3a.com
+soundbible.com
 theseotools.net
+top4top.com
+top4top.io
+top4top.net
 topscript.xyz
+tpa.uma.ac.id
+ubhteam.org
 webtoolhub.com
+withoutshadow.org
+wos-linuxers.blogspot.com
+www.a-l-e-x-u-s.ru
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Mail
 #------------------------------------------------------------------------------------------------------------------------
@@ -229,6 +247,8 @@ banglamail.com
 email.t-online.de
 groupmail.io
 mailfence.com
+mail.herkules-polska.pl
+mail.mpi-cbg.de
 mail.ru
 mail.sina.com.cn
 msgsafe.io

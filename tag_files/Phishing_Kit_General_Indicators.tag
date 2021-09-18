@@ -28,6 +28,7 @@ OLUWA SUCCESS
 PDF MAIL REZULT
 Recovery Credentials
 + Reserved +
+R3SuLt
 ReSulT
 Result<$sender>
 Resultz
