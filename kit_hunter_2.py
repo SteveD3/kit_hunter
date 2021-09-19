@@ -489,7 +489,6 @@ def create_report(directory_path, filename, found_files, found_tags, found_lines
 def write_report(overall_report):
     
     f = open(os.path.join(directory_path, generated_report_file_name), "w+")
-#    f = open(generated_report_file_name, "w+") # This line is part of the original report generation script. It's kept here for testing, but not used. See line 378 for the active code.
     for report in overall_report:
         f.writelines(report)
     
