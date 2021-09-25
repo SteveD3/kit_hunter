@@ -6,7 +6,7 @@
 # @nullcookies @dyngnosis @olihough86 @dave_daves @JCyberSec_ @n0p1shing @ANeilan @selenalarson @sysgoblin @PaulWebSec @BushidoToken @sjhilt
 #
 #
-# Version 2.8.5
+# Version 2.5.8
 
 import os
 import time
@@ -28,7 +28,7 @@ kh_full_scan = '/path/to/the/primary/tag/folder/'
 
 # Script directions and basic settings. This also generates the help listing.
 ####################################################################################
-parser = argparse.ArgumentParser(description='Kit Hunter v2.8.5')
+parser = argparse.ArgumentParser(description='Kit Hunter v2.5.8')
 group = parser.add_mutually_exclusive_group()
 
 parser.add_argument('-d', '--dir', action='store_true', help='Scan a custom directory.')
