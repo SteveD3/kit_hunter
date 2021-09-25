@@ -79,7 +79,9 @@ onlinebanking.firstcaribbeanbank.com
 onlinebanking.pnc.com
 openknowledge.worldbank.org
 portal.pnb.com.ph
+santander.com.br
 secure.alpha.gr
+visaprepaidprocessing.com
 western-security.net
 wetransfer.com
 www.kh.hu
@@ -141,6 +143,7 @@ osu.edu
 gov.uk
 benefits.ides.illinois.gov
 idot.illinois.gov
+labor.maryland.gov
 labor.ny.gov
 my.ny.gov
 pua.benefits.uc.pa.gov
@@ -162,6 +165,7 @@ kyivstar.net
 login.frontier.com
 mobile.de
 nexmo.com
+orange.fr
 onetrust.com
 onlinehome.de
 optimum.net

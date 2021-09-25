@@ -1,3 +1,28 @@
+### 25-September-2021
+- [x] Updated URL Indicators
+* Added new URLs based on recent phishing scans
+  - Maryland DOL phishing.
+  - EddCard phishing (pandemic unemployment assistance via Bank of America).
+
+- [x] Updated Author Indicators
+* Added new author tags, based on recent phishing kit scans.
+
+- [x] Updated Telegram Exfiltration Indicators
+* Updated known bot token list.
+
+- [x] Updated Obfuscation Indicators
+* Added detection for PHPkoru based on recent scans.
+* Altered Adobe tag to remove duplicate detection.
+
+- [x] Added detections for BulletPro Phishing-as-a-Service kits
+
+- [x] Updated Function Indicators
+* Added tag from Bank of America detections due to false positives.
+
+- [x] Bank of America Indicators
+* Moved one indicator to Function due to false positives.
+
+---
 ### 18-September-2021
 - [x] Updated Author Indicators
 * Added new author tags, based on recent phishing kit scans.
@@ -21,10 +46,10 @@
 - [x] Updated Telegram Exfiltration Indicators
 * Added new bot token function calls taken from RANGER phishing kits.
 * Added new chat ID function calls taken from RANGER phishing kits.
-* Updated known bot token list
+* Updated known bot token list.
 
 - [x] Updated URL Indicators
-* Added new URLs based on recent phishing scans and development
+* Added new URLs based on recent phishing scans and development.
 
 ---
 ### 12-September-2021
@@ -42,11 +67,11 @@
 * Added new kit function calls, based on recent phishing scans.
 
 - [x] Updated URL Indicators
-* Added a new URL based on recent phishing scans
+* Added a new URL based on recent phishing scans.
 
 - [x] Updated Telegram Exfiltration Indicators
-* Updated known bot token list
-* Added new chat ID function calls
+* Updated known bot token list.
+* Added new chat ID function calls.
 
 - [x] Updated Quick Scan Indicators
 * Shortened the Quick Scan tag file

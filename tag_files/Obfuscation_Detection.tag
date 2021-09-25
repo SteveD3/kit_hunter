@@ -8,29 +8,33 @@
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Associated Kit URLs
 #------------------------------------------------------------------------------------------------------------------------
+aponkral.dev
 fopo.com.ar
 lombokcyber.com
 ioncube.com
 zeura.com
 PHPJiaMi
+phpkoru.com
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Associated Kit Functions
 #------------------------------------------------------------------------------------------------------------------------
+$base64fileapk
+$gobscate = "
+$keys = "
+$otv = encrypt("**good**",cryptKey)
+$responce = encrypt("$html",cryptKey)
+$setting = json_decode("l34kc0de.json", true)
+array(base64_decode(
 base64_decode($user)
+document.write(unescape(
 eval(atob(
 eval(base64_decode(
-eval(rawurldecode(
-array(base64_decode(
-strrev(str_rot13(explode(base64_decode(
 eval(gzinflate(base64_decode
 eval(rawurldecode(
 eval("\x65\x76\x61\x6C\x28\x67\x7A\x69\x6E\x66\x6C\x61\x74\x65\x28\x62\x61\x73\x65\x36\x34\x5F\x64\x65\x63\x6F\x64\x65\x28
-document.write(unescape(
-$responce = encrypt("$html",cryptKey)
-$otv = encrypt("**good**",cryptKey)
-$base64fileapk
-$setting = json_decode("l34kc0de.json", true)
 ionCube Loader
+[PHPkoru_Code]
+strrev(str_rot13(explode(base64_decode(
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Online ID
 #------------------------------------------------------------------------------------------------------------------------
@@ -77,6 +81,7 @@ L&#79;&#71;&#73;N
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Misc. Items
 #------------------------------------------------------------------------------------------------------------------------
+Aponkral PHPkoru
 FOPO - Free Online PHP Obfuscator
 This file was protected by MessPHP v1.0
 PHP Encode v1.0 by

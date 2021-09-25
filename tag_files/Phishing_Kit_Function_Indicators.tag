@@ -48,6 +48,7 @@ $judul
 $loginfmt
 $One_Time_Access=1
 $scamname
+$subject = "Card | $ip";
 $VictimInfo
 $xqiswxnwxf=
 $yahya_email

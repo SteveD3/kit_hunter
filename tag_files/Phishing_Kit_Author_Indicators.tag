@@ -5,7 +5,6 @@
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Phishing Kit Author Indicators
 #------------------------------------------------------------------------------------------------------------------------
-+6tboi+
 $$-ALEMAO DA LE$TE CC-$$
 $$ Anonymous $$
 $$ Dr.Don  $$
@@ -13,6 +12,7 @@ $$ World Wide On My Hand  $$
 $4ridon
 1GW3 HACKZ
 4hm4dcmd
++6tboi+
 A2Ztoolz
 abdel.sykrit
 Agung Satrio Kuy
@@ -34,6 +34,8 @@ Atom!c Bomb
 BA3BA3 SERGIO
 BESMELLAH
 < Bex >
+B i g s e c  C o m m u n i t y
+b i g s e c c o m m u n i t y
 billionairel0g3
 billiondollarsman
 Blackmon3y.ID
@@ -60,20 +62,21 @@ By madman
 By Manisso
 BY M.C
 By Medhachim
-By METRI
 BY MEGRIA
+By METRI
 BY MOET
 BY Mr.fnetwork
 BY Mr Oreo
-BY RANGER
 BY Mr S!CKICK
+BY RANGER
+BY rYan
 By Shaun
 by T.DOX
 By VMA
 by Z10n
 by ZaiTsev X
-Cazanova
 C0d3d by Cybersuperstar
+Cazanova
 CiPhErHat
 CODED BY BLACK JACK
 CODED BY CYBER_SOFT
@@ -82,6 +85,7 @@ Coded by vikky_banti
 Coded By x-Phisher
 Coded & Tools By Hitman
 CODE~SPIRIT
+Created BY $PG Bon
 created by 1gb4l0d3
 CrEaTeD bY BurHan
 Created By Cokeboi
@@ -90,6 +94,7 @@ Created BY EZE
 Created BY INCWorld
 Created By JaSpEr
 Created BY Machine
+created by medpage[679849675]
 Created By MNP
 Created BY MORAN 2017
 created by n0b0dy
@@ -101,8 +106,6 @@ CrEaTeD bY VeNzA
 Created By yb
 Created in burhan
 Created One Chop & Crew
-Created BY $PG Bon
-created by medpage[679849675]
 cyb3r7  TeaM
 D4rkL4B
 d4rkl4b
@@ -125,9 +128,9 @@ dr-sykrit
 Dsox
 Dudiix
 D-Young
-El Senor
-ELGH03T
 EL GH03T
+ELGH03T
+El Senor
 Equa CZ log
 Escobar
 Esraa3zzo
@@ -181,8 +184,8 @@ Hitman
 Hot-UK->
 iamcoke.boi
 iDiot's
-Indramayu CyBer
 IndoXploit
+Indramayu CyBer
 \\ ISI PESAN //
 IzlAden BenGazi
 JBoy®
@@ -213,6 +216,7 @@ Malo-Baba
 MaLo-BabA
 man4ever
 Mangawang10
+M a n i A k a R i s k 
 MaurJoline 2019
 Mcavy
 Mckuzinno
@@ -267,10 +271,10 @@ Scripted by Machine
 Semngka2K18
 [SFR]
 sgreg1501
-SHANkS™
 |SH33NZ0|
 SH33NZ0
 =Shadow=
+SHANkS™
 Shevi
 shutdown57
 sIaP_Team
@@ -311,6 +315,7 @@ Virus-ma
 W3LL BOSS
 Walid Nabil
 WeStGiRl
+WAY 2K20
 Wolfost
 X1 Fullz
 XaMaNi

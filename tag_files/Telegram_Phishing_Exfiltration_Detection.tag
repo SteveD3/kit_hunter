@@ -13,39 +13,40 @@ api.telegram.org
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Associated Kit Functions
 #------------------------------------------------------------------------------------------------------------------------
+$api="
+$api_key  = '
 $botToken
-bot" . $token . "
-$TGBotToken_Ranger
-$TGYourID_Ranger
-$token = '
-$token = "
-$tiko
-$tok=$api
-sendMessage?chat_id=
-di_tahc?
+$botUrl = trim(file_get_contents(
 $chat_id  = '
 $chat_id = "
+$chatId
 $chatID = '
 $chatId=
 $chatID='
-'chat_id' => '
-'chat_id'=>'
-"chat_id=
-$chatId
 $chatId = trim(file_get_contents(
-$botUrl = trim(file_get_contents(
-$api_key  = '
-define("TELEGRAM_TOKEN"
-define("TELEGRAM_CHAT_ID"
-$METRI_TOKEN =
 $ch = curl_init($METRI_TOKEN . '/sendMessage')
-$user_ids=array(
 $id="
-$api="
-$user=$id
+$METRI_TOKEN =
 $tanitatikaram
 $telegrambot
 $telegramchatid
+$TGBotToken_Ranger
+$TGYourID_Ranger
+$tiko
+$tok=$api
+$token = "
+$token = '
+$user=$id
+$user_ids=array(
+$yagmai
+bot" . $token . "
+"chat_id=
+'chat_id' => '
+'chat_id'=>
+define("TELEGRAM_CHAT_ID"
+define("TELEGRAM_TOKEN"
+di_tahc?
+sendMessage?chat_id=
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Z118 Known Bot Tokens (original/reverse)
 #------------------------------------------------------------------------------------------------------------------------
@@ -72,6 +73,7 @@ AAEL3N9KxN0OprBldOYeMLnxPqs1EZl6k6g
 AAEobcsClhzetZgd81K53rwwahqB4Pkkx5k
 AAEPhLmVw-bOQmdf73glLgRV3GQCsg9iA2U
 AAEQJuuVIhQYvqEc5h1dODAT-hRpYyqdAgE
+AAEQP9-5i03mCpJY-u4n8RsMAfGv9WgtBuU
 AAEQReb-YwvBrNFpvCy7Z62sRwh_VqMsakM
 AAEQWKcSWR_Iz03cv3v8AONYtkNZulQmOSQ
 AAERM9r8WxLRyCM300Cnlnip7-yAahZoBOQ
@@ -79,6 +81,7 @@ AAFcQbzvJvoIayEBMa0yvgjJQx_POrumewU
 AAFd1QuJBThRi1VpZApoowEt20RUBDEA3-k
 AAFEN7vBCpeb-3rYeSp-8Lk7UVblaSkcMEw
 AAFhKMk9eWJNbL1HCmhx5BaRp9U8rsaGSi
+AAFiKY4YWXUt0JG-RSINPTSHuhRjiOexsis
 AAFLj_HzDC1Qpe-w2BrXyC8QQgY025VfDZI
 AAFpTRcYaCfWv-Jd9FvBOtuaYuwNopVsKuk
 AAFQizFWV8HuZmQ9w4Egvy-R50L7IFJ68Ew
@@ -91,9 +94,11 @@ AAFUpqcX-CMsK8RdswTRgL_75MoUJA8wEFM
 AAFw215sGBREx8HEKvpNB5NAhETHLxtH23s
 AAFy-N4rHj_0-ocLFMy9FpOG9HB9bFPeQA8
 AAFyqFyFLGnbSFgJGIOsVpUAIpeK9OvXpOo
+AAG2kodxwsEeLGnBFMIAIHgF2iI3IEumY5g
 AAG317cQXA5Yees9iAn-osBJ8S3VbhMBofs
 AAGA9kbx0RZsK2Q8XNTPPgATcFIDsi_jyRY
 AAGBZx5w5VWuJYhUYM2r7kCFcmhfMSNXeGA
+AAGFnb6w2lON2W2vg8-XHgDtQtxpVRJWd84
 AAGGu4p-kTSKlEqF2lDZ7Cfn9EdQKuTXSHI
 AAGh77TlJBi1Vsw84KeoK5rppj7WBElArAg
 AAGIGQFqpeKYa9agNVlfhoR_x-o5JY-bo-c
@@ -116,8 +121,9 @@ AAHE4NKlVM__wFBZu553cZMfzFAqic-cf00
 AAHhFn1cTbNMAbg43b2cu7WxZh97DEflSfA
 AAHhlZvrHYT7MpY-F3fsNC7yytUKaby72xI
 AAHi-apqZxk597pCekqXNxgQTzJtVysiH2E
+AAHq1njqglnbfMujnsrhQcC4XuNUVM4qy9U
 AAHrBhLklGA2Dk7vuO0Acq5GNBtbhusqrjA
 AAHu7pzbt0AyIJEzdBFI-7AKGLd_YmXAzhM
 AAHVmffcdPORa97th5bsv_hPBYbu18fuCoo
-AAHX59qVR4u83u9wfnpOb7kF2ZSW0f6myrA
 AAHwRbzSCP3IkZai_dK5HtkHli_OZOSoX3o
+AAHX59qVR4u83u9wfnpOb7kF2ZSW0f6myrA
