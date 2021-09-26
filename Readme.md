@@ -53,4 +53,4 @@ Once scanning is complete, output from the script will point you to the location
 
 When it comes to the tag files, there are 41 tag files shipping with v2.5.8 Kit Hunter. These tag files detect targeted phishing campaigns, as well as various types of phishing tricks, such as obfuscation, templating, theming, and even branded kits like Kr3pto and Ex-Robotos. New tag files will be added, and existing tag files will be updated on a semi-regular basis. See the changelog for details.
 
-As was the case with v1.0, the longer the tag file is, the longer it will take for the script to read it. Currently, the tag files still only take a few seconds to read. Most standard web directories will fully scan within ~5-10 minutes, but larger archives or directories will go slower.
+As was the case with v1.0, the longer the tag file is, the longer it will take for the script to read it.
