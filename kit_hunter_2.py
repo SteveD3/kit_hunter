@@ -19,7 +19,7 @@ import argparse
 from collections import defaultdict
 from datetime import datetime
 
-# Set the path for tag file locations
+# Set the path for tag file locations.
 # Make sure you use a /full/path/to/the/files with a ending slash.
 # They can reside anywhere on your system.
 ####################################################################################
@@ -27,7 +27,7 @@ kh_shell_scan = '/path/to/the/shell-scan/tag/folder/'
 kh_quick_scan = '/path/to/the/quick-scan/tag/folder/'
 kh_full_scan = '/path/to/the/primary/tag/folder/'
 
-# Script directions and basic settings. This also generates the help listing.
+# Script directions and basic settings. This also generates the help listing via -h / --help.
 ####################################################################################
 parser = argparse.ArgumentParser(description='Kit Hunter v2.5.9')
 group = parser.add_mutually_exclusive_group()
@@ -260,7 +260,7 @@ start_time = time.time()
 # This is where all the tag files are collected
 ####################################################################################
 def get_contents_of_tag_files(directory_path):
-
+    
     tag_files_content = dict()
     for file in os.listdir(directory_path):
         if file.endswith(tag_files_ext):
@@ -268,10 +268,10 @@ def get_contents_of_tag_files(directory_path):
             f = open(file_path, "rb")
             file_contents = f.read().splitlines()
             tag_files_content[file] = file_contents
-
+            
     for file in tag_files_content.keys():
         tag_files_content[file] = list(set(tag_files_content[file]))
-
+    
     return tag_files_content
 
 def tag_files_reverse_lookup(tag_file_contents):
@@ -282,11 +282,11 @@ def tag_files_reverse_lookup(tag_file_contents):
                 reverse_lookup[tag] = []
             reverse_lookup[tag].append(file_name)
     return reverse_lookup
-
+    
 # Returns the contents of folders only (no archives)
 ####################################################################################
 def get_contents_of_folder_files(directory_path, supported_file_formats):
-
+    
     folder_paths = [dirpath for dirpath, _, _ in os.walk(directory_path)]
     files_contents = dict()
     for folder_path in folder_paths:
@@ -298,13 +298,13 @@ def get_contents_of_folder_files(directory_path, supported_file_formats):
                     if file_path not in files_to_ignore_in_current_directory:
                         file_contents = open(file_path, "rb").read().splitlines()
                         files_contents[folder_path][file_path] = file_contents
-
+        
     return files_contents
 
 # Returns a list of compressed files
 ####################################################################################
 def get_compressed_files(directory_path, supported_compressed_files_formats):
-
+    
     files = []
     folder_paths = [dirpath for dirpath, _, _ in os.walk(directory_path)]
     for folder_path in folder_paths:
@@ -347,7 +347,7 @@ def get_contents_of_zip_file(directory_path, filename, supported_file_formats):
             ifile = zf.open(file_info)
             file_contents = ifile.read().splitlines()
             files_contents[file_name] = file_contents
-
+    
     return files_contents
 
 
@@ -405,31 +405,31 @@ def get_contents_of_gzip_file(directory_path, filename, supported_file_formats):
 # In these insteances, manual inspection is required. The traceback will alert to the archive name and location.
 ####################################################################################
 def get_content_of_compressed_file(directory_path, filename, compression_format):
-
+    
     file_contents = None
-
+    
     if compression_format == '.zip':
         file_contents = get_contents_of_zip_file(directory_path, filename, supported_file_formats)
-
+        
     elif compression_format == '.tar.xz':
         file_contents = get_contents_of_tar_file(directory_path, filename, supported_file_formats)
-
+        
     elif compression_format == '.rar':
         file_contents = get_contents_of_rar_file(directory_path, filename, supported_file_formats)
-
+        
     elif compression_format == '.gz':
         file_contents = get_contents_of_gzip_file(directory_path, filename, supported_file_formats)
-
+        
     else:
         raise("Unsupported Format")
-
+    
     return file_contents
 
 
 # Searches for tag file strings in files
 ####################################################################################
 def search_tag_strings(file_contents, tag_file_contents):
-
+    
     found_files, found_tags, found_lines = [], [], []
     found_files_dict = {}
     for tag_file in tag_file_contents.keys():
@@ -441,10 +441,10 @@ def search_tag_strings(file_contents, tag_file_contents):
                             found_files.append(file_name)
                             found_tags.append(tag)
                             found_lines.append(line)
-
+                            
                             if not found_files_dict.get(file_name):
                                 found_files_dict[file_name] = {}
-
+                            
                             if not found_files_dict.get(file_name, {}).get(tag):
                                 found_files_dict[file_name][tag] = []
                             found_files_dict[file_name][tag].append(line)
@@ -455,13 +455,13 @@ def search_tag_strings(file_contents, tag_file_contents):
 # Report Generation
 ####################################################################################
 def create_report(directory_path, filename, found_files, found_tags, found_lines, found_files_dict, tag_file_reverse_lookup):
-
+    
     # Checking if we've got a folder or an archive
     is_folder = True if filename == '' else False
     file_type = 'Folder' if is_folder else 'Archive'
-
+    
     dir_path = directory_path if is_folder else str(os.path.join(directory_path, filename))
-
+    
     report = []
 
 # Find something or nah?
@@ -506,7 +506,7 @@ def create_report(directory_path, filename, found_files, found_tags, found_lines
     for tag_file, found_tags in found_tags_by_tag_file.items():
         report.append('|\n')
         report.append('| ===============================================================================================\n')
-        report.append(f'| The following tag file reported matches: {tag_file}\n')
+        report.append(f'| The following tag file reported matches: {tag_file}\n')    
         report.append('| ===============================================================================================\n')
         report.append('| \n')
 
@@ -533,21 +533,21 @@ def create_report(directory_path, filename, found_files, found_tags, found_lines
     return report
 
 def write_report(overall_report):
-
+    
     f = open(os.path.join(directory_path, generated_report_file_name), "w+")
     for report in overall_report:
         f.writelines(report)
-
+    
     f.close()
 
 
 def process_files(directory_path, compressed_files, folder_files):
     print('')
-    print('')
+    print('')    
     print('Kit Hunter Starting...\n')
     print('')
     print('')
-
+    
     overall_report = []
     tag_file_contents = get_contents_of_tag_files(directory_path)
 
@@ -557,10 +557,10 @@ def process_files(directory_path, compressed_files, folder_files):
 ####################################################################################
     if kh_tag_path is not None:
         extra_tag_file_contents = get_contents_of_tag_files(kh_tag_path)
-        tag_file_contents.update(extra_tag_file_contents)
-
+        tag_file_contents.update(extra_tag_file_contents)    
+    
     tag_file_reverse_lookup = tag_files_reverse_lookup(tag_file_contents)
-
+    
 
 # Processing files and folders
 ####################################################################################
@@ -586,17 +586,17 @@ def process_files(directory_path, compressed_files, folder_files):
 
     write_report(overall_report)
 
-    print('=========================\n')
+    print('=========================\n')    
     print('Done! All file processing is complete.\n')
     print('=========================\n')
-
+    
     end_time = time.time() #stop the clock.
     hours, rem = divmod(end_time-start_time, 3600)
     minutes, seconds = divmod(rem, 60)
     print("Kit Hunter processed all files in {:0>2}h : {:0>2}m : {:05.2f}s\n".format(int(hours),int(minutes),seconds))
 
     print('=========================\n')
-    print('The finished report is located at:\n')
+    print('The finished report is located at:\n')    
     file_path = os.path.join(directory_path, generated_report_file_name)
     print("", file_path, '\n')
     print('=========================\n')
