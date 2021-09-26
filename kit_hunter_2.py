@@ -2,11 +2,11 @@
 # coding: utf-8
 
 # Thanks to the users over at #python on Libera.Chat (formerly Freenode), for answering newbie questions.
-# Special thanks to the helpful people on Twitter, for code, kits to test, ideas, and general education in the space:
-# @nullcookies @dyngnosis @olihough86 @dave_daves @JCyberSec_ @n0p1shing @ANeilan @selenalarson @sysgoblin @PaulWebSec @BushidoToken @sjhilt
+# Special thanks to the helpful people on Twitter and Discord, for code, kits to test, ideas, and general education in the space:
+# @nullcookies @dyngnosis @olihough86 @dave_daves @JCyberSec_ @n0p1shing @ANeilan @selenalarson @sysgoblin @PaulWebSec @BushidoToken @sjhilt @phage_nz
 #
 #
-# Version 2.8.5
+# Version 2.5.9
 
 import os
 import time
@@ -23,38 +23,42 @@ from datetime import datetime
 # Make sure you use a /full/path/to/the/files with a ending slash.
 # They can reside anywhere on your system.
 ####################################################################################
+kh_shell_scan = '/path/to/the/shell-scan/tag/folder/'
 kh_quick_scan = '/path/to/the/quick-scan/tag/folder/'
 kh_full_scan = '/path/to/the/primary/tag/folder/'
 
 # Script directions and basic settings. This also generates the help listing.
 ####################################################################################
-parser = argparse.ArgumentParser(description='Kit Hunter v2.8.5')
+parser = argparse.ArgumentParser(description='Kit Hunter v2.5.9')
 group = parser.add_mutually_exclusive_group()
 
-parser.add_argument('-d', '--dir', action='store_true', help='Scan a custom directory.')
+parser.add_argument('-d', '--dir', type=str, help='Scan a custom directory. Usage: -d /full/path/to/files/')
 parser.add_argument('-l', '--line', action='store_true', help='Do not show matching lines when detections happen.')
 parser.add_argument('-m', '--match', action='store_true', help='Do not show files and archives with zero matches.')
 
 group.add_argument('-c', '--custom', action='store_true', help='A scan using custom detection tags.')
 group.add_argument('-q', '--quick', action='store_true', help='A quick scan using only the most basic detection tags.')
+group.add_argument('-s', '--shell', action='store_true', help='Scan for common shell scripts using basic detection tags.')
 group.add_argument('-hd', '--helpd', action='store_true', help='Detailed information on the -d switch in Kit Hunter.')
 group.add_argument('-hc', '--helpc', action='store_true', help='Detailed information on the -c switch in Kit Hunter.')
 group.add_argument('-hq', '--helpq', action='store_true', help='Detailed information on the -q switch in Kit Hunter.')
+group.add_argument('-hs', '--helps', action='store_true', help='Detailed information on the -s switch in Kit Hunter.')
 
 args = parser.parse_args()
 
 # Custom directory scanning arguments.
 ####################################################################################
 if args.dir:
-   scdir = input("What directory will you scan? Remember: /you/must/use/a/full/path/ :  ")
+   scdir = args.dir
    if os.path.isdir(scdir):
       directory_path = scdir
    else:
       print ("")
-      print ("You've pressed [ENTER] or the directory you requested is not valid. Plese try again. \nThis script will now scan the current working directory.")
+      print ("Error: There was a problem with the [-d] command.\n")
+      print ("Common causes are:\n  [1] You've left the directory selection blank.\n  [2] The -d switch was not called last.\n  [3] The directory you requested is not valid. \n\nPlese try again. \nThis script will now terminate.")
       print ("")
-      time.sleep(3)
-      directory_path = os.getcwd()
+      time.sleep(2)
+      sys.exit()
 else:
    directory_path = os.getcwd()
 ####################################################################################
@@ -96,6 +100,8 @@ if args.custom:
       sys.exit()
 elif args.quick:
    kh_tag_path = kh_quick_scan
+elif args.shell:
+   kh_tag_path = kh_shell_scan
 else:
    kh_tag_path = kh_full_scan
 ####################################################################################
@@ -110,19 +116,24 @@ if args.helpd:
 	print ("            Kit Hunter Help: Using the [-d] switch                ")
 	print ("==================================================================")
 	print ("")
-	print ("Kit Hunter is designed to be launched from within the directory")
-	print ("you wish to scan. As such, it will scan the current working directory by default.")
+	print ("Kit Hunter is designed to be launched from within the directory you")
+	print ("wish to scan. As such, it will scan the current working directory by")
+	print ("default.")
 	print ("")
-	print ("The reccomended search should start within the directory you wish to scan,")
-	print ("or a directory above it. For website administrators, that means starting from /www/ or /public_html/")
+	print ("The reccomended search should start within the directory you wish to")
+	print ("scan, or a directory above it. For website administrators, that means")
+	print ("starting from /www/ or /public_html/, or a directory above.")
 	print ("")
-	print ("However, you can designate a custom scan directory by using the -d switch.")
+	print ("However, you can trigger a custom directory scan by using the -d switch.")
 	print ("You need to make sure you /use/a/full/path/ and remember the trailing slash.")
 	print ("")
-	print ("If the custom directory isn't valid, the script will offer a warning and scan the current working directory.")
-	print ("Otherwise, the script will scan the named directory, and save the report to that location.")
+	print ("Example: kit_hunter_2.py -mlqd /this/is/the/full/path/")
 	print ("")
-	print ("You cannot use the [-d] switch with anothing other than the [-l] and [-m] switches.")
+	print ("On error, the script will terminate with a message.")
+	print ("")
+	print ("Note: The -d switch must be called last folled by the directory. (See example)")
+	print ("You can use -d along with the [-m] and/or [-l] switches, and one of the")
+	print ("following: [-c], [-q], [-s].")
 	print ("")
 	print ("==================================================================")
 	print ("")
@@ -136,14 +147,20 @@ if args.helpc:
 	print ("            Kit Hunter Help: Using the [-c] switch                ")
 	print ("==================================================================")
 	print ("")
-	print ("Using the [-c] switch in Kit Hunter means you can place a custom .tag file")
-	print ("in the directory where Kit Hunter is running. Doing so will enable you to search")
-	print ("for customer strings and tags.")
+	print ("Using the [-c] switch in Kit Hunter enables custom scanning. To use")
+	print ("custom scanning, you will need to place a single .tag file in the same directory")
+	print ("where Kit Hunter is running from. The script will then scan from this")
+	print ("new tag file only, but otherwise operate as usual.")
 	print ("")
-	print ("Remember to avoid having any whitespace in the tag file,")
-	print ("and to place each keyword on its own line.")
+	print ("This function will allow you to search for custom strings and other")
+	print ("elements, no matter what they are. If the custom tags are constant")
+	print ("indicators, then you might consider taking the custom .tag file and")
+	print ("giving it a name, before saving it in the tag_files directory.")
 	print ("")
-	print ("You cannot use the [-c] switch with the [-q] switch.")
+	print ("Remember to avoid having any whitespace in the tag file, and to place")
+	print ("each keyword on its own line. See existing .tag files as examples.")
+	print ("")
+	print ("You cannot use the [-c] switch with [-q] or [-s]")
 	print ("")
 	print ("==================================================================")
 	print ("")
@@ -157,19 +174,49 @@ if args.helpq:
 	print ("            Kit Hunter Help: Using the [-q] switch                ")
 	print ("==================================================================")
 	print ("")
-	print ("Using the [-q] switch in Kit Hunter means you can run a quick scan in your")
-	print ("target directory. The quick scan uses a small tag file with basic detections,")
-	print ("so it isn't a comprehensive scan.")
+	print ("The [-q] switch in Kit Hunter activates the quick scan function, and")
+	print ("enables a quick scan of the target directory. The quick scan uses a")
+	print ("small tag file with basic, but very common phishing detections. It ")
+	print ("won't find everything, but it will find many of the typical phishing kits")
+	print ("that exist in the wild.")
 	print ("")
-	print ("Any detections made during a quick scan should be investigated,")
-	print ("as the tags used are high-confidence when it comes to phishing kits.")
+	print ("Any detections made with quick scan should be immediately investigated,")
+	print ("as the tags are all medium to high-confidence markers.")
 	print ("")
-	print ("You cannot use the [-q] switch with the [-c] switch.")
+	print ("You cannot use the [-q] switch with -[c] or [-s]")
 	print ("")
 	print ("==================================================================")
 	print ("")
 	print ("")
 	sys.exit()
+
+if args.helps:
+	print ("")
+	print ("")
+	print ("==================================================================")
+	print ("            Kit Hunter Help: Using the [-s] switch                ")
+	print ("==================================================================")
+	print ("")
+	print ("The [-s] switch in Kit Hunter activates a special type of scanning.")
+	print ("")
+	print ("Calling this switch alone, or with the [-d] switch will enable you to")
+	print ("scan for common shell scripts. Shell scripts are often packaged with")
+	print ("phishing kits, or used to install phishing kits on webservers.")
+	print ("")
+	print ("The existance of a shell script on a webserver is a serious problem")
+	print ("and should be investigated immediately.")
+	print ("")
+	print ("Usage: kit_hunter_2.py -s")
+	print ("- or -")
+	print ("Usage: kit_hunter_2.py -sd /this/is/the/full/path/")
+	print ("")
+	print ("You cannot use the [-c] switch with [-q] or [-s]")
+	print ("")
+	print ("==================================================================")
+	print ("")
+	print ("")
+	sys.exit()
+
 # Supported archive formats. This shouldn't be altered in any way.
 ####################################################################################
 supported_compressed_files_formats = ['.zip', '.tar.xz', '.rar', '.gz']
@@ -253,7 +300,6 @@ def get_contents_of_folder_files(directory_path, supported_file_formats):
                         files_contents[folder_path][file_path] = file_contents
         
     return files_contents
-
 
 # Returns a list of compressed files
 ####################################################################################
@@ -525,7 +571,7 @@ def process_files(directory_path, compressed_files, folder_files):
         found_files, found_tags, found_lines, found_files_dict = search_tag_strings(folder_contents, tag_file_contents)
         report = create_report(folder, '', found_files, found_tags, found_lines, found_files_dict, tag_file_reverse_lookup)
         overall_report.append(report)
-        
+
 # Processing Compressed Files
 ####################################################################################
     for compressed_file in compressed_files:
@@ -537,7 +583,7 @@ def process_files(directory_path, compressed_files, folder_files):
         found_files, found_tags, found_lines, found_files_dict = search_tag_strings(file_contents, tag_file_contents)
         report = create_report(directory_path, filename, found_files, found_tags, found_lines, found_files_dict, tag_file_reverse_lookup)
         overall_report.append(report)
-        
+
     write_report(overall_report)
 
     print('=========================\n')    

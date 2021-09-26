@@ -1,6 +1,19 @@
+### Version Update
+
+- [x] Kit Hunter v2.5.9 Major Release
+
+* New function enabled
+  - Added shell scanning to the standard set of tools. Use -s to activate.
+
+* Updated function
+  - Added direct input for directory switching (-d). The directory patch is now a commandline argument.
+
+* Updated script documentation under help.
+
+---
 ### 25-September-2021
 - [x] Updated URL Indicators
-* Added new URLs based on recent phishing scans
+* Added new URLs based on recent phishing scans.
   - Maryland DOL phishing.
   - EddCard phishing (pandemic unemployment assistance via Bank of America).
 
