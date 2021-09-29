@@ -1,5 +1,14 @@
 ### Version Update
 
+- [x] Kit Hunter v2.6.0 Minor Release
+
+* Error checking
+  - Error checking added to the script to address problems experienced in Issue #2, raised by j75.
+    The error checking will log all errors to the end of the generated Kit Hunter report.
+
+---
+### Version Update
+
 - [x] Kit Hunter v2.5.9 Major Release
 
 * New function enabled

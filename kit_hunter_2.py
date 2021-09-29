@@ -6,7 +6,7 @@
 # @nullcookies @dyngnosis @olihough86 @dave_daves @JCyberSec_ @n0p1shing @ANeilan @selenalarson @sysgoblin @PaulWebSec @BushidoToken @sjhilt @phage_nz
 #
 #
-# Version 2.5.9
+# Version 2.6.0
 
 import os
 import time
@@ -19,17 +19,17 @@ import argparse
 from collections import defaultdict
 from datetime import datetime
 
-# Set the path for tag file locations.
+# Set the path for tag file locations
 # Make sure you use a /full/path/to/the/files with a ending slash.
 # They can reside anywhere on your system.
 ####################################################################################
-kh_shell_scan = '/path/to/the/shell-scan/tag/folder/'
-kh_quick_scan = '/path/to/the/quick-scan/tag/folder/'
-kh_full_scan = '/path/to/the/primary/tag/folder/'
+kh_shell_scan = '/path/to/shell_scan/'
+kh_quick_scan = '/path/to/tag_files/quick_scan/'
+kh_full_scan = '/path/to/tag_files/'
 
-# Script directions and basic settings. This also generates the help listing via -h / --help.
+# Script directions and basic settings. This also generates the help listing.
 ####################################################################################
-parser = argparse.ArgumentParser(description='Kit Hunter v2.5.9')
+parser = argparse.ArgumentParser(description='Kit Hunter v2.6.0')
 group = parser.add_mutually_exclusive_group()
 
 parser.add_argument('-d', '--dir', type=str, help='Scan a custom directory. Usage: -d /full/path/to/files/')
@@ -286,9 +286,9 @@ def tag_files_reverse_lookup(tag_file_contents):
 # Returns the contents of folders only (no archives)
 ####################################################################################
 def get_contents_of_folder_files(directory_path, supported_file_formats):
-    
     folder_paths = [dirpath for dirpath, _, _ in os.walk(directory_path)]
     files_contents = dict()
+    errors = []
     for folder_path in folder_paths:
         files_contents[folder_path] = dict()
         for file in os.listdir(folder_path):
@@ -296,10 +296,13 @@ def get_contents_of_folder_files(directory_path, supported_file_formats):
                 if file.endswith(supported_format):
                     file_path = os.path.join(folder_path, file)
                     if file_path not in files_to_ignore_in_current_directory:
-                        file_contents = open(file_path, "rb").read().splitlines()
-                        files_contents[folder_path][file_path] = file_contents
+                        try:
+                            file_contents = open(file_path, "rb").read().splitlines()
+                            files_contents[folder_path][file_path] = file_contents
+                        except Exception as e:
+                            errors.append({"identifier" : file_path, "exception" : str(e)} )
         
-    return files_contents
+    return files_contents, errors
 
 # Returns a list of compressed files
 ####################################################################################
@@ -454,8 +457,7 @@ def search_tag_strings(file_contents, tag_file_contents):
 
 # Report Generation
 ####################################################################################
-def create_report(directory_path, filename, found_files, found_tags, found_lines, found_files_dict, tag_file_reverse_lookup):
-    
+def create_report(directory_path, filename, found_files, found_tags, found_lines, found_files_dict, tag_file_reverse_lookup, error=None):
     # Checking if we've got a folder or an archive
     is_folder = True if filename == '' else False
     file_type = 'Folder' if is_folder else 'Archive'
@@ -463,6 +465,13 @@ def create_report(directory_path, filename, found_files, found_tags, found_lines
     dir_path = directory_path if is_folder else str(os.path.join(directory_path, filename))
     
     report = []
+
+    if error:
+        report.append('| ===============================================================================================\n')
+        report.append('| Encountered the following errors:\n')
+        report.append('|\n')
+        report.append(f"| {error['identifier']} - {str(error['exception'])}\n")
+        report.append('|\n')
 
 # Find something or nah?
 ####################################################################################
@@ -533,7 +542,6 @@ def create_report(directory_path, filename, found_files, found_tags, found_lines
     return report
 
 def write_report(overall_report):
-    
     f = open(os.path.join(directory_path, generated_report_file_name), "w+")
     for report in overall_report:
         f.writelines(report)
@@ -541,15 +549,14 @@ def write_report(overall_report):
     f.close()
 
 
-def process_files(directory_path, compressed_files, folder_files):
-    print('')
-    print('')    
+def process_files(directory_path, compressed_files, folder_files, folder_files_errors):
     print('Kit Hunter Starting...\n')
     print('')
     print('')
     
     overall_report = []
     tag_file_contents = get_contents_of_tag_files(directory_path)
+    errors = []
 
 # The extra_tag_file_contents dictionary is initially None.
 # If the extra path we selected in the beginning is not None we get the content of the tag files of the kh_tag_path.
@@ -568,20 +575,58 @@ def process_files(directory_path, compressed_files, folder_files):
         print('Examining Folder:', folder)
         print('')
         folder_contents = folder_files[folder]
-        found_files, found_tags, found_lines, found_files_dict = search_tag_strings(folder_contents, tag_file_contents)
-        report = create_report(folder, '', found_files, found_tags, found_lines, found_files_dict, tag_file_reverse_lookup)
+        error = None
+        found_files = []
+        found_tags = [] 
+        found_lines = [] 
+        found_files_dict = {} 
+
+        try:
+            found_files, found_tags, found_lines, found_files_dict = search_tag_strings(folder_contents, tag_file_contents)
+        except Exception as e:
+            error = {"dir" : directory_path, "identifier" : folder, "exception" : e}
+            errors.append(error)
+
+        report = create_report(folder, '', found_files, found_tags, found_lines, found_files_dict, tag_file_reverse_lookup, error)
         overall_report.append(report)
 
 # Processing Compressed Files
 ####################################################################################
+    
+
     for compressed_file in compressed_files:
         filename = compressed_file
         print('Examining Archive:', filename)
         print('')
         compression_format = get_compressed_file_type(filename, supported_compressed_files_formats)
-        file_contents = get_content_of_compressed_file(directory_path, filename, compression_format)
+        file_contents = {} 
+        error = None
+        try:
+            file_contents = get_content_of_compressed_file(directory_path, filename, compression_format)
+        except Exception as e:
+            error = {"dir" : directory_path, "identifier" : filename, "compression_format" : compression_format, "exception" : e}
+            errors.append(error)
+
         found_files, found_tags, found_lines, found_files_dict = search_tag_strings(file_contents, tag_file_contents)
-        report = create_report(directory_path, filename, found_files, found_tags, found_lines, found_files_dict, tag_file_reverse_lookup)
+        report = create_report(directory_path, filename, found_files, found_tags, found_lines, found_files_dict, tag_file_reverse_lookup, error)
+
+        overall_report.append(report)
+
+    if folder_files_errors:
+        overall_report.append('| ===============================================================================================\n')
+        overall_report.append('| Scan Error Report:\n')
+        overall_report.append('| ===============================================================================================\n')
+        overall_report.append('| The following errors occurred during processing:\n')
+        overall_report.append('| ===============================================================================================\n')
+
+        report = []
+        for error in folder_files_errors:
+            report.append(f"| Error Location:\n")
+            report.append(f"|       {error['identifier']}\n")
+            report.append('|\n')
+            report.append(f"| Error Type:\n")
+            report.append(f"|       {str(error['exception'])}\n")
+            report.append('| ===============================================================================================\n')
         overall_report.append(report)
 
     write_report(overall_report)
@@ -589,6 +634,13 @@ def process_files(directory_path, compressed_files, folder_files):
     print('=========================\n')    
     print('Done! All file processing is complete.\n')
     print('=========================\n')
+
+    if errors or folder_files_errors:
+        total_errors = len(errors) + len(folder_files_errors)
+        print('WARNING:\n')
+        print(f'{total_errors} Errors were encountered during execution!\n')
+        print('See', generated_report_file_name, 'for details.\n')
+        print('=========================\n')
     
     end_time = time.time() #stop the clock.
     hours, rem = divmod(end_time-start_time, 3600)
@@ -602,5 +654,5 @@ def process_files(directory_path, compressed_files, folder_files):
     print('=========================\n')
 
 compressed_files = get_compressed_files(directory_path, supported_compressed_files_formats)
-folder_files = get_contents_of_folder_files(directory_path, supported_file_formats)
-process_files(directory_path, compressed_files, folder_files)
+folder_files, errors = get_contents_of_folder_files(directory_path, supported_file_formats)
+process_files(directory_path, compressed_files, folder_files, errors)
