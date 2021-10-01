@@ -62,12 +62,14 @@ currently.att.yahoo.com
 alaskausa.org
 bancogalicia.com.ar
 bankofamerica.com
+bcpzonasegurabeta.viabcp.com
 connect.secure.wellsfargo.com
 credicard.com.br
 credit-agricole.fr
 credit-card-information.elliottback.com
 caixabank.es
 discover.com
+eldni.com
 equabank.cz
 fibank.bg
 ibx.key.co
@@ -81,6 +83,7 @@ openknowledge.worldbank.org
 portal.pnb.com.ph
 santander.com.br
 secure.alpha.gr
+squareup.com
 visaprepaidprocessing.com
 western-security.net
 wetransfer.com
@@ -182,6 +185,8 @@ www.nutopia.com.au
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Kit Functions
 #------------------------------------------------------------------------------------------------------------------------
+api.ipapi.com
+api.userstack.com
 bincodes.com
 binlist.net
 bins.pro
@@ -194,7 +199,6 @@ i.ibb.co
 ip2geo.com
 ip-api.com
 ip-api.org
-api.ipapi.com
 ip-geo.ru
 ipinfodb.com
 ipinfo.io
@@ -330,6 +334,7 @@ newlife.com
 o54eavgyktxh5wts.onion
 oneprosec.com
 spKINGS.com
+szatr.com
 tmd-sa.co.za
 tourdeindia.asia
 tsbdumbs.com

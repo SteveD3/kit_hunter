@@ -41,6 +41,7 @@ ReZuLt22222
 rezults
 ReZulTs
 rezult.txt
+$Txt_Rezlt
 ROAMNETLOG INC
 RSJKINGDOM
 rzlt2day

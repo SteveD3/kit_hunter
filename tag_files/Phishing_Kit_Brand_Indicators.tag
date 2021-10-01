@@ -149,6 +149,8 @@ San.tan'der Info
 Scotiabank
 scotia full
 Solutions Banking-Investors Group
+SQSpace Info
+SQSpace Login
 [stripe] login
 Swisscom - Espace Clients
 Tangerine Bank
@@ -207,3 +209,4 @@ YunOS
 #                                                Misc. Brands
 #------------------------------------------------------------------------------------------------------------------------
 BUDWEISER
+Szatr

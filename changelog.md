@@ -1,9 +1,35 @@
+### 01-October-2021
+- [x] Added Netflix detection rules
+* Highly targeted streaming media service.
+
+- [x] Updated Obfuscation Indicators
+* Added detections after finding new markers during recent phishing kit research.
+
+- [x] Updated URL Indicators
+* Added new domains based on recent phishing kit research.
+
+- [x] Updated General Indicators
+* Added tag from Netflix phishing kit. Common marker, likely used elsewhere.
+
+- [x] Updated Author Indicators
+* Added new author tags, based on recent phishing kit scans.
+
+- [x] Updated Function Indicators
+* Added new function based on phishing kit scans.
+
+- [x] Updated Telegram Exfiltration Indicators
+* Updated known bot token list.
+
+- [x] Updated Security Indicators
+* Added detection for BOTEYE bot setup.
+
+---
 ### Version Update
 
 - [x] Kit Hunter v2.6.0 Minor Release
 
 * Error checking
-  - Error checking added to the script to address problems experienced in Issue #2, raised by j75.
+  - Error checking added to the script to address problems experienced in [Issue #2](https://github.com/SteveD3/kit_hunter/issues/2), raised by j75.
     The error checking will log all errors to the end of the generated Kit Hunter report.
 
 ---

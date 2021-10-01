@@ -17,6 +17,7 @@ $api="
 $api_key  = '
 $botToken
 $botUrl = trim(file_get_contents(
+$chat = "
 $chat_id  = '
 $chat_id = "
 $chatId
@@ -36,6 +37,7 @@ $tiko
 $tok=$api
 $token = "
 $token = '
+$Token="
 $user=$id
 $user_ids=array(
 $yagmai
@@ -47,6 +49,7 @@ define("TELEGRAM_CHAT_ID"
 define("TELEGRAM_TOKEN"
 di_tahc?
 sendMessage?chat_id=
+sendMessageT(
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Z118 Known Bot Tokens (original/reverse)
 #------------------------------------------------------------------------------------------------------------------------
@@ -102,10 +105,14 @@ AAGFnb6w2lON2W2vg8-XHgDtQtxpVRJWd84
 AAGGu4p-kTSKlEqF2lDZ7Cfn9EdQKuTXSHI
 AAGh77TlJBi1Vsw84KeoK5rppj7WBElArAg
 AAGIGQFqpeKYa9agNVlfhoR_x-o5JY-bo-c
+AAGimT52LQ7X1f3uFJOza8Zjk_z1AXTjg5c
+AAGjK1wO7sRCi4D7NBSDVk-a0C4fl2jnvWA
 AAGkmyd8Muf3HZ-l1YEyvoilf8vX_jzl5-o
 AAGMS5L7YX8TNAgtQq4f7OHiG49cFzPrnZg
 AAGNS_8vrC7CZ8CWR1pWZqi6JMLcQz_alfU
 AAGOyJ1nOucOiLwpr6OIpddkHPav_BnPfkM
+AAGrGwLJqqBY8AlTS6IK9RrXwf2Ym5KJGEg
+AAGrLmM6PXWXi5X8HKBxJL_A1B3dh2b3550
 AAGtqwBQ19Ub4N2g6SfVo9taNnC3ZEygR5c
 AAGV1GzOXPZEk-_g8vUOP-GnM6U-ndRAWic
 AAGxTO26o_QLABe3wEmqY5-OlPGZF_UMki8
@@ -123,7 +130,9 @@ AAHhlZvrHYT7MpY-F3fsNC7yytUKaby72xI
 AAHi-apqZxk597pCekqXNxgQTzJtVysiH2E
 AAHq1njqglnbfMujnsrhQcC4XuNUVM4qy9U
 AAHrBhLklGA2Dk7vuO0Acq5GNBtbhusqrjA
+AAHr-pzFdsoP6lSX5848gyPrJ5uF8ZB7DGI
 AAHu7pzbt0AyIJEzdBFI-7AKGLd_YmXAzhM
 AAHVmffcdPORa97th5bsv_hPBYbu18fuCoo
 AAHwRbzSCP3IkZai_dK5HtkHli_OZOSoX3o
 AAHX59qVR4u83u9wfnpOb7kF2ZSW0f6myrA
+AAEBvTp0DeFlPQlXOnRC6CTv7K2RJTbIJCU

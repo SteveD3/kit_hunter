@@ -42,13 +42,17 @@ $config_translate
 $domain<west>
 $email_result
 $_F=__FILE__;$_X
+$headers .= $_POST['ZMailXdd']
 $icoooo->email
 $icoooo->password
 $judul
 $loginfmt
 $One_Time_Access=1
 $scamname
-$subject = "Card | $ip";
+$_SESSION['cntname']
+$subject = "Card | $ip"
+$SYPHER_SUBJECT
+$SYPHER_NAME
 $VictimInfo
 $xqiswxnwxf=
 $yahya_email

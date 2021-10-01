@@ -40,3 +40,12 @@ $blocked_words = array(
 foreach ($blocked_words as $word) {
 foreach ($bannedIP as $ip) {
 foreach ($Bot as $BotType) {
+#------------------------------------------------------------------------------------------------------------------------
+#                                                BOTEYE Setup (bot scripts)
+#------------------------------------------------------------------------------------------------------------------------
+$soker=rand(0000000, 9999999)
+$sokera=rand(0000000, 9999999)
+$saker=md5($soker)
+$sakera=md5($sokera)
+$rine=rand(000000, 9999999)
+$rine = sha1($rine)
