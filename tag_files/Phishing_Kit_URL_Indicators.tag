@@ -89,6 +89,19 @@ western-security.net
 wetransfer.com
 www.kh.hu
 #------------------------------------------------------------------------------------------------------------------------
+#                                                Credit Monitoring
+#------------------------------------------------------------------------------------------------------------------------
+creditkarma.ca
+creditkarmacdn-a.akamaihd.net
+creditkarma.com
+econsumer.equifax.ca
+equifax.ca
+equifax.com
+equifaxcreditwatch.ca
+members.transunion.ca
+transunion.ca
+transunion.com
+#------------------------------------------------------------------------------------------------------------------------
 #                                                Bell Phishing Kits
 #------------------------------------------------------------------------------------------------------------------------
 sympatico.ca

@@ -1,3 +1,17 @@
+### 03-October-2021
+- [x] Updated Chalbhai detection rules
+* Added new tag markers based on recent scanning.
+
+- [x] Updated URL Indicators
+* Added markers for Equifax, TransUnion, and Credit Karma based on recent scans.
+
+- [x] Updated Brand Indicators
+* Added markers for Equifax, TransUnion, and Credit Karma based on recent scans.
+
+- [x] Updated Author Indicators
+* Added new author tags, based on recent phishing kit scans.
+
+---
 ### 01-October-2021
 - [x] Added Netflix detection rules
 * Highly targeted streaming media service.
