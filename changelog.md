@@ -21,6 +21,9 @@
 - [x] Added YASSCOM detection rules
 * Added detections YASSCOM phishing kits based on recent scans.
 
+- [x] Updated PayPal detection rules
+* Added new indicators based on recent scans.
+
 ---
 ### 03-October-2021
 - [x] Updated Chalbhai detection rules
