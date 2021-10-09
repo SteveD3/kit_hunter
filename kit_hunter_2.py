@@ -532,7 +532,7 @@ def create_report(directory_path, filename, found_files, found_tags, found_lines
        report.append('| ===============================================================================================\n')
        report.append('| \n')
        for fl in found_lines:
-           report.append('| Line:  '+ str(fl)[1::] + '\n')
+           report.append('| Line:  '+ str(fl)[1:300] + '\n')
        report.append('| ===============================================================================================\n')
     else:
        report.append('| ===============================================================================================\n')
