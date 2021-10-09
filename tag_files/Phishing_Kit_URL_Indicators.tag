@@ -216,6 +216,7 @@ cutt.ly
 extreme-ip-lookup.com
 i.ibb.co
 ip2geo.com
+ipapi.co
 ip-api.com
 ip-api.org
 ip-geo.ru

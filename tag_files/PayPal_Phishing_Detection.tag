@@ -1,28 +1,37 @@
 #------------------------------------------------------------------------------------------------------------------------
 #                                                PayPal Template PHISHING KIT
 #------------------------------------------------------------------------------------------------------------------------
-# Detections made by the indicators in this tag file are associated with PayPal phishing kits.
+# Detections made by the indicators in this tag file are associated with PayPal phishing kits. Any detections should
+# be investigated.
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Associated Kit URLs
 #------------------------------------------------------------------------------------------------------------------------
-paypalobjects.com
+highwall.space
 history.paypal.com
+paypalobjects.com
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Associated Kit Functions
 #------------------------------------------------------------------------------------------------------------------------
+$api->text_encode
+.$_POST['BankName']
 .$_POST['mailing']
 .$_POST['mailingPass']
-.$_POST['BankName']
-'identity3?flow='
 $rezult_mail
-$api->text_encode
-EjaLaOl0wfFZ
-____YourMail____.php
-____pp__________.php
-Url?country.x=
-From: PP Result Bos
+$_SESSION["xeon
 5F3DB64F6A38C6FB5914597B34
 cb7319682fe4f52a2cf21179241f837d63380db3
+class="xeon
+echo $xeon
+echo $xlog1
+EjaLaOl0wfFZ
+From: PP Result Bos
+function validatePayForm()
+'identity3?flow='
+id="xeon
+____pp__________.php
+Url?country.x=
+YjdbGtlpycn5FLSDhAv
+____YourMail____.php
 #------------------------------------------------------------------------------------------------------------------------
 # PayPal: Summary Limited
 &#80;&#97;y&#80;&#97;l: Su&#109;&#109;&#97;ry L&#105;m&#105;ted
