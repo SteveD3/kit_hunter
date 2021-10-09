@@ -1,3 +1,27 @@
+### 09-October-2021
+- [x] Updated URL Indicators
+* Added new URLs (including citi) based on recent scans.
+
+- [x] Updated Brand Indicators
+* Added new brand markers based on recent scans.
+
+- [x] Updated Telegram Exfiltration Indicators
+* Updated known bot token list.
+
+- [x] Updated Author Indicators
+* Added new author tags, based on recent phishing kit scans.
+
+- [x] Updated Function Indicators
+* Added new function tag (office365-rd40.js) indicating a call to external JS files leveraging logokit phishing.
+
+- [x] Updated Obfuscation Indicators
+* Added detections after finding new markers during recent phishing kit research.
+* Added YASSCOM obfuscation markers.
+
+- [x] Added YASSCOM detection rules
+* Added detections YASSCOM phishing kits based on recent scans.
+
+---
 ### 03-October-2021
 - [x] Updated Chalbhai detection rules
 * Added new tag markers based on recent scanning.

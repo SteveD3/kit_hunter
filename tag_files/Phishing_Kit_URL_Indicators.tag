@@ -68,6 +68,7 @@ credicard.com.br
 credit-agricole.fr
 credit-card-information.elliottback.com
 caixabank.es
+citi.com
 discover.com
 eldni.com
 equabank.cz
@@ -158,6 +159,7 @@ osu.edu
 #------------------------------------------------------------------------------------------------------------------------
 gov.uk
 benefits.ides.illinois.gov
+health.ny.gov
 idot.illinois.gov
 labor.maryland.gov
 labor.ny.gov
@@ -167,6 +169,9 @@ recruiting.jcf.gov.jm
 #------------------------------------------------------------------------------------------------------------------------
 #                                                ISPs and Tech Services
 #------------------------------------------------------------------------------------------------------------------------
+accounts.login.idm.telekom.com
+telekom.de
+login.t-online.de
 ad.aruba.it
 auth.centurylink.net
 app-id=com.vzw.hss.myverizon
@@ -203,6 +208,7 @@ api.userstack.com
 bincodes.com
 binlist.net
 bins.pro
+bins.ribbon.co
 ci4.googleusercontent.com
 ci5.googleusercontent.com
 curl.haxx.se
@@ -266,6 +272,8 @@ www.a-l-e-x-u-s.ru
 #------------------------------------------------------------------------------------------------------------------------
 banglamail.com
 email.t-online.de
+login.t-online.de
+gallery.mailchimp.com
 groupmail.io
 mailfence.com
 mail.herkules-polska.pl
@@ -340,11 +348,13 @@ bluehouselondon.com
 boyxd.com
 d2papa.com
 etraxer.com
+firb.br
 forwallpaper.com
 ikhbaljb.com
 maersk.com
 newlife.com
 o54eavgyktxh5wts.onion
+okinawa-grandmer.com
 oneprosec.com
 spKINGS.com
 szatr.com

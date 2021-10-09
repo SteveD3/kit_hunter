@@ -59,6 +59,7 @@ BY FredyQuimby
 By fSOCIETY
 BY Great Wall
 By JoCk
+by JFZ
 By Lulz
 By madman
 By Manisso
@@ -104,6 +105,7 @@ Created By NymSmith Wirer
 Created by OVO-360
 Created by Priv8
 created by Rbc
+Created BY SB
 CrEaTeD bY VeNzA
 Created By yb
 Created in burhan

@@ -23,6 +23,8 @@ OURtme Detailz
 Frontier
 PC Optimum - oman3
 signin.shaw.ca Info
+Telekom Deutschland
+T-ONLINE.DE-A
 Verizon Wireless.Info
 WOWWAY
 #------------------------------------------------------------------------------------------------------------------------
@@ -64,6 +66,7 @@ AT&T
 <3 USPS <3
 NYS FULL
 Pennsylvania's Pandemic Unemployment Assistance Portal
+New York State COVID-19 Vaccine Status Validation
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Comcast
 #------------------------------------------------------------------------------------------------------------------------
@@ -103,6 +106,7 @@ Capital One
 Cash App
 Chase
 CIBC
+Citi
 Clydesdale
 Coinbase
 Coinhive
@@ -219,3 +223,4 @@ YunOS
 #------------------------------------------------------------------------------------------------------------------------
 BUDWEISER
 Szatr
+Hn3ww-PNW
