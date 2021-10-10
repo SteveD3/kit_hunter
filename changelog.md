@@ -1,3 +1,24 @@
+### 10-October-2021
+- [x] Updated URL Indicators
+* Added new URLs based on recent scans.
+
+- [x] Updated Telegram Exfiltration Indicators
+* Updated known bot token list.
+* Updated function elements.
+
+- [x] Updated Author Indicators
+* Added new author tags, based on recent phishing kit scans.
+
+- [x] Updated Function Indicators
+* Added new function tags for calles to Safe Browsing APIs.
+
+- [x] Updated Microsoft detection rules
+* Added new indicators based on recent scans.
+
+- [x] Updated Brand Indicators
+* Added new brand markers based on recent scans.
+
+---
 ### 09-October-2021
 - [x] Updated URL Indicators
 * Added new URLs (including citi) based on recent scans.
