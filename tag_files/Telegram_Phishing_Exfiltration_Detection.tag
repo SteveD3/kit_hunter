@@ -47,6 +47,8 @@ bot" . $token . "
 'chat_id' =>
 'chat_id' => '
 'chat_id'=>
+const TELEGRAM_BOT_ADMIN_USERID =
+const TELEGRAM_BOT_TOKEN =
 define("TELEGRAM_CHAT_ID"
 define("TELEGRAM_TOKEN"
 di_tahc?
@@ -88,9 +90,11 @@ AAEQP9-5i03mCpJY-u4n8RsMAfGv9WgtBuU
 AAEQReb-YwvBrNFpvCy7Z62sRwh_VqMsakM
 AAEQWKcSWR_Iz03cv3v8AONYtkNZulQmOSQ
 AAERM9r8WxLRyCM300Cnlnip7-yAahZoBOQ
+AAES0RHzvsPRLDrTkHCPGOfxK1ODJ7QAFjM
 AAETaIXqRY7_WhUt9sarlxIPZRG40sDbV44
 AAEvVCU3n78EmocvDQ6xq_B_RKcp3l7n9ew
 AAF0NbXbrpN2uRG7mvr5VcW4Hl9-iaTc3TY
+AAF96ksL1jl6fTbjeUy54YGFYueJXNXo8Go
 AAFA4RqL6BXoRlkopHG6P6E4jBfHU7irgRY
 AAFA56zUFOON6b2xm2kMuKIgO4TnDyUZd_E
 AAFcQbzvJvoIayEBMa0yvgjJQx_POrumewU
@@ -112,6 +116,8 @@ AAFUpqcX-CMsK8RdswTRgL_75MoUJA8wEFM
 AAFw215sGBREx8HEKvpNB5NAhETHLxtH23s
 AAFy-N4rHj_0-ocLFMy9FpOG9HB9bFPeQA8
 AAFyqFyFLGnbSFgJGIOsVpUAIpeK9OvXpOo
+AAF_zkPoKNQL3haoTaL5XWhQrTvkK_VRA1k
+AAG09yrB4dLc2h7tjTXvt5qdqwBTLxOTQ6E
 AAG2kodxwsEeLGnBFMIAIHgF2iI3IEumY5g
 AAG317cQXA5Yees9iAn-osBJ8S3VbhMBofs
 AAG5EzlPMuHsCGpiA8lmyqaxfFqldTLLXxQ
@@ -161,6 +167,4 @@ AAHVmffcdPORa97th5bsv_hPBYbu18fuCoo
 AAHw8Z5EHh36PpNSZEyi0rpvm5X_Bk50k4E
 AAHwRbzSCP3IkZai_dK5HtkHli_OZOSoX3o
 AAHX59qVR4u83u9wfnpOb7kF2ZSW0f6myrA
-AAF_zkPoKNQL3haoTaL5XWhQrTvkK_VRA1k
-AAES0RHzvsPRLDrTkHCPGOfxK1ODJ7QAFjM
-AAG09yrB4dLc2h7tjTXvt5qdqwBTLxOTQ6E
+#------------------------------------------------------------------------------------------------------------------------
