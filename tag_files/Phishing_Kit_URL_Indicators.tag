@@ -238,6 +238,7 @@ lookup.binlist.net
 postimg.org
 proxy.mind-media.com
 remotemysql.com
+safebrowsing.googleapis.com
 upcloud.host
 xooimage.com
 yimg.com

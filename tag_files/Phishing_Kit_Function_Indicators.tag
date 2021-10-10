@@ -23,6 +23,15 @@ define('X_SMTP_PASS
 define('X_SMTP_CRYP
 $config['sess_cookie_name'] = 'cazanova'
 #------------------------------------------------------------------------------------------------------------------------
+#                                                Google Safe Browsing API calls (Often Obfuscated)
+#------------------------------------------------------------------------------------------------------------------------
+AIzaSyCtXgqFgLIeo8DzI-Xn571TcLl2F2TGLbA
+const SAFE_BROWSING_API_KEY =
+const SAFE_BROWSING_CHECK_INTERVAL =
+const SAFE_BROWSING_CLIENT_ID =
+const SAFE_BROWSING_CLIENT_VERSION =
+/v4/threatMatches:find?key=
+#------------------------------------------------------------------------------------------------------------------------
 #                                                Known Phishing Kit Function Calls
 #------------------------------------------------------------------------------------------------------------------------
 $a370a
