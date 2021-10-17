@@ -104,23 +104,28 @@ Alterna Bank
 American Express
 ATB Financial
 Banca por Internet - Interbank
-BANCOGALICIA
 Banco De Oro Online Banking
-BDO Unibank, Inc.
+BANCOGALICIA
 Banco Pichincha
 Bank of America
 BankofGuam
+Banque Populaire
 Barclays
+BDO Unibank, Inc.
 BECU
 Bitconnect
 Bitfinex
 Bittrex
 BMO Bank of Montreal
+BNP Paribas
 Brannen Bank
+Caisse Epargne
+CaiхaBank
 Canadian Direct Financial
 Canadian Western Bank
 Capital1
 Capital One
+Carrefour Banque
 Cash App
 Chase
 CIBC
@@ -134,6 +139,7 @@ Co-operatives
 CREDIT AGRICOLE
 Crédit Agricole
 Crédit Agricole Brie Picardie
+Crédit Mutuel
 CTC Bank of Canada
 DBS Bank LTD. Co.
 DBS iBanking
@@ -158,6 +164,7 @@ KeyBank
 KeyBank INFO 1 BY A2ZTOOLZ
 KeyBank INFO 2 BY A2ZTOOLZ
 KeyBank INFO 3 BY A2ZTOOLZ
+La banque Postal
 LakeBTC
 Laurentian Bank of Canada
 login scotia

@@ -31,7 +31,7 @@ $chatID='
 $chatId = trim(file_get_contents(
 $ch = curl_init($METRI_TOKEN . '/sendMessage')
 $id="
-$METRI_TOKEN =
+$METRI_TOKEN
 $tanitatikaram
 $telegrambot
 $telegramchatid
@@ -43,6 +43,7 @@ $token = "
 $token = '
 $Token="
 $token='
+$tokenlink
 $user=$id
 $user_ids=array(
 $yagmai
@@ -76,6 +77,8 @@ AAE0FuFBphVlm0NF0Bw1GGwuA2nmIhC0jjk
 AAE0RKCUHSJeEqwJ-N_cTQ3x02huF7f19oc
 AAE0wAOAhU1wANe8diozUQ-pFYNCvbvi17Y
 AAE1d9bDwgV9Wtfwv_kPrZFNoccFd56Z_G8
+AAE1rapl-l9-ifBzl98AJz5hQR6morcUaVA
+AAE1rapl-l9-ifBzl98AJz5hQR6morcUaVA
 AAE2c4rgMbnm-mUX1g7WevDPxa2Fccikbas
 AAE2E3TB2MpCnmCJzcGoeg-mftkkTck4UiE
 AAE321lNyh5Jsanr-Ch9RDQejTm0ftKt0cI
@@ -122,9 +125,9 @@ AAEQJuuVIhQYvqEc5h1dODAT-hRpYyqdAgE
 AAEQP9-5i03mCpJY-u4n8RsMAfGv9WgtBuU
 AAEQReb-YwvBrNFpvCy7Z62sRwh_VqMsakM
 AAEQWKcSWR_Iz03cv3v8AONYtkNZulQmOSQ
+AAErJAJhTY9K-7_uyC4j-E9Bjy4rswtSG5k
 AAERM9r8WxLRyCM300Cnlnip7-yAahZoBOQ
 AAERRPEqK6YXGpOav1k65I0PMqV5W98mU8Q
-AAErJAJhTY9K-7_uyC4j-E9Bjy4rswtSG5k
 AAES0RHzvsPRLDrTkHCPGOfxK1ODJ7QAFjM
 AAEs2HX8ly_BJgZuZYArQ8KK2Zdp6FnCmfQ
 AAES6w8wRpVKdVmntFdBZHbFnNkUB8P9vR4
@@ -243,6 +246,7 @@ AAGrGwLJqqBY8AlTS6IK9RrXwf2Ym5KJGEg
 AAGrLmM6PXWXi5X8HKBxJL_A1B3dh2b3550
 AAGrSFy5ATQ36UmAwLrN_j6VDH3lB5O-A2w
 AAGsO00WvsBBNfT5ALBEX8h0JLx8XrYpUpg
+AAGssYBrdTh_heb1cDT4ZWZxwuf0iptStQY
 AAGThTW-7-wWLGXl6cs-VgFTgGlbj6Ha7bU
 AAGtqwBQ19Ub4N2g6SfVo9taNnC3ZEygR5c
 AAGUNpU7SY7Es7NrnruFfeWQb31rC2daNSQ
@@ -302,6 +306,7 @@ AAHq1njqglnbfMujnsrhQcC4XuNUVM4qy9U
 AAHrBhLklGA2Dk7vuO0Acq5GNBtbhusqrjA
 AAHrE2gACtLJRzxokpKjR-ClhhkrzwISZZ4
 AAHr-pzFdsoP6lSX5848gyPrJ5uF8ZB7DGI
+AAHSL40zuj3hssmmE4_W57PbzlU3nMorl4E
 AAHslgkSPsh2YEQFVweRMBodHZhuZizOZAs
 AAHtGF2NYGbULICeBQ7_dPeiytYbez_jZIE
 AAHu7pzbt0AyIJEzdBFI-7AKGLd_YmXAzhM
