@@ -48,6 +48,7 @@ Bodibag
 BoyXD
 BrnV3y
 Brothers V!rus
+BULDREG
 Built By MMM
 Burhan
 BY AnTiBoTs7
@@ -84,16 +85,19 @@ CiPhErHat
 CODED BY BLACK JACK
 CODED BY CYBER_SOFT
 Coded By Dsox DZ
+CODED BY MIRCBOOT
 Coded by vikky_banti
 Coded By x-Phisher
 Coded & Tools By Hitman
 CODE~SPIRIT
+Codewizard
 Created BY $PG Bon
 created by 1gb4l0d3
 Created BY Benhacki
 CrEaTeD bY BurHan
 Created By Cokeboi
 Created BY DC
+Created By EMMA
 Created BY EZE
 Created BY INCWorld
 Created By JaSpEr
@@ -261,6 +265,7 @@ OUTLAWZ
 PaperBoy®
 Pira17dz
 [PP V LITE]
+PremierGhost
 Prince Du Scam
 Priv8 Mailer
 RBC LOGIN
@@ -271,6 +276,7 @@ REDSON
 Reporte_G4lici4
 Rezult GSX
 RichEfe
+Ricko X Wolf
 =RiZoRT=
 Rr crack
 Saha Bouhmid
@@ -286,6 +292,7 @@ Shevi
 shutdown57
 sIaP_Team
 SiL3NT
+SINIX
 Sir D
 Sir ShOcKs
 Slackerc0de

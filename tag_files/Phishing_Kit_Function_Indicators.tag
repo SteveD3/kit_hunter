@@ -55,6 +55,7 @@ $headers .= $_POST['ZMailXdd']
 $icoooo->email
 $icoooo->password
 $judul
+$keyword = str_replace(" ", "+", $keyword)
 $loginfmt
 $One_Time_Access=1
 $scamname
@@ -66,6 +67,7 @@ $VictimInfo
 $xqiswxnwxf=
 $yahya_email
 $zabi
+>{keyword}<
 13InboxLight
 16lnboxLight
 19lnboxLight

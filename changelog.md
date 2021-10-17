@@ -1,3 +1,36 @@
+### 17-October-2021
+
+For my birthday, I give you updates! 
+
+- [x] Updated Microsoft detection rules
+* Added new indicators based on recent scans.
+* Moved old brand identicators into the MSFT detection ruleset.
+
+- [x] Updated URL Indicators
+* Added new URLs based on recent scans.
+  - Wisc unemployment scams, and several ISPs
+
+- [x] Updated Function Indicators
+* Added new detections for various SEO scams and search spam.
+
+- [x] Updated Author Indicators
+* Added new author tags, based on recent phishing kit scans.
+
+- [x] Updated Brand Indicators
+* Added new brand markers based on recent scans.
+  - Wisc unemployment scams, and several ISPs
+
+- [x] Updated Generic Phishing Setup Indicators
+* Added new detections for various SEO scams and search spam.
+  - While not directly realated to phishing, these scripts were discovered within an active phishing domain.
+
+- [x] Updated Telegram Exfiltration Indicators
+* Updated known bot token list
+  - Added all tokens observed year-to-date.
+
+* Updated function elements.
+
+---
 ### 10-October-2021
 - [x] Updated URL Indicators
 * Added new URLs based on recent scans.

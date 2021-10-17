@@ -63,6 +63,7 @@ alaskausa.org
 bancogalicia.com.ar
 bankofamerica.com
 bcpzonasegurabeta.viabcp.com
+bdo.com.ph
 connect.secure.wellsfargo.com
 credicard.com.br
 credit-agricole.fr
@@ -74,6 +75,8 @@ eldni.com
 equabank.cz
 fibank.bg
 ibx.key.co
+internet-banking.dbs.com.sg
+leboncoin.fr
 login.regions.com
 moneyissues.ng
 nedbank.co.za
@@ -157,8 +160,8 @@ osu.edu
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Government
 #------------------------------------------------------------------------------------------------------------------------
-gov.uk
 benefits.ides.illinois.gov
+gov.uk
 health.ny.gov
 idot.illinois.gov
 labor.maryland.gov
@@ -166,6 +169,7 @@ labor.ny.gov
 my.ny.gov
 pua.benefits.uc.pa.gov
 recruiting.jcf.gov.jm
+wisconsin.gov
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Spectrum Phishing
 #------------------------------------------------------------------------------------------------------------------------
@@ -191,21 +195,27 @@ godaddy.com
 instagramstatic-a.akamaihd.net
 kyivstar.net
 login.frontier.com
+mega.bw
 mobile.de
 nexmo.com
 orange.fr
 onetrust.com
 onlinehome.de
 optimum.net
+optusnet.com.au
 rackspace.com
 sailpoint.com
+seanet.com
 siteserve.jp
+socket.net
 static.licdn.com
 swisscom.ch
 tatic-exp1.licdn.com
 tawk.to
 tlh.ro
+westnet.com.au
 wowway.net
+wvtc.com
 www.nutopia.com.au
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Kit Functions
@@ -239,6 +249,7 @@ postimg.org
 proxy.mind-media.com
 remotemysql.com
 safebrowsing.googleapis.com
+smtp.mailtrap.io
 upcloud.host
 xooimage.com
 yimg.com
@@ -327,6 +338,7 @@ snsv-crew.id
 #                                                Postal Scams
 #------------------------------------------------------------------------------------------------------------------------
 bancoposta.poste.it
+correos.cl
 postandparcel.info
 postepay.poste.it
 postoffice.co.uk
@@ -343,6 +355,7 @@ match.com
 naver.com
 ourtime.com
 sina.com
+static.xx.fbcdn.net
 wa.me
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Spam Links Discovered in Kits
@@ -352,6 +365,7 @@ clearmen.lienquan.garena.vn
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Miscellaneous
 #------------------------------------------------------------------------------------------------------------------------
+acs4.3dsecure.no
 api.bestfriendstore.net
 bluehouselondon.com
 boyxd.com

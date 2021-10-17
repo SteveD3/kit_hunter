@@ -21,11 +21,17 @@ OURtme Detailz
 #                                                Internet Services (ISP)
 #------------------------------------------------------------------------------------------------------------------------
 Frontier
+MagicMail WebMail
+mega.bw
+Optus
 PC Optimum - oman3
+Seanet
 signin.shaw.ca Info
+Socket Telecom
 Telekom Deutschland
 T-ONLINE.DE-A
 Verizon Wireless.Info
+Westnet
 WOWWAY
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Spectrum Phishing
@@ -54,6 +60,7 @@ WhatsApp
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Retail
 #------------------------------------------------------------------------------------------------------------------------
+Correos de Chile
 Costco
 eBay
 Hermes
@@ -71,9 +78,10 @@ AT&T
 #                                                Government
 #------------------------------------------------------------------------------------------------------------------------
 <3 USPS <3
+New York State COVID-19 Vaccine Status Validation
 NYS FULL
 Pennsylvania's Pandemic Unemployment Assistance Portal
-New York State COVID-19 Vaccine Status Validation
+Wisconsin Unemployment Insurance
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Comcast
 #------------------------------------------------------------------------------------------------------------------------
@@ -91,11 +99,14 @@ TransUnion
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Financial Brands
 #------------------------------------------------------------------------------------------------------------------------
-Alterna Bank				
+Alaska USA
+Alterna Bank
 American Express
 ATB Financial
 Banca por Internet - Interbank
 BANCOGALICIA
+Banco De Oro Online Banking
+BDO Unibank, Inc.
 Banco Pichincha
 Bank of America
 BankofGuam
@@ -124,6 +135,9 @@ CREDIT AGRICOLE
 Crédit Agricole
 Crédit Agricole Brie Picardie
 CTC Bank of Canada
+DBS Bank LTD. Co.
+DBS iBanking
+DBS OTP Vérification
 DCBank
 Desjardins
 EQ Bank
@@ -198,10 +212,6 @@ iTunes
 #                                                Microsoft
 #------------------------------------------------------------------------------------------------------------------------
 Microsoft
-Excel
-Windows Live ID
-Hotmail
-OneDrive
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Alibaba Brands
 #------------------------------------------------------------------------------------------------------------------------
