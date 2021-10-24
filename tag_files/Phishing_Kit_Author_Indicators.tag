@@ -26,6 +26,7 @@ Anonisma
 Anonymous Cyber Team
 AnonymoX9ja
 ANTIBOTS DZEB
+Aokville voodoo
 A.O.L Zboon
 Atila
 Atom!c Bomb
@@ -91,6 +92,7 @@ Coded By x-Phisher
 Coded & Tools By Hitman
 CODE~SPIRIT
 Codewizard
+Created By (~)
 Created BY $PG Bon
 created by 1gb4l0d3
 Created BY Benhacki
@@ -122,6 +124,7 @@ d4rkl4b
 Dangerous Mailer
 Dark-Attacker
 Da Street
+Designed By Akira
 devilscream
 Dhapi
 DNThirTeen
@@ -257,6 +260,7 @@ Noob Assassin
 Notify HackeD NOOBS
 Nourblog1
 Nzube Post
+Oakvillee
 oluxshop
 OPETE WIRE
 OReo0o

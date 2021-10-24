@@ -16,8 +16,8 @@ api.telegram.org
 $api = "
 $api="
 $api_key  = '
-$apiToken = "
 $api_token = "
+$apiToken = "
 $botToken
 $botUrl = trim(file_get_contents(
 $chat = "
@@ -30,6 +30,8 @@ $chatId=
 $chatID='
 $chatId = trim(file_get_contents(
 $ch = curl_init($METRI_TOKEN . '/sendMessage')
+$config_chat =
+$config_token =
 $id="
 $METRI_TOKEN
 $tanitatikaram
@@ -45,6 +47,7 @@ $Token="
 $token='
 $tokenlink
 $user=$id
+$user_ids =
 $user_ids=array(
 $yagmai
 bot" . $token . "
@@ -138,6 +141,7 @@ AAETgzG-Ijx52N39V1hZNtOgXrOe8Ltu2NA
 AAEUDZg9yay1vbMdjjhQ1I6OlN6ghsLq7uA
 AAEUehTMbs64WQ8FmFkGW4igmKe45NALM1k
 AAEvVCU3n78EmocvDQ6xq_B_RKcp3l7n9ew
+AAEwgI8qXqwTz63BbImRaVmFtDr53m_97Us
 AAEWSjBM66dxFiMCGst81pLN8QaM2butWlw
 AAExf2sPxgY1L3w6JQywIeINBM7S2Ua-czQ
 AAEzd1QRtmKBz6dupCFLbXVhFHNDjgxC_VI
@@ -245,10 +249,12 @@ AAGQY2rq7uaLpmYiQMPOEOLyjQC5mat-KPM
 AAGrGwLJqqBY8AlTS6IK9RrXwf2Ym5KJGEg
 AAGrLmM6PXWXi5X8HKBxJL_A1B3dh2b3550
 AAGrSFy5ATQ36UmAwLrN_j6VDH3lB5O-A2w
+AAGrtqNnM0OaWtsfYCCF5aEC_aNyvaaM6I0
 AAGsO00WvsBBNfT5ALBEX8h0JLx8XrYpUpg
 AAGssYBrdTh_heb1cDT4ZWZxwuf0iptStQY
 AAGThTW-7-wWLGXl6cs-VgFTgGlbj6Ha7bU
 AAGtqwBQ19Ub4N2g6SfVo9taNnC3ZEygR5c
+AAGU8EWmgn64PFZIr3ahTGf_5OWIDNexZl8
 AAGUNpU7SY7Es7NrnruFfeWQb31rC2daNSQ
 AAGV1GzOXPZEk-_g8vUOP-GnM6U-ndRAWic
 AAGvLmW6VA50n-w5AjV7V7gyC5fFR7rcbKI
@@ -276,6 +282,7 @@ AAH7SpWeizbB-OD2K93T8tTwhjTEVBndfMs
 AAH8IT-epIkQjMxjfh6KG9F1r4VQwAJ2Z8E
 AAH8VARpsAeJ8kTE56n6X3phXS_utXuy5bM
 AAH9pQRbJX1Ml1_ZMoRp_EXkdF7JpN8OOBA
+AAHbgJBZxbawEUSSmn-3WxHbBry43qJ10Uc
 AAHbhKt4I1CzHRCHF68jbjhlYaBSH-7tW98
 AAHBIUl4yZ6a0--aQGcIou1UkmI-NUw6LHI
 AAHbvd_IALdC610tLGzl-xgtMJnEHRq9dK8
@@ -299,6 +306,7 @@ AAHOCbsbejr8xKTNXm5VTu3EI5PAJXNvfWc
 AAHodCcJ4s0km1bACfHVE7Gj1oMw0LhdhhQ
 AAHoQwgqNkJwjYwfQiDFSfAoTAVaDwEWf88
 AAHOSYskqtUV5oWxhPzDO5q9cwBAEbvWI7g
+AAHoxyNGDpusI7eQlRuZ4tW4U_LzeP_KcaA
 AAHoZqUHJD4SJE-d_q1aJx-ZoRkJWs3vhXE
 AAHpBt_oJBGzB3b7k7EeaAf-SZIqwC3OJdI
 AAHpR6CFIm6J_P0pt2cJUdWWRYBYDcKOJ3M
@@ -309,6 +317,7 @@ AAHr-pzFdsoP6lSX5848gyPrJ5uF8ZB7DGI
 AAHSL40zuj3hssmmE4_W57PbzlU3nMorl4E
 AAHslgkSPsh2YEQFVweRMBodHZhuZizOZAs
 AAHtGF2NYGbULICeBQ7_dPeiytYbez_jZIE
+AAHTtPZ_xJLLmmHJyWiVDye_LiUgXBIYi98
 AAHu7pzbt0AyIJEzdBFI-7AKGLd_YmXAzhM
 AAHUz1IV23gToVmOQSB1e9nnmfHEoinpNLk
 AAHVmffcdPORa97th5bsv_hPBYbu18fuCoo

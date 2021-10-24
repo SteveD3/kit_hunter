@@ -32,6 +32,13 @@ const SAFE_BROWSING_CLIENT_ID =
 const SAFE_BROWSING_CLIENT_VERSION =
 /v4/threatMatches:find?key=
 #------------------------------------------------------------------------------------------------------------------------
+#                                                TodayZoo Phishing Kits (MSFT Research)
+#------------------------------------------------------------------------------------------------------------------------
+$('#Tombol1')
+vcoominctodayq.php
+todayzoo.php
+data: { u : email, p : password_v}
+#------------------------------------------------------------------------------------------------------------------------
 #                                                Known Phishing Kit Function Calls
 #------------------------------------------------------------------------------------------------------------------------
 $a370a
@@ -41,6 +48,7 @@ $ak47_Hacker
 $c28dd9c
 $c5d6b
 $c97e57ec
+$('#CardNumber').mask('0000 0000 0000 0000')
 $config_3dsecure
 $config_apikey
 $config_blocker
@@ -48,8 +56,10 @@ $config_filter
 $config_identity
 $config_smtp
 $config_translate
+$('#Cvv').mask('000')
 $domain<west>
 $email_result
+$('#ExpirationDate').mask('00/0000')
 $_F=__FILE__;$_X
 $headers .= $_POST['ZMailXdd']
 $icoooo->email
@@ -59,15 +69,16 @@ $keyword = str_replace(" ", "+", $keyword)
 $loginfmt
 $One_Time_Access=1
 $scamname
+$('#SecurityNumber').mask('000-00-0000')
 $_SESSION['cntname']
+$("#spinarrrrrr").hide()
 $subject = "Card | $ip"
-$SYPHER_SUBJECT
 $SYPHER_NAME
+$SYPHER_SUBJECT
 $VictimInfo
 $xqiswxnwxf=
 $yahya_email
 $zabi
->{keyword}<
 13InboxLight
 16lnboxLight
 19lnboxLight
@@ -93,6 +104,7 @@ cazanova_helper.php
 cc_validate.js
 Checksum: b2d1bed66c34c0d462e33111a6d08c37
 coopetyx_copo
+curl_setopt($ch, CURLOPT_URL, 'http://'.$cl0ip.''.$cl1ip.''.$cl2ip.''.$cl3ip.'/'.$cloudipphp.'.php')
 curl-to-PHP
 EA1610330223UK
 FZ32FEZ234
@@ -100,6 +112,7 @@ geoiptool
 geoplugin
 geoplugincode
 gethostbyaddr($ip)
+git/uadmin/gate.php
 googletagmanager
 id82927
 id="formimage1"
@@ -109,11 +122,14 @@ IPQ_API
 jpui
 kaptcha.php
 kerio_
+>{keyword}<
 KLNDRR2
 knkgd6u1_sirus
 Kullanici Adi
 lintex.png
 LKRFDR
+localhost/uadmin/gates/
+>...Login...<
 Login Type Selection --
 + LOGS +
 Mengunjungi
@@ -162,5 +178,4 @@ zajoba130997
 zanubis
 Z?fl??-In???-???l??
 ZmlsZXMvZGF0YS9zc28ucGhw
-localhost/uadmin/gates/
-git/uadmin/gate.php
+#------------------------------------------------------------------------------------------------------------------------

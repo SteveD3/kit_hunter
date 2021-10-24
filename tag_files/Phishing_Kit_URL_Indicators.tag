@@ -62,6 +62,7 @@ currently.att.yahoo.com
 akessiefbehrporle.com
 alaskausa.org
 bancogalicia.com.ar
+bankia.es
 bankofamerica.com
 banqueentreprise.bnpparibas
 banquepopulaire.fr
@@ -92,6 +93,7 @@ mabanqueprivee.bnpparibas
 moneyissues.ng
 nedbank.co.za
 nwolb.com
+online.adp.com
 onlinebanking.firstcaribbeanbank.com
 onlinebanking.pnc.com
 openknowledge.worldbank.org
@@ -177,9 +179,11 @@ health.ny.gov
 idot.illinois.gov
 labor.maryland.gov
 labor.ny.gov
+mass.gov
 my.ny.gov
 pua.benefits.uc.pa.gov
 recruiting.jcf.gov.jm
+ui-cares-act.mass.gov
 wisconsin.gov
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Spectrum Phishing
@@ -231,6 +235,7 @@ www.nutopia.com.au
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Kit Functions
 #------------------------------------------------------------------------------------------------------------------------
+2no.co
 api.ipapi.com
 api.userstack.com
 bincodes.com
@@ -242,6 +247,7 @@ ci4.googleusercontent.com
 ci5.googleusercontent.com
 curl.haxx.se
 cutt.ly
+dancevida.com
 dclic-resolver.e-i.com
 extreme-ip-lookup.com
 i.ibb.co
@@ -263,6 +269,7 @@ proxy.mind-media.com
 remotemysql.com
 safebrowsing.googleapis.com
 smtp.mailtrap.io
+trublcon.com
 upcloud.host
 xooimage.com
 yimg.com
@@ -376,12 +383,21 @@ wa.me
 clearmen.lienquan.garena.vn
 1thang5.lienquan.garena.vn
 #------------------------------------------------------------------------------------------------------------------------
+#                                                Quiz / Survey Scams
+#------------------------------------------------------------------------------------------------------------------------
+fsuxeua2yzwtgh.bar
+opgarwfw.hf28x.cn
+vxlwdyo.cn
+uzyivzf.cn
+#------------------------------------------------------------------------------------------------------------------------
 #                                                Miscellaneous
 #------------------------------------------------------------------------------------------------------------------------
+34.127.100.133
 acs4.3dsecure.no
 api.bestfriendstore.net
 bluehouselondon.com
 boyxd.com
+cdn-bimi.akamaized.net
 d2papa.com
 etraxer.com
 firb.br
@@ -390,6 +406,7 @@ ikhbaljb.com
 maersk.com
 newlife.com
 o54eavgyktxh5wts.onion
+oijhgbfvergyt4res.appspot.com
 okinawa-grandmer.com
 oneprosec.com
 sgp.fas.org

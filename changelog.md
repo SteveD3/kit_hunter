@@ -1,3 +1,26 @@
+### 24-October-2021
+- [x] Updated Chase detection rules
+* Removed generic carding functions to function indicators
+
+- [x] Updated Function Indicators
+* Added carding indicators from Chase tag collection
+* Added functions based on MSFT research. (TodayZoo)
+
+- [x] Updated URL Indicators
+* Added new URLs based on recent scans.
+* Added URLs based on MSFT research. (TodayZoo)
+
+- [x] Updated Author Indicators
+* Added new author tags, based on recent phishing kit scans.
+
+- [x] Updated Brand Indicators
+* Added new brand markers based on recent scans.
+
+- [x] Updated Telegram Exfiltration Indicators
+* Updated known bot token list
+* Added new function calls
+
+---
 ### 17-October-2021
 
 For my birthday, I give you updates! 
