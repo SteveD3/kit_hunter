@@ -73,6 +73,10 @@ IhxkRwNFtiMGafs8lXZKdHP97EShwjC-FAA
 AAGJs4drUDQ_yUeXvjSPenDoOAmmNWDUHI
 AAGiGpXLxi6k21S5Wd45stUw6l74zKsXsW
 #------------------------------------------------------------------------------------------------------------------------
+#                                                MISC Token (Base64)
+#------------------------------------------------------------------------------------------------------------------------
+MTM4ODk3MDI3ODpBQUhlUm5Kc2lTTWZvRFJNbDlHWjNBV0RKbnpxYUtnWHFiY0BkaWNvdjIx
+#------------------------------------------------------------------------------------------------------------------------
 #                                                Known Bot Tokens
 #------------------------------------------------------------------------------------------------------------------------
 AAE_05SQRwpfFU-NE5S99_y73tR8YFN-HPs
@@ -87,6 +91,7 @@ AAE2E3TB2MpCnmCJzcGoeg-mftkkTck4UiE
 AAE321lNyh5Jsanr-Ch9RDQejTm0ftKt0cI
 AAE3FFO7D-bDH58lBFnNjbSUkv32jJEOmds
 AAE3Lm7PsqUWD1JP7V4t9hsOwr_YSD8DgI8
+AAE3wTTZqvv611XWzUarXUzZJnZwibs2SX8
 AAE5eVjGA9joeXGZSB1Po3Hsd4e6l2KnBPQ
 AAE63IuWPegXy9MqXFEAZPuaXEn8BKyvHTo
 AAE6vnqY66kUCB51GU1j46PDocQTkj8KQzc
@@ -146,11 +151,14 @@ AAEvVCU3n78EmocvDQ6xq_B_RKcp3l7n9ew
 AAEwgI8qXqwTz63BbImRaVmFtDr53m_97Us
 AAEWSjBM66dxFiMCGst81pLN8QaM2butWlw
 AAExf2sPxgY1L3w6JQywIeINBM7S2Ua-czQ
+AAEyBlt_oCnaNsmBecEwwZKZj2UdO_cYlBc
+AAEyUZC3pXFpuA4nRJ06dpTsUC3QHb_Mw5w
 AAEzd1QRtmKBz6dupCFLbXVhFHNDjgxC_VI
 AAEZRmCGEVG89UbMGszs1TtubnPGbxl05xg
 AAF0lXZHIZswg0PsXKIVlzXfZXS69ESXJ0M
 AAF0NbXbrpN2uRG7mvr5VcW4Hl9-iaTc3TY
 AAF2_qMbYBqvOgV0_oNh4rGhZFlQbwvmwMw
+AAF2V7vYD-UO4jVFdlpDKUw1-TqNH3KbrVo
 AAF7-n8C6zlpVy4Yu7eTgLJFuDtF6c6zFz0
 AAF96ksL1jl6fTbjeUy54YGFYueJXNXo8Go
 AAFA4RqL6BXoRlkopHG6P6E4jBfHU7irgRY
@@ -174,6 +182,7 @@ AAFHIxwYmMHLVDTsKWux0wy-owzwitFTybo
 AAFhrn_croctCBJlE7mxHz_skTDtdbDBFwQ
 AAFiKY4YWXUt0JG-RSINPTSHuhRjiOexsis
 AAFLj_HzDC1Qpe-w2BrXyC8QQgY025VfDZI
+AAFMv7cax8TuuJfjg3_QgLxHjj1EbS32dOc
 AAFnFPBoGx_Q1_K--5Qyz2ioyAwN3IdQWLo
 AAFOOjQsF-b3CKWjUjmwBZPrK1FnNPDhBuo
 AAFotYPVbifrHVJm-7ggWGogj3MrFQWbPoM
@@ -186,6 +195,7 @@ AAFqVFg4w5dUgD17yGFoKG5U0eehSX-LQZU
 AAFqWPaIsgdpoAz3d7OvaPO-SqDE9-08kQQ
 AAFRKJHgjAlBjKvfS1wnl6ot5M4BgWbqMyY
 AAFS1XMK43h8NSqjeOf1hfohMKYahnnRhhM
+AAFsvR3-kpeEP5gZOxcMWytaxlqcSjOH6yA
 AAFtVCapb4DljnVyaap6LFsYHkHFh2DFytU
 AAFu5YIF3igXRPsrpIFXhqgJpQY8uoEYXCw
 AAFua_iGdjIzxHP0BsgU4FY9Bulopc0NTOw
@@ -202,6 +212,7 @@ AAFyqFyFLGnbSFgJGIOsVpUAIpeK9OvXpOo
 AAF_zkPoKNQL3haoTaL5XWhQrTvkK_VRA1k
 AAFzWgF8ZVwVHbwhOjaNsjjsXrJx6lgpINI
 AAG09yrB4dLc2h7tjTXvt5qdqwBTLxOTQ6E
+AAG2be4UKclRRQpEK-5MUYtS_RBtmwLWKS0
 AAG2kodxwsEeLGnBFMIAIHgF2iI3IEumY5g
 AAG2wD3nO9TpX-P4Oo7B-BltYwfI3IDjkew
 AAG2ZzQfPqJ9uZ2v3T5FFjOcV6384nUFx_s
@@ -232,9 +243,11 @@ AAGFluLugLAuIKbyz7vWuawB3WHjX-rxsfc
 AAGFnb6w2lON2W2vg8-XHgDtQtxpVRJWd84
 AAGGu4p-kTSKlEqF2lDZ7Cfn9EdQKuTXSHI
 AAGh77TlJBi1Vsw84KeoK5rppj7WBElArAg
+AAGhcWusqXoI4zdmDYeSpNqtPiNwIYwDl94
 AAGHyHVNMO9ICmXJie3nP5MI2do_34GgZhI
 AAGiAbV3btLtdkc9clhV-KaY7WujlypsIWs
 AAGIGQFqpeKYa9agNVlfhoR_x-o5JY-bo-c
+AAGIk6Jc7fcKo7dNbOGrYGPxR8kH50SL_aU
 AAGimT52LQ7X1f3uFJOza8Zjk_z1AXTjg5c
 AAGIUzm0Ynt2fqWSyKARI_4Jolu4NGQY8dc
 AAGjK1wO7sRCi4D7NBSDVk-a0C4fl2jnvWA
@@ -292,6 +305,7 @@ AAHBIUl4yZ6a0--aQGcIou1UkmI-NUw6LHI
 AAHbvd_IALdC610tLGzl-xgtMJnEHRq9dK8
 AAHDB4ArG8t1fiezGi4FAw2a57FUZOa1UO0
 AAHE4NKlVM__wFBZu553cZMfzFAqic-cf00
+AAHeRnJsiSMfoDRMl9GZ3AWDJnzqaKgXqbc
 AAHFk8PrixHpHWUvwVR9WKaajng2d0JfLO8
 AAHghV9nZpH0fYvA8lCf9VNJYpeEDky1F3I
 AAHgRRuujGaglh2JldKyscrM6zUgdt-C8SM
@@ -303,8 +317,10 @@ AAHIju4aM7hsx0oXlXjF9RIabALqS9AmZlw
 AAHIVbfhVpW2VRPIQGchfzcFNcvgYIh3F1g
 AAHjcBPsKrzTP42DjKLZ9WZheYlsDaYjgCQ
 AAHJOnK_MGe_aDVNQ1gcA2mVzZhD8gCLYJg
+AAHKYczOM71LbiGfBzYhVWgXO6x6qX2wVf8
 AAHlKUL5Jy8lJz7z0q5roKW0Vrc_D-bUXA4
 AAHLz_P33SwUsRqPmL4u6uiSB_0zzdV30e0
+AAHNnhrgO2iU2BQvwLlD6RZtOthRilw8r6Q
 AAHObiZLlXrCoBcI7mlR_vPFBIOuXtMcV1I
 AAHOCbsbejr8xKTNXm5VTu3EI5PAJXNvfWc
 AAHodCcJ4s0km1bACfHVE7Gj1oMw0LhdhhQ

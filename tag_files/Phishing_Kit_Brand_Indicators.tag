@@ -63,6 +63,8 @@ WhatsApp
 Correos de Chile
 Costco
 eBay
+FedEx
+FEDEX
 Hermes
 kijiji.ca Info
 maerskline
@@ -108,6 +110,7 @@ ATB Financial
 Banca por Internet - Interbank
 Banco De Oro Online Banking
 BANCOGALICIA
+Banco Itaú
 Banco Pichincha
 BANKIA
 Bank of America
@@ -131,6 +134,7 @@ Capital One
 Carrefour Banque
 Cash App
 Chase
+[CHEGOU] INFOCC ITAU
 CIBC
 Citi
 Clydesdale
@@ -162,6 +166,8 @@ HSBC Bank Canada
 Huntington
 Huntington Results
 Huntington ReZulT
+Info Itau
+International Card Services BV
 JPMorgan Chase
 KeyBank
 KeyBank INFO 1 BY A2ZTOOLZ
@@ -187,6 +193,7 @@ PNC Online Banking
 Poloniex
 President's Choice Financial
 RBC Royal Bank
+RegioNs
 Regions Bank
 Santander
 SANTANDER ES
@@ -252,3 +259,11 @@ YunOS
 BUDWEISER
 Szatr
 Hn3ww-PNW
+BIG GLOBE Result
+#------------------------------------------------------------------------------------------------------------------------
+#                                                Zimbra Phishing Kits
+#------------------------------------------------------------------------------------------------------------------------
+Acc Login ReZult Zim
+Synacor
+Zimbra
+#------------------------------------------------------------------------------------------------------------------------

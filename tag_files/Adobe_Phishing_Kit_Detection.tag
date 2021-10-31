@@ -8,8 +8,8 @@
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Associated Kit Functions
 #------------------------------------------------------------------------------------------------------------------------
-$domain = substr(strrchr($username, "@"), 1)
 $domain = 'pdf'
+$domain = substr(strrchr($username, "@"), 1)
 $headers .= $_POST['idinri']."\n"
 $headers = "From: ALIBOBO.PDF <info@yourcoolsite.com>\n"
 $headers = "From: God bless my hustle<info@heliselasi.us>"
@@ -24,13 +24,14 @@ $subj = "pdf logz ==> $ip"
 $username = $_POST['email']
 Access to PDF Files On Adobe Server is denied due to invalid credentials| Error 401.
 CR04272018.pdf
+header("Location: https://get.adobe.com/reader/")
+na1.adobelogin.php
 Private Online PDF File
 +[ User Info -  Resultz ]+
-na1.adobelogin.php
-在线PDF阅读器
-使用您的电子邮件和密码登录以打开此文档。
-无效的密码再试一次
 value="打开此文件"
+使用您的电子邮件和密码登录以打开此文档。
+在线PDF阅读器
+无效的密码再试一次
 #------------------------------------------------------------------------------------------------------------------------
 #                                                AAdobe Document Cloud
 #------------------------------------------------------------------------------------------------------------------------
@@ -38,6 +39,7 @@ value="打开此文件"
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Misc. Items
 #------------------------------------------------------------------------------------------------------------------------
+AdobeCloud
 Adobe Document Cloud Info
 ALL BANKS [.] RU
 Ad0be

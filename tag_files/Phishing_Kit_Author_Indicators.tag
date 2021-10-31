@@ -110,6 +110,7 @@ Created BY MORAN 2017
 created by n0b0dy
 Created By NymSmith Wirer
 Created by OVO-360
+Created By Oza
 Created by Priv8
 created by Rbc
 Created BY SB
@@ -141,6 +142,7 @@ dr-sykrit
 Dsox
 Dudiix
 D-Young
+E54N B01
 EL GH03T
 ELGH03T
 El Senor
@@ -154,6 +156,7 @@ FaLLaGMous
 FawadKHAN
 @Fiddlerl
 FilesMan
+FM MASTER
 fr13nds.teams
 FR33M4N
 francescoolmeo45
@@ -219,6 +222,7 @@ Limitless
 LINGCHI
 Lord PoPpA
 Lvrd
+M0D1F1ED 3Y S194R
 Maded By Legendary
 MADEMEN CYBER TEAM
 =-> MADMAN <=
@@ -347,6 +351,7 @@ X-GHOST MA
 | xLs |
 XM-HACK
 ~xrobotos
+xSanchx
 xSmayer
 X-SniPer
 _XSPTX

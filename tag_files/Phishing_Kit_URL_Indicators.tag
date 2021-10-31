@@ -85,6 +85,8 @@ group.bnpparibas
 hellobank.fr
 ibx.key.co
 internet-banking.dbs.com.sg
+itau24horas.ml
+itau.com.br
 labanquepostale.fr
 leboncoin.fr
 login.regions.com
@@ -98,6 +100,7 @@ onlinebanking.firstcaribbeanbank.com
 onlinebanking.pnc.com
 openknowledge.worldbank.org
 portal.pnb.com.ph
+regions.com
 santander.com.br
 secure.alpha.gr
 squareup.com
@@ -109,7 +112,6 @@ www.kh.hu
 #                                                Credit Monitoring
 #------------------------------------------------------------------------------------------------------------------------
 creditkarma.ca
-creditkarmacdn-a.akamaihd.net
 creditkarma.com
 econsumer.equifax.ca
 equifax.ca
@@ -196,28 +198,28 @@ webmail.spectrum.net
 #                                                ISPs and Tech Services
 #------------------------------------------------------------------------------------------------------------------------
 accounts.login.idm.telekom.com
-telekom.de
-login.t-online.de
 ad.aruba.it
-auth.centurylink.net
+akamaihd.net
+akamaized.net
 app-id=com.vzw.hss.myverizon
+auth.centurylink.net
 bitrix24.com
 csolve.net
 docusign.com
 docusign.net
 ftcdn.net
 godaddy.com
-instagramstatic-a.akamaihd.net
 kyivstar.net
 login.frontier.com
+login.t-online.de
 mega.bw
 mobile.de
 nexmo.com
-orange.fr
 onetrust.com
 onlinehome.de
 optimum.net
 optusnet.com.au
+orange.fr
 rackspace.com
 sailpoint.com
 seanet.com
@@ -227,6 +229,8 @@ static.licdn.com
 swisscom.ch
 tatic-exp1.licdn.com
 tawk.to
+telekom.de
+tiqcdn.com
 tlh.ro
 westnet.com.au
 wowway.net
@@ -264,6 +268,7 @@ iptool.xyz
 killbot.org
 likemyphp.com
 lookup.binlist.net
+me2mekrf.com
 postimg.org
 proxy.mind-media.com
 remotemysql.com
@@ -359,6 +364,7 @@ snsv-crew.id
 #------------------------------------------------------------------------------------------------------------------------
 bancoposta.poste.it
 correos.cl
+fedex.com
 postandparcel.info
 postepay.poste.it
 postoffice.co.uk
@@ -397,7 +403,6 @@ acs4.3dsecure.no
 api.bestfriendstore.net
 bluehouselondon.com
 boyxd.com
-cdn-bimi.akamaized.net
 d2papa.com
 etraxer.com
 firb.br
