@@ -5,16 +5,26 @@
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Phishing Kit Security Indicators
 #------------------------------------------------------------------------------------------------------------------------
+$bad_words =
+$blocked_words = array(
+$warn =
+$warnsubj =
 allantibot
 antibots
 BAN USER BY IP
 blocker.php
 blockers.php
+BOT - BotDetector
+BOT - CrawlerDetect
 calyxinstitute
 CrawlerDetect
 cyveillance
 dreamhost
 feedfetcher
+foreach ($bannedIP as $ip) {
+foreach ($blocked_words as $word) {
+foreach ($Bot as $BotType) {
+fucker.php
 GODADDY
 HTTrack
 ia_archiver
@@ -23,23 +33,16 @@ Kraken
 mon.itor.us
 NETCRAFT
 p3pwgdsn
-PycURL
 PHISHTANK
+PycURL
 RACKSPACE
 ReferralSpamDetect
 safebrowsing-cache
 softlayer
 spyeyes
 tor-exit
-Yahoo! Slurp
 YahooSeeker
-$warnsubj =
-$warn =
-$bad_words =
-$blocked_words = array(
-foreach ($blocked_words as $word) {
-foreach ($bannedIP as $ip) {
-foreach ($Bot as $BotType) {
+Yahoo! Slurp
 #------------------------------------------------------------------------------------------------------------------------
 #                                                BOTEYE Setup (bot scripts)
 #------------------------------------------------------------------------------------------------------------------------
@@ -49,3 +52,4 @@ $saker=md5($soker)
 $sakera=md5($sokera)
 $rine=rand(000000, 9999999)
 $rine = sha1($rine)
+BOTeye v1.9

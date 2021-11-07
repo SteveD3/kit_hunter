@@ -188,6 +188,7 @@ National Bank of Canada
 National Bank-Partnership
 NED 2015 Access dETAILS
 PayPal
+PayTabs
 Peace Hills Trust
 PNC Online Banking
 Poloniex

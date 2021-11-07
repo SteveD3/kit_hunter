@@ -35,13 +35,14 @@ ups.vendor.
 <3 UPS <3
 <3 USPS <3
 9514901185421
->About UPS Home<
->Copyright © 2021 UPS.  All Rights Reserved.<
->Enter Search term for Search UPS<
+3954850834584
+About UPS Home
+Copyright © 2021 UPS.  All Rights Reserved.
+Enter Search term for Search UPS
 United Parcel Service of America, Inc.
 UPS Allows you to Redeliver your package
->UPS My Choice for Business<
->UPS Service Updates<
+UPS My Choice for Business
+UPS Service Updates
 UPS Tracking
 USPS
 #------------------------------------------------------------------------------------------------------------------------
