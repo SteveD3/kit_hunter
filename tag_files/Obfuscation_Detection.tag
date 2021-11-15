@@ -19,8 +19,10 @@ phpkoru.com
 #                                                Associated Kit Functions
 #------------------------------------------------------------------------------------------------------------------------
 $base64fileapk
+$ed = base64_decode($e)
 $gobscate = "
 $keys = "
+$n = openssl_decrypt(
 $otv = encrypt("**good**",cryptKey)
 $responce = encrypt("$html",cryptKey)
 $setting = json_decode("l34kc0de.json", true)
@@ -34,6 +36,7 @@ eval(gzuncompress(base64_decode(
 eval(rawurldecode(
 eval("\x65\x76\x61\x6C\x28\x67\x7A\x69\x6E\x66\x6C\x61\x74\x65\x28\x62\x61\x73\x65\x36\x34\x5F\x64\x65\x63\x6F\x64\x65\x28
 ionCube Loader
+key.inc.php
 [PHPkoru_Code]
 strrev(str_rot13(explode(base64_decode(
 #------------------------------------------------------------------------------------------------------------------------

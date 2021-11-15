@@ -19,7 +19,6 @@ $sendgrid_user
 $sendgrid_pass
 acsh33nz0key
 [{$card} {$email}]
-J9QGYobZy3jVIV1MEHXWlORmqxCeu8PW
 API-CODE-KaSha-uzBx5xRrsquMMyigfPmj
 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
 #------------------------------------------------------------------------------------------------------------------------

@@ -45,6 +45,7 @@ $token = "
 $token = '
 $Token="
 $token='
+$token ='
 $tokenlink
 $user=$id
 $user_ids =
@@ -73,9 +74,10 @@ IhxkRwNFtiMGafs8lXZKdHP97EShwjC-FAA
 AAGJs4drUDQ_yUeXvjSPenDoOAmmNWDUHI
 AAGiGpXLxi6k21S5Wd45stUw6l74zKsXsW
 #------------------------------------------------------------------------------------------------------------------------
-#                                                MISC Token (Base64)
+#                                                Obfuscation (Base64)
 #------------------------------------------------------------------------------------------------------------------------
 MTM4ODk3MDI3ODpBQUhlUm5Kc2lTTWZvRFJNbDlHWjNBV0RKbnpxYUtnWHFiY0BkaWNvdjIx
+aHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdDIxMTI1NTEzNjQ6QUFFa1FHSm90b1laRk9OaU4tMnV5ZzcxZWQxemRJVjVTZ0kvc2VuZE1lc3NhZ2U/Y2hhdF9pZD0yMDI3ODI1MzU4JnRleHQ9
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Known Bot Tokens
 #------------------------------------------------------------------------------------------------------------------------
@@ -84,7 +86,6 @@ AAE0FuFBphVlm0NF0Bw1GGwuA2nmIhC0jjk
 AAE0RKCUHSJeEqwJ-N_cTQ3x02huF7f19oc
 AAE0wAOAhU1wANe8diozUQ-pFYNCvbvi17Y
 AAE1d9bDwgV9Wtfwv_kPrZFNoccFd56Z_G8
-AAE1rapl-l9-ifBzl98AJz5hQR6morcUaVA
 AAE1rapl-l9-ifBzl98AJz5hQR6morcUaVA
 AAE2c4rgMbnm-mUX1g7WevDPxa2Fccikbas
 AAE2E3TB2MpCnmCJzcGoeg-mftkkTck4UiE
@@ -117,18 +118,19 @@ AAEEcc55mkAqzVJlzCYgyAF-I_HjAyJTVqc
 AAEG5OQvqUXTvyMmc4QWOvgYKIxy1ofq55g
 AAEGHIg3bJDJ0SMjr3KzKw4AFSR2nvcXbvc
 AAEgLxiVKu4eXW873uv49qKeN8Dx4J9FNus
-AAEgLxiVKu4eXW873uv49qKeN8Dx4J9FNus
 AAEhUEh2zAOH_tN4pw_XLKY1iP9E47FpQCo
 AAEibNWUpYgEjvzbMmybYbVYhCVAmWtuZmU
 AAEiw8LtzXkXy_7pnXTB52mv0Qm9KxEnA2o
 AAEk6Rw1JPAaLNfvK66U9zjP44eCZPfFeOo
 AAEKj9maPQ4JueLOFBxh8404rQ8MmXN0FZ8
+AAEkQGJotoYZFONiN-2uyg71ed1zdIV5SgI
 AAEKtujB6ubGrN2haH8-FSkoLmuYqFsoqes
 AAEL3N9KxN0OprBldOYeMLnxPqs1EZl6k6g
 AAEmJ8su76uQCAAKVGH5K6h8m7wnksl-HOI
 AAEn02yoU5AkuvRdXGQnkHxmYixCmLDnU_0
 AAENjo0h5aP88vs-_09zT1rUeWYCu3MiegE
 AAEobcsClhzetZgd81K53rwwahqB4Pkkx5k
+AAEoEFJqZHV_A6V3MPHAoETP_EUarQ5ojSc
 AAEPhLmVw-bOQmdf73glLgRV3GQCsg9iA2U
 AAEpk8hrM_nefNhQR2wnDhLHNCKTmffC_IM
 AAEPuE43ZULoAM0FyTUw3rYG8FnK247wrN0
@@ -151,6 +153,7 @@ AAEUehTMbs64WQ8FmFkGW4igmKe45NALM1k
 AAEujJKTD3BnGUlxivOChhjcB1c1gy6xlys
 AAEvLhsO1JQv4Io4lvZIFC9pvitBbQYC7HA
 AAEvVCU3n78EmocvDQ6xq_B_RKcp3l7n9ew
+AAEwcfBlgTJM2CJkXcw8GrMM8cNdqhHaDec
 AAEwgI8qXqwTz63BbImRaVmFtDr53m_97Us
 AAEWSjBM66dxFiMCGst81pLN8QaM2butWlw
 AAExf2sPxgY1L3w6JQywIeINBM7S2Ua-czQ
@@ -279,6 +282,7 @@ AAGrtqNnM0OaWtsfYCCF5aEC_aNyvaaM6I0
 AAGsO00WvsBBNfT5ALBEX8h0JLx8XrYpUpg
 AAGssYBrdTh_heb1cDT4ZWZxwuf0iptStQY
 AAGThTW-7-wWLGXl6cs-VgFTgGlbj6Ha7bU
+AAGtQUenm90_GLmhEyiDOFuaGGFXxaUhBcs
 AAGtqwBQ19Ub4N2g6SfVo9taNnC3ZEygR5c
 AAGU8EWmgn64PFZIr3ahTGf_5OWIDNexZl8
 AAGUNpU7SY7Es7NrnruFfeWQb31rC2daNSQ
@@ -313,6 +317,7 @@ AAHbgJBZxbawEUSSmn-3WxHbBry43qJ10Uc
 AAHbhKt4I1CzHRCHF68jbjhlYaBSH-7tW98
 AAHBIUl4yZ6a0--aQGcIou1UkmI-NUw6LHI
 AAHbvd_IALdC610tLGzl-xgtMJnEHRq9dK8
+AAHCLw2dQkbRjSFf7Sp3JSIc8qq0MoyQQvM
 AAHDB4ArG8t1fiezGi4FAw2a57FUZOa1UO0
 AAHE4NKlVM__wFBZu553cZMfzFAqic-cf00
 AAHeRnJsiSMfoDRMl9GZ3AWDJnzqaKgXqbc
@@ -329,6 +334,7 @@ AAHjcBPsKrzTP42DjKLZ9WZheYlsDaYjgCQ
 AAHJOnK_MGe_aDVNQ1gcA2mVzZhD8gCLYJg
 AAHKYczOM71LbiGfBzYhVWgXO6x6qX2wVf8
 AAHlKUL5Jy8lJz7z0q5roKW0Vrc_D-bUXA4
+AAHLZ6PwFO_8RJKARG8Oc7JUSeQVdOdPtVY
 AAHLz_P33SwUsRqPmL4u6uiSB_0zzdV30e0
 AAHNnhrgO2iU2BQvwLlD6RZtOthRilw8r6Q
 AAHObiZLlXrCoBcI7mlR_vPFBIOuXtMcV1I

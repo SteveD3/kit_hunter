@@ -11,18 +11,20 @@
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Associated Kit Functions
 #------------------------------------------------------------------------------------------------------------------------
-name=chalbhai
-id=chalbhai
 id=aramsejao
+id=asldengy
 id=bhaagjoa
+id=chalbhai
 id=dafahoja
+id=kesijild
+id=passocones
 id=puranakhtab
+name=alvisab
 name=bhoolgya
 name=gulbahar
-name=khannalao
 name=khanalao
+name=khannalao
 name=mundachok
-name=alvisab
 onsubmit="return validateANZ()"
 if (! formbreeze_email(
 if (! formbreeze_filledin(
