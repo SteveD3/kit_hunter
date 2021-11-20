@@ -93,14 +93,6 @@ $zabi
 6LffMGcUAAAAABRJmPd1mUqhxUg7w5iktOIsbgMI
 6LffMGcUAAAAACw-0oBJ13czW1dsl_0HbXbxEVUY
 All Boot Crypted
-anti1
-anti2
-anti3
-anti4
-anti5
-anti6
-anti7
-anti8
 anubisdb
 AP___
 av88f16Deus102030

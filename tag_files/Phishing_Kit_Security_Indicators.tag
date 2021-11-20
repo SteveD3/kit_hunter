@@ -7,10 +7,21 @@
 #------------------------------------------------------------------------------------------------------------------------
 $bad_words =
 $blocked_words = array(
+$ip = getUserIPszz()
 $warn =
 $warnsubj =
 allantibot
+anti1
+anti2
+anti3
+anti4
+anti5
+anti6
+anti7
+anti8
+antibot.pw
 antibots
+antibot_wasChecked
 BAN USER BY IP
 blocker.php
 blockers.php
@@ -29,6 +40,7 @@ GODADDY
 HTTrack
 ia_archiver
 Jaybizzle
+K3map v.2.1
 Kraken
 mon.itor.us
 NETCRAFT

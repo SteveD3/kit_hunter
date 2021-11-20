@@ -59,6 +59,7 @@ currently.att.yahoo.com
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Banking
 #------------------------------------------------------------------------------------------------------------------------
+53.com
 akessiefbehrporle.com
 alaskausa.org
 bancogalicia.com.ar
@@ -93,6 +94,7 @@ login.regions.com
 mabanque.bnpparibas
 mabanqueprivee.bnpparibas
 moneyissues.ng
+mtb.com
 nedbank.co.za
 nwolb.com
 online.adp.com
@@ -205,6 +207,8 @@ app-id=com.vzw.hss.myverizon
 auth.centurylink.net
 bitrix24.com
 csolve.net
+deloitte.com
+deloitteresources.com
 docusign.com
 docusign.net
 ftcdn.net
@@ -241,6 +245,7 @@ www.nutopia.com.au
 #------------------------------------------------------------------------------------------------------------------------
 2no.co
 api.ipapi.com
+api.npoint.io
 api.userstack.com
 bincodes.com
 binlist.net
@@ -265,10 +270,12 @@ ipinfo.io
 iplocationtools.com
 ipqualityscore.com
 iptool.xyz
+ipwhois.app
 killbot.org
 likemyphp.com
 lookup.binlist.net
 me2mekrf.com
+nullrefer.com
 postimg.org
 proxy.mind-media.com
 remotemysql.com
@@ -370,6 +377,11 @@ postepay.poste.it
 postoffice.co.uk
 royalclass.com.ar
 usps.com
+#------------------------------------------------------------------------------------------------------------------------
+#                                                Retail
+#------------------------------------------------------------------------------------------------------------------------
+shopifycdn.com
+shopify.com
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Social Media
 #------------------------------------------------------------------------------------------------------------------------

@@ -43,6 +43,7 @@ Spectrum-2
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Internet Services (Non-ISP)
 #------------------------------------------------------------------------------------------------------------------------
+Deloitte
 DropB0x Info
 Dropbox
 G6m4il
@@ -72,6 +73,7 @@ Maersk Line Shipping
 Maersk Logs||
 Overstock
 SF Express Rezult
+Shopify
 #------------------------------------------------------------------------------------------------------------------------
 #                                                AT&T
 #------------------------------------------------------------------------------------------------------------------------
@@ -155,6 +157,7 @@ DCBank
 Desjardins
 EQ Bank
 Fibank
+Fifth Third Bank
 First Nations Bank of Canada
 Halifax
 hitBTC
@@ -183,6 +186,7 @@ Metro Bank
 METROBANK ACCOUNT
 MetroBank RezultX
 mtb LOGIN ! xDD+
++ MTB Info +
 myAlpha Web
 National Bank of Canada
 National Bank-Partnership

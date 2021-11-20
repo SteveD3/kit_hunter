@@ -1,3 +1,35 @@
+20-November-2021
+- [x] Updated Amazon detection rules
+* Removed security elements and moved them to security indicators
+
+- [x] Updated LogoKit detection rules
+* Updated indicators based on recent scans.
+
+- [x] Updated Author Indicators
+* Added new author tags, based on recent phishing kit scans.
+
+- [x] Updated Brand Indicators
+* Added new brand markers based on recent scans.
+
+- [x] Updated Function Indicators
+* Added new function tags, based on recent phishing kit scans.
+
+- [x] Updated General Indicators
+* Added new General tags, based on recent phishing kit scans.
+
+- [x] Updated Security Indicators
+* Added new URLs based on recent scans.
+
+- [x] Updated URL Indicators
+* Added new URLs based on recent scans.
+
+- [x] Updated Telegram Exfiltration Indicators
+* Updated known bot token list.
+
+- [x] Updated Z118 detection rules
+* Updated indicators based on recent scans.
+
+---
 15-November-2021
 - [x] Updated Chalbhai detection rules
 * Updated rules based on recent scans.

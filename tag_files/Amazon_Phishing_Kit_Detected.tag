@@ -8,7 +8,6 @@
 #------------------------------------------------------------------------------------------------------------------------
 freakz.site
 freakzbrothers.team
-antibot.pw
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Associated Kit Functions
 #------------------------------------------------------------------------------------------------------------------------
@@ -17,8 +16,6 @@ src="../amazon/
 href="../amazon/
 /api/amzsetting/get_setting.php
 <title dir="ltr">Amazon Sign In</title>
-$ip = getUserIPszz()
-antibot_wasChecked
 From: AMAZON LOGIN
 Amazon.com Account Confirmed
 Amazon-2

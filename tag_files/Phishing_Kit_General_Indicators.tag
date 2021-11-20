@@ -14,7 +14,6 @@ G001G0012
 gaslienminh-nahz2.txt
 Ghost Logs
 gLoginCredMgtWA
-GOxGOxPOWERxRANGERS
 Infoos
 INTENTOS DE CODIGOS
 ISI PESAN

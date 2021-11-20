@@ -30,6 +30,7 @@ $server_file[] = "./A797XX666XX.acropo/{$path_parts["basename"]}"
 WorldWide xGhostxRider_JC
 xx_Z118xMARVEL
 xx_Z118xDCxComic
+GOxGOxPOWERxRANGERS
 EstonE.0.7
 bensmoth58@
 #------------------------------------------------------------------------------------------------------------------------
