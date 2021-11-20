@@ -229,6 +229,7 @@ sailpoint.com
 seanet.com
 siteserve.jp
 socket.net
+spotify.com
 static.licdn.com
 swisscom.ch
 tatic-exp1.licdn.com

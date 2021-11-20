@@ -55,6 +55,7 @@ ProtonMail
 Rackspace
 Reddit
 Salesforce
+Spotify
 Tutanota
 WeTransfer
 WhatsApp

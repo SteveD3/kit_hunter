@@ -35,6 +35,7 @@ Atom!c Bomb
 *B0y
 BA3BA3 SERGIO
 BESMELLAH
+BISMILLAH GG
 < Bex >
 B i g s e c  C o m m u n i t y
 b i g s e c c o m m u n i t y
@@ -355,6 +356,8 @@ XaMaNi
 xAthena
 Xclusiv-3D-Logs
 xDD+
+X-Black Cat
+X-BlackCat
 X-GHOST MA
 | xLs |
 XM-HACK
