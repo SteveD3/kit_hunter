@@ -39,8 +39,7 @@ Dasha 0xVinca
 dengan 4 pilihan
 Dengan Bypass Tools
 DRIV3R KR PRIV8 MAILER
-FoxAutoV4
-FoxAutoV5
+FoxAuto
 FRESH.VERFIED.SHELL
 GOOD SHELL
 Gray Byte

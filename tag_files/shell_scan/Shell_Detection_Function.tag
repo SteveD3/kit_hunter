@@ -67,6 +67,9 @@ $tmssbn
 $tmzn="sgzms"
 $T=str_replace('RG','','RGcRGrRGeate_fuRGRGncRGtion')
 $UeXploiT
+$vpna
+$W00P0DPDDP
+$WPDD0D0P0P
 $x=$func("
 $x=$func("\$c","e"."v"."al"."('?>'.base"."64"."_dec"."ode(
 $__________________='X19sYW1iZGE='
@@ -107,6 +110,7 @@ default pass:  Dab
 ?dir=$dir&to=sym
 ?dir=$dir&to=zoneh
 download_big__stat.txt
+e1(Array(
 edb52876-33b7-4405-9287-2e4fa382dab0
 edbc761d111e1b86fb47681d9f641468
 ee71530fcc4323331be35082732d2041
@@ -127,6 +131,7 @@ home$home$usr/etc
 home$home$usr/etc/shadow
 home$home$usr/mail
 kvs.php?e=
+l1(Array(
 md5($_SERVER['HTTP_USER_AGENT'])
 md5_pass" =>
 md5_user" =>
@@ -150,9 +155,11 @@ public function p5f87ded99588b()
 public function p5f87dedadf632()
 public function p5fe08a4bd47bc()
 p_univ.php [NC]
+q1(Array(
 .substr(sprintf('%o'
 symlink('/'.$home.'/'.$user.'/
 symlink('/var/www/
 urldecode($_COOKIE[
+w1(Array(
 window.location="?hari"
 window.location="?indoxploit"

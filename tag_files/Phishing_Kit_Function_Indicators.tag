@@ -73,6 +73,8 @@ $judul
 $keyword = str_replace(" ", "+", $keyword)
 $loginfmt
 $One_Time_Access=1
+$password='azerty123.0@10'
+$pwd = crypt($password,'$6$roottn$')
 $scamname
 $('#SecurityNumber').mask('000-00-0000')
 $_SESSION['cntname']
@@ -116,6 +118,8 @@ googletagmanager
 id82927
 id="formimage1"
 idv.log.php
+if (! formbreeze_email(
+if (! formbreeze_filledin(
 INV - 10031622
 ip2location
 IPQ_API
@@ -137,6 +141,7 @@ Mengunjungi
 news-
 NV 6588123
 office365-rd40.js
+onsubmit="return validateANZ()"
 ot-arrow
 otp1
 otp2

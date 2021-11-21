@@ -13,7 +13,4 @@ stylessl.alibaba.com
 $subject = "$$$MONEY$$$"
 $message .= "Emailpwd : ".$_POST['pwd']."\n"
 Alibaba&nbsp;Manufacturer&nbsp;Directory&nbsp;-&nbsp;Suppliers,&nbsp;Manufacturers,&nbsp;Exporters&nbsp;&amp;amp;&nbsp;Importers&nbsp;
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Misc. Items
-#------------------------------------------------------------------------------------------------------------------------
 ALiBaBa

@@ -4,9 +4,6 @@
 # Detections made by these indicators in this tag file are basic setup and perfomance functions for several phishing kits.
 # If a detection happens on this tag file, the reported items need to be inspected if they are not already known.
 #------------------------------------------------------------------------------------------------------------------------
-#                                                Associated Kit URLs
-#------------------------------------------------------------------------------------------------------------------------
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Associated Kit Functions
 #------------------------------------------------------------------------------------------------------------------------
 $base=base64_encode($md5)
@@ -36,6 +33,3 @@ recurse_copy( $home, $DIR )
 recurse_copy( $src, $dst )
 recurse_copy($src . '/' . $file,$dst . '/' . $file)
 str_shuffle("0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Misc. Items
-#------------------------------------------------------------------------------------------------------------------------
