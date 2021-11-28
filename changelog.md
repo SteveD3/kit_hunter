@@ -1,3 +1,17 @@
+28-November-2021
+- [x] Updated URL Indicators
+* Added new URLs based on recent scans.
+
+- [x] Updated Telegram Exfiltration Indicators
+* Updated known bot token list.
+
+- [x] Updated Author Indicators
+* Added new author tags, based on recent phishing kit scans.
+
+- [x] Updated Brand Indicators
+* Added new brand markers based on recent scans.
+
+---
 20-November-2021
 - [x] Updated Amazon detection rules
 * Removed security elements and moved them to security indicators

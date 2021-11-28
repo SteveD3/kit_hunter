@@ -68,6 +68,8 @@ bankofamerica.com
 banqueentreprise.bnpparibas
 banquepopulaire.fr
 bcpzonasegurabeta.viabcp.com
+bpergroup.net
+bper.it
 bdo.com.ph
 caisse-epargne.fr
 caixabank.es
@@ -106,6 +108,7 @@ regions.com
 santander.com.br
 secure.alpha.gr
 squareup.com
+tescobank.com
 visaprepaidprocessing.com
 western-security.net
 wetransfer.com
@@ -255,6 +258,8 @@ bins.ribbon.co
 cdnii.e-i.com
 ci4.googleusercontent.com
 ci5.googleusercontent.com
+cookiebot.com
+countryflags.io
 curl.haxx.se
 cutt.ly
 dancevida.com
@@ -298,6 +303,7 @@ cdnsw.com
 fudscript.com
 ghc.ru
 indoxploit.blogspot.co.id
+jerux.to
 kuzuluy.app
 l34kc0de.today
 Market0day.com
@@ -421,7 +427,10 @@ d2papa.com
 etraxer.com
 firb.br
 forwallpaper.com
+hkelectric.com
 ikhbaljb.com
+intuit.com
+intuitcdn.net
 jeann8.com
 maersk.com
 newlife.com

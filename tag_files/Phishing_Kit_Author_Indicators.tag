@@ -31,6 +31,7 @@ Aokville voodoo
 A.O.L Zboon
 Atila
 Atom!c Bomb
+ARDUINO_DAS
 @author avatar
 *B0y
 BA3BA3 SERGIO
@@ -218,6 +219,7 @@ JOkEr7
 JSARZ
 @Kako1336
 KamenKun Coder
+-Kareem-
 KaSha
 keith.luis
 keithmoraga20
@@ -365,6 +367,7 @@ xDD+
 X-GHOST MA
 | xLs |
 XM-HACK
+xMR.Salehx
 ~xrobotos
 xSanchx
 xSmayer

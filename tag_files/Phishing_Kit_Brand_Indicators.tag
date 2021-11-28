@@ -160,6 +160,7 @@ EQ Bank
 Fibank
 Fifth Third Bank
 First Nations Bank of Canada
+Gruppo BPER
 Halifax
 hitBTC
 HLFX-RG
@@ -177,6 +178,7 @@ KeyBank
 KeyBank INFO 1 BY A2ZTOOLZ
 KeyBank INFO 2 BY A2ZTOOLZ
 KeyBank INFO 3 BY A2ZTOOLZ
+La Banque Postale
 La banque Postal
 LakeBTC
 Laurentian Bank of Canada
@@ -198,6 +200,7 @@ Peace Hills Trust
 PNC Online Banking
 Poloniex
 President's Choice Financial
+QuickBooks
 RBC Royal Bank
 RegioNs
 Regions Bank
@@ -214,6 +217,7 @@ Swisscom - Espace Clients
 Tangerine Bank
 -TD $dev-
 TD Canada Trust
+Tesco Bank
 TUrbo Acc Result
 TUrbo Email Access
 TurboTax
@@ -266,6 +270,10 @@ BUDWEISER
 Szatr
 Hn3ww-PNW
 BIG GLOBE Result
+JeruxShop
+HK Electric
+The Hongkong Electric Co., Ltd.
+HKELECTRIC
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Zimbra Phishing Kits
 #------------------------------------------------------------------------------------------------------------------------
