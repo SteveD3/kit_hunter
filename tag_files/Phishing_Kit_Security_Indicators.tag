@@ -7,6 +7,7 @@
 #------------------------------------------------------------------------------------------------------------------------
 $bad_words =
 $blocked_words = array(
+$bannedIP
 $ip = getUserIPszz()
 $warn =
 $warnsubj =
@@ -65,3 +66,12 @@ $sakera=md5($sokera)
 $rine=rand(000000, 9999999)
 $rine = sha1($rine)
 BOTeye v1.9
+#------------------------------------------------------------------------------------------------------------------------
+#                                                SNIPER BOT DETECTION
+#------------------------------------------------------------------------------------------------------------------------
+SNIPER BOT DETECTION
+class Sniper {
+$Sniper = new Sniper;
+$Sniper->apikey($configs['killbot_key'])
+$standardIP = $Sniper->get_client_ip()
+if($Sniper->check() == true){

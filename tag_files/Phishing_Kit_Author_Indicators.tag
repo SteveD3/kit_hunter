@@ -17,6 +17,7 @@ A2Ztoolz
 abdel.sykrit
 Agung Satrio Kuy
 AhMad
+aid3n173
 AJONWA
 aKangRudin
 Akun PP
@@ -29,9 +30,9 @@ AnonymoX9ja
 ANTIBOTS DZEB
 Aokville voodoo
 A.O.L Zboon
+ARDUINO_DAS
 Atila
 Atom!c Bomb
-ARDUINO_DAS
 @author avatar
 *B0y
 BA3BA3 SERGIO
@@ -100,6 +101,7 @@ Codewizard
 Created By (~)
 Created BY $PG Bon
 created by 1gb4l0d3
+Created by Agba
 Created BY Benhacki
 CrEaTeD bY BurHan
 Created By Cokeboi
@@ -209,6 +211,8 @@ Hitman
 Hot-UK->
 iamcoke.boi
 iDiot's
+imanhalal
+IMANHALAL
 IndoXploit
 Indramayu CyBer
 \\ ISI PESAN //
@@ -266,6 +270,7 @@ Mr.K4w4!
 Mr-Sace
 Mr.Undetected
 Mr-Unknown
+MrWeeBee
 Mrx Joker
 N1Y3R0
 New redirect Thor:
@@ -349,6 +354,7 @@ tin4.cole
 Tn Ph0enix
 TN-TN-Hackers
 Tornido
+UNCHEK YUDHA GANZ
 VINOX
 vinz.iDiots
 Virus-ma

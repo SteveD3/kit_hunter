@@ -1,91 +1,47 @@
-28-November-2021
-- [x] Updated URL Indicators
-* Added new URLs based on recent scans.
+05-December-2021
+- [x] Added Generic Webmail Phishing Detection
+* Added a new detection rule to deal with a influx of new generic kits.
 
-- [x] Updated Telegram Exfiltration Indicators
-* Updated known bot token list.
-
-- [x] Updated Author Indicators
-* Added new author tags, based on recent phishing kit scans.
-
-- [x] Updated Brand Indicators
-* Added new brand markers based on recent scans.
-
----
-20-November-2021
-- [x] Updated Amazon detection rules
-* Removed security elements and moved them to security indicators
-
-- [x] Updated LogoKit detection rules
-* Updated indicators based on recent scans.
-
-- [x] Updated Author Indicators
-* Added new author tags, based on recent phishing kit scans.
-
-- [x] Updated Brand Indicators
-* Added new brand markers based on recent scans.
-
-- [x] Updated Function Indicators
-* Added new function tags, based on recent phishing kit scans.
-
-- [x] Updated General Indicators
-* Added new General tags, based on recent phishing kit scans.
-
-- [x] Updated Security Indicators
-* Added new URLs based on recent scans.
-
-- [x] Updated URL Indicators
-* Added new URLs based on recent scans.
-
-- [x] Updated Telegram Exfiltration Indicators
-* Updated known bot token list.
-
-- [x] Updated Z118 detection rules
-* Updated indicators based on recent scans.
-
----
-15-November-2021
-- [x] Updated Chalbhai detection rules
-* Updated rules based on recent scans.
-
-- [x] Updated Obfuscation Indicators
-* Updated indicators based on recent scans.
-
-- [x] Updated True-Login detection rules
-* Updated rules based on recent scans.
-
-- [x] Updated Discover detection rules
-* Removed a common function that was reused in other kits.
-
-- [x] Updated Function Indicators
-* Updated detections with indicator from Discover.
-
-- [x] Updated Telegram Exfiltration Indicators
-* Updated known bot token list.
-* Updated indicator list.
-
----
-07-November-2021
-- [x] Updated Adobe detection rules
+- [x] Updated Microsoft detection rules
 * Added new indicators based on recent scans.
 
-- [x] Updated Brand Indicators
-* Added new brand markers based on recent scans.
+- [x] Updated URL Indicators
+* Added new URLs based on recent scans.
+
+- [x] Updated Telegram Exfiltration Indicators
+* Updated known bot token list. Updated function list.
 
 - [x] Updated Author Indicators
 * Added new author tags, based on recent phishing kit scans.
 
+- [x] Updated Brand Indicators
+* Added new brand markers based on recent scans.
+
 - [x] Updated Function Indicators
 * Added new function tags, based on recent phishing kit scans.
 
-- [x] Updated URL Indicators
-* Added new URLs based on recent scans.
-
 - [x] Updated Security Indicators
-* Added new URLs based on recent scans.
+* Added new blocking detections.
 
+I'll be taking a break from updates while I get some phishing collection issues sorted. Stay warm and safe! See you next year.
+
+---
+## November-2021
+- [x] Updated Adobe detection rules
+- [x] Updated Amazon detection rules
+- [x] Updated Author Indicators
+- [x] Updated Brand Indicators
+- [x] Updated Chalbhai detection rules
+- [x] Updated Discover detection rules
+- [x] Updated Function Indicators
+- [x] Updated General Indicators
+- [x] Updated LogoKit detection rules
+- [x] Updated Obfuscation Indicators
+- [x] Updated Security Indicators
 - [x] Updated Telegram Exfiltration Indicators
-* Updated known bot token list.
+- [x] Updated True-Login detection rules
+- [x] Updated URL Indicators
+- [x] Updated Z118 detection rules
 
 ---
 ## October-2021

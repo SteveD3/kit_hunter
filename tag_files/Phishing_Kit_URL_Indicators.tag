@@ -7,6 +7,10 @@
 #                                                1-and-1 Phishing Kits
 #------------------------------------------------------------------------------------------------------------------------
 1and1.com
+1and1.co.uk
+ionos.de
+ionos.es
+1and1.fr
 ionos.com
 #------------------------------------------------------------------------------------------------------------------------
 #                                                ABSA Phishing Kits
@@ -87,6 +91,7 @@ fibank.bg
 group.bnpparibas
 hellobank.fr
 ibx.key.co
+ing.nl
 internet-banking.dbs.com.sg
 itau24horas.ml
 itau.com.br
@@ -107,6 +112,7 @@ portal.pnb.com.ph
 regions.com
 santander.com.br
 secure.alpha.gr
+sella.it
 squareup.com
 tescobank.com
 visaprepaidprocessing.com
@@ -286,6 +292,7 @@ postimg.org
 proxy.mind-media.com
 remotemysql.com
 safebrowsing.googleapis.com
+site4now.net
 smtp.mailtrap.io
 trublcon.com
 upcloud.host
@@ -329,19 +336,34 @@ www.a-l-e-x-u-s.ru
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Mail
 #------------------------------------------------------------------------------------------------------------------------
+antispam.spg-llc.com
+arsmtp.com
 banglamail.com
+email.rr.com
+emailsrvr.com
 email.t-online.de
-login.t-online.de
 gallery.mailchimp.com
+gandi.net
 groupmail.io
+inbound-2.mimecast.com
+itwconnect.com
+login.t-online.de
+mailanyone.net
 mailfence.com
 mail.herkules-polska.pl
 mail.mpi-cbg.de
 mail.ru
 mail.sina.com.cn
 msgsafe.io
+mtaroutes.com
+mxthunder.co
+parsons-peebles.com
 portail.free.fr
+ppe-hosted.com
+pphosted.com
 rackspacemail.com
+secureserver.net
+skynet.be
 verizon.yahoo.com
 wakwak.com
 webmail.canvas.ne.jp
@@ -423,6 +445,7 @@ api.bestfriendstore.net
 bluehouselondon.com
 boyxd.com
 centraletermo.ro
+clubonerealtors.com
 d2papa.com
 etraxer.com
 firb.br

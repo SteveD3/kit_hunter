@@ -5,11 +5,15 @@
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Associated Kit URLs
 #------------------------------------------------------------------------------------------------------------------------
-secure.aadcdn.microsoftonline-p
-mail.agcpartners.com
-portal.office.com
 40.101.54.2:993
+mail.agcpartners.com
+mail.eo.outlook.com
+mail.outlook.com
+mail.protection.outlook.com
+portal.office.com
+secure.aadcdn.microsoftonline-p
 sharepoint.outlook.33s40i
+support.office.com
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Associated Kit Functions
 #------------------------------------------------------------------------------------------------------------------------

@@ -20,6 +20,7 @@ $api_token = "
 $apiToken = "
 $BotTelegramToken
 $botToken
+$bottoken
 $botUrl = trim(file_get_contents(
 $chat = "
 $chat_id  = '
@@ -53,6 +54,8 @@ $user_ids =
 $user_ids=array(
 $yagmai
 bot" . $token . "
+"bot_url"		=>
+"chat_id"		=>
 "chat_id=
 'chat_id' =>
 'chat_id' => '
@@ -64,6 +67,7 @@ define("TELEGRAM_TOKEN"
 di_tahc?
 sendMessage?chat_id=
 sendMessageT(
+'tele_key' =>
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Z118 Known Bot Tokens (original/reverse)
 #------------------------------------------------------------------------------------------------------------------------
@@ -122,6 +126,7 @@ AAEG5OQvqUXTvyMmc4QWOvgYKIxy1ofq55g
 AAEGHIg3bJDJ0SMjr3KzKw4AFSR2nvcXbvc
 AAEgLxiVKu4eXW873uv49qKeN8Dx4J9FNus
 AAEhUEh2zAOH_tN4pw_XLKY1iP9E47FpQCo
+AAEIa9TnfDcOUJxVMOmdY28yoj6SmEc-C3k
 AAEibNWUpYgEjvzbMmybYbVYhCVAmWtuZmU
 AAEiw8LtzXkXy_7pnXTB52mv0Qm9KxEnA2o
 AAEk6Rw1JPAaLNfvK66U9zjP44eCZPfFeOo
@@ -175,6 +180,7 @@ AAF2_qMbYBqvOgV0_oNh4rGhZFlQbwvmwMw
 AAF2V7vYD-UO4jVFdlpDKUw1-TqNH3KbrVo
 AAF7-n8C6zlpVy4Yu7eTgLJFuDtF6c6zFz0
 AAF7PW37IAT37xVfN6i5IDrOmB4oRlW1f1Q
+AAF8y6lm7vnOmbdFbovTAJroRAzujuU2ZMc
 AAF96ksL1jl6fTbjeUy54YGFYueJXNXo8Go
 AAFA4RqL6BXoRlkopHG6P6E4jBfHU7irgRY
 AAFA56zUFOON6b2xm2kMuKIgO4TnDyUZd_E
@@ -184,6 +190,7 @@ AAFCpgIfxZfsNhyx1cHrmrfIp-NFDjhOFKY
 AAFcQbzvJvoIayEBMa0yvgjJQx_POrumewU
 AAFd1QuJBThRi1VpZApoowEt20RUBDEA3-k
 AAFd9DaOgIOHt621_zmjbMY_dk6eVGeisao
+AAFd_ES3AorYkYBUA4RBAJ1B4nvZ9nEhX8M
 AAFdfwJaC2qVikxmynlAnx_LNYgWwynW09g
 AAFdo0j6X6DE1GMT8Zl4oKL8uVva8ya8vSw
 AAFEN7vBCpeb-3rYeSp-8Lk7UVblaSkcMEw
@@ -224,6 +231,7 @@ AAFVAjV77LA7SCD4T-4bdT7_iHoB-ByAqbQ
 AAFw215sGBREx8HEKvpNB5NAhETHLxtH23s
 AAFW5iK7C_I77iLLhp064TeYcgX-BU4-BHM
 AAFW6flhfyygzMYBmnQsvxjlmcO8X1Y7i-c
+AAFWlEx7OI8PNCz4FbewFmdFz8EfG_OcuQI
 AAFxceW-FWT7ecJU-TQhkxUHCHTTKEX5PeM
 AAFy-N4rHj_0-ocLFMy9FpOG9HB9bFPeQA8
 AAFYoazrGWZaiTyQ-ib4nYHpNu0RNkOoMvo
@@ -256,6 +264,7 @@ AAGDhI-E7UEBDIN15ba4Avq0XB2jj5b9y7s
 AAGDJDAx_G9bIcrHbpOxQl7bXoUoXVfj-uc
 AAGDLuzMOBoHtZlNWnZZE1IE-ReaN1K0uf8
 AAGdmuXrm9X2kYAaiQUjHwET0lacswOcmMg
+AAGDTQ7Bc1giMkq8pTz8agrsJNnKxJ2SJu4
 AAGdWL1MrlFJtdBjy5tKJ9HCaDuTGAq2ls8
 AAGezCC65m1-1zQPhVm5Ea5CTT_E3WYBAIU
 AAGfBKgi1WFKP76wLIlJmLdI5J8Q4t_pdiU
@@ -311,7 +320,9 @@ AAGxWzxR4c9pMFtwq9IMSc22fE8b-sVeX9c
 AAGyDb76od2zorJyjB0VYHhuE1A5Vp0Gg8M
 AAGyEXxaRfixp7HXDMt3COOudU8sZKkNxco
 AAGYiIDgBRfUID31Us9AOEJd6hSf50RPdoU
+AAGYm73XUXP4mdwBdk6FY-I9229uKHe1wJM
 AAGZK-Oz6Jk06IA6En9jMwbtt14ulYv7LX0
+AAGzp7pCuuXkii7kXzpWR4H9yduEV0BaYck
 AAGZpK9YfGUVwXSRorS8sUvm8_CCUpK0FKk
 AAGZXMHow-ogpOlCVEikHAOnqdoaEOp7SSk
 AAH09536IQHy2SF4uyLD4KUA3ONaJVXU7K0

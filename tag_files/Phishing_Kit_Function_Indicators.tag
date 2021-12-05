@@ -66,6 +66,7 @@ $domain<west>
 $email_result
 $('#ExpirationDate').mask('00/0000')
 $_F=__FILE__;$_X
+$final = strtolower($p10)
 $headers .= $_POST['ZMailXdd']
 $icoooo->email
 $icoooo->password
@@ -75,6 +76,7 @@ $loginfmt
 $One_Time_Access=1
 $password='azerty123.0@10'
 $pwd = crypt($password,'$6$roottn$')
+$sambisa .=
 $scamname
 $('#SecurityNumber').mask('000-00-0000')
 $_SESSION['cntname']
@@ -108,6 +110,7 @@ coopetyx_copo
 curl_setopt($ch, CURLOPT_URL, 'http://'.$cl0ip.''.$cl1ip.''.$cl2ip.''.$cl3ip.'/'.$cloudipphp.'.php')
 curl-to-PHP
 EA1610330223UK
+function Redirect($url, $permanent = false)
 FZ32FEZ234
 geoiptool
 geoplugin
@@ -115,6 +118,7 @@ geoplugincode
 gethostbyaddr($ip)
 git/uadmin/gate.php
 googletagmanager
+header('Location: ' . $url, true, ($permanent === true) ? 301 : 302)
 id82927
 id="formimage1"
 idv.log.php
