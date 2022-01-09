@@ -4,6 +4,7 @@
 	- Duplicate or overlapping detections were cleaned up / removed.
 	- New detections added based on scanning towards the end of December 2021, and the first week of January 2022.
 	- Quick Scan detection rules were updated.
+	- Unless otherwise needed due to significant changes or new detections, tag updates will now happen monthly instead of weekly.
 
 ---
 ## 2021 Updates
