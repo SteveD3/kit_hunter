@@ -1,18 +1,11 @@
 #------------------------------------------------------------------------------------------------------------------------
-#                                                Comcast PHISHING KIT
+#                                               Global Sources PHISHING KIT Detection
 #------------------------------------------------------------------------------------------------------------------------
-# Detections made by the indicators in this tag file are associated with known Comcast (Xfinity) phishing kits.
+# The files detected by tags in this list have been connected to Global Sources phishing attacks.
 #------------------------------------------------------------------------------------------------------------------------
-.comcast.net
-.xfinity.com
-mrmoz.com
-.comcast.com
-$headers = "From: comcastfula
-Comcast LOGS
-Comcast User Notification
-content="Get the most out of Xfinity from Comcast by signing in to your account.
->Sign in to Xfinity<
-xc-header--xfinity-logo
-Comcast
-Xfinity
+.globalsources.com
+>Global Sources<
+"Global Source. Log!"
+Reliable exporters: find them and meet them
+Publishers Representatives Limited.
 #------------------------------------------------------------------------------------------------------------------------

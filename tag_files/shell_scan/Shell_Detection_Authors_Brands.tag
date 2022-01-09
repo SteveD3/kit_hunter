@@ -32,6 +32,7 @@ Coded by: L0c4lh34rtz
 Coded By SadCode.org
 Con7ext Mini Shell
 Con7ext Shell
+content="Hacked By Extreme Crew"
 Create by Pst4r8
 Created By Driv3r Kr
 D704T
@@ -47,6 +48,7 @@ GREEN SHELL V1
 h0d3_g4nt3ng
 H3K | Tiny File Manager
 HACKED BY IDBTE4M
+>HACKED BY SID GIFARI FROM TEAM_CC
 Hard coded by 0x1999
 ICTUS Digital Security Team Iran
 ICWR-TECH
@@ -65,6 +67,8 @@ MAILLIST by SELLER82
 Mail Sent By Freshrdp
 Manz Shell
 Mass Defacement Script
+Mass Defacement Script By Yunus Incredibl
+>Mass Defacer - By Sid Gifari<
 Mauritania HaCker Team
 MCA-AFC-HFE
 MiNi BaCkDoOr

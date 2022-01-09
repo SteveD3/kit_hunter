@@ -1,18 +1,17 @@
 #------------------------------------------------------------------------------------------------------------------------
-#                                                Comcast PHISHING KIT
+#                                                SPM55 PHISHING KIT Detection
 #------------------------------------------------------------------------------------------------------------------------
-# Detections made by the indicators in this tag file are associated with known Comcast (Xfinity) phishing kits.
+# The files detected by tags in this list have been connected to SPM55 phishing attacks, which targets 
+# a number of consumer and corporate brands. Detections should be immediately investigated.
 #------------------------------------------------------------------------------------------------------------------------
-.comcast.net
-.xfinity.com
-mrmoz.com
-.comcast.com
-$headers = "From: comcastfula
-Comcast LOGS
-Comcast User Notification
-content="Get the most out of Xfinity from Comcast by signing in to your account.
->Sign in to Xfinity<
-xc-header--xfinity-logo
-Comcast
-Xfinity
+5.183.11.112
+spm55.com
+spm55-v2.com
+$spm55_
+spm55bot
+$SPM55_
+$head .= "From: SPM55 <
+if (!isset($_POST['kontolasu']))
+SPM55 - PRIVATE COINBASE
+SPM55 Panel Scampage
 #------------------------------------------------------------------------------------------------------------------------

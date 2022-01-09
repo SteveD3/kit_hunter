@@ -5,17 +5,16 @@
 # The indicators below all come from confirmed LOGO KIT phishing kits, or ripped (stolen/cloned) LOGO KIT variants.
 # Any detection from these rules should lead to an immediate inspection of the files flagged.
 #------------------------------------------------------------------------------------------------------------------------
-#                                                Associated Kit URLs
-#------------------------------------------------------------------------------------------------------------------------
 logo.clearbit.com
 pirakuwru.ru
 rldudi.com
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Associated Kit Functions
-#------------------------------------------------------------------------------------------------------------------------
 $header = "Content type: xeuztech \r\n"
 !base64regex.test(ai))
 c = my_slice
+e.keyCode === 67
+e.keyCode === 85
+e.keyCode === 86
+e.keyCode === 117
 file="bmV4dC5waHA="
 id="authOptionLinks"
 id="authOptions"

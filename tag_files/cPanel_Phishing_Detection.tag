@@ -3,16 +3,11 @@
 #------------------------------------------------------------------------------------------------------------------------
 # Detections made by the indicators in this tag file are associated with known cPanel phishing kits.
 # cPanel and WHM are the backend applicaions used by shared, dedicated, and reseller webhosting.
-# Criminals target it mainly for accessto webhosting and webmail. Credential stuffing also plays a role in attacks on these platforms.
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Associated Kit URLs
+# Criminals target it mainly for access to webhosting and webmail. Credential stuffing also plays a role in attacks on these platforms.
 #------------------------------------------------------------------------------------------------------------------------
 webmaiil.website
 buycpanel.com
 cpanel.net
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Associated Kit Functions
-#------------------------------------------------------------------------------------------------------------------------
 $headers = "From: ||FM BOSS||<Noreply@cPANEL.com>
 $mail->Port = 587
 :2082
@@ -27,3 +22,4 @@ CP Sign Details
 From: Gemini
 http://'.$domain.'/webmail
 cPanel
+#------------------------------------------------------------------------------------------------------------------------

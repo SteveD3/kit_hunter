@@ -4,8 +4,6 @@
 # The files detected by tags in this list have been connected to BulletPro Phishing-as-a-Service / shop, which targets 
 # a number of consumer and corporate brands. Detections should be immediately investigated.
 #------------------------------------------------------------------------------------------------------------------------
-#                                                Associated Kit URLs
-#------------------------------------------------------------------------------------------------------------------------
 apidatacss.com
 apiserverdata1.com
 baller.top
@@ -51,16 +49,11 @@ vitme.bid
 voksmtp.com
 webpicture.cc
 winsmtp.com
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Associated Kit Functions
-#------------------------------------------------------------------------------------------------------------------------
 function sendemail_using_sendgrid(
 function mg(a, o, t) {
 $TheBoss
 finish-unv2.php
 finish-unv22.php
 /email-list/
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Misc. Items and Email Prefixes
-#------------------------------------------------------------------------------------------------------------------------
 anthraxbcg
+#------------------------------------------------------------------------------------------------------------------------

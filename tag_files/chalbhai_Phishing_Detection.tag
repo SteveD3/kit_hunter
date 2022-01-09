@@ -6,8 +6,6 @@
 # For example, phishing kits leveraging chalbhai have targeted: Apple, American Express, DHL, GoDaddy, Chase Bank,
 # Bank of America, Daum, Costco, WeTransfer, Scotia Bank, Sharepoint, K&H Bank, INTERAC, One Drive, and more.
 #------------------------------------------------------------------------------------------------------------------------
-#                                                Associated Kit Functions
-#------------------------------------------------------------------------------------------------------------------------
 id=aramsejao
 id=asldengy
 id=bhaagjoa
@@ -24,9 +22,6 @@ name=khannalao
 name=mundachok
 chalbhai
 galanchd
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Associated Kit Files
-#------------------------------------------------------------------------------------------------------------------------
 surf.php
 surf1.php
 surf2.php
@@ -57,3 +52,4 @@ need6.php
 need7.php
 need8.php
 need9.php
+#------------------------------------------------------------------------------------------------------------------------

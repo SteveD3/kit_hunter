@@ -38,6 +38,8 @@ $newpass = "Fuck!!NO&&WOSA!!TSWO6&&12"
 $OI0IO10101OI0I01=__FILE__
 $OO00_O_0_O='1'
 $O_OO00O0__
+$pass="0028f8cbf649819ff18dc7b005d550d5"
+$Password="T9HJBPMmBlT1CD3"
 $payload_code
 $payload_write
 $ROCHKoW2uu =

@@ -1,18 +1,14 @@
 #------------------------------------------------------------------------------------------------------------------------
-#                                                Comcast PHISHING KIT
+#                                                Proofpoint PHISHING KIT Detection
 #------------------------------------------------------------------------------------------------------------------------
-# Detections made by the indicators in this tag file are associated with known Comcast (Xfinity) phishing kits.
+# The files detected by tags in this list have been connected to Proofpoint phishing attacks, which targets 
+# the widely used email security vendor. Detections on the brandname alone could indicate proactive security blocking by
+# phishing kits.
 #------------------------------------------------------------------------------------------------------------------------
-.comcast.net
-.xfinity.com
-mrmoz.com
-.comcast.com
-$headers = "From: comcastfula
-Comcast LOGS
-Comcast User Notification
-content="Get the most out of Xfinity from Comcast by signing in to your account.
->Sign in to Xfinity<
-xc-header--xfinity-logo
-Comcast
-Xfinity
+proofpoint.com
+139.59.50.21
+class="proofimg"
+class="formsproof"
+ANd9GcTeqhHP5-VS1258-BOt3Ex1M8WHT-igGXsvVcz_6VYhN-zS6KlxgQ
+Proofpoint
 #------------------------------------------------------------------------------------------------------------------------

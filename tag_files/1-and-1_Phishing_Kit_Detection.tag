@@ -3,6 +3,12 @@
 #------------------------------------------------------------------------------------------------------------------------
 # Kits associated with 1&1 and IONOS phishing campaigns will contain these indicators.
 #------------------------------------------------------------------------------------------------------------------------
+1and1.com
+1and1.co.uk
+ionos.de
+ionos.es
+1and1.fr
+ionos.com
 mail.ionos.ca
 mail.ionos.co.uk
 mail.ionos.de
@@ -24,3 +30,4 @@ oao.login.forgotpw.link
 oao.login.heading
 oao.login.ionos.link
 oao.login.title
+#------------------------------------------------------------------------------------------------------------------------

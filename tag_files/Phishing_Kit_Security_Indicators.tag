@@ -8,6 +8,8 @@
 $bad_words =
 $blocked_words = array(
 $bannedIP
+$badkeys = array(
+function match($badkeys, $passwd)
 $ip = getUserIPszz()
 $warn =
 $warnsubj =
@@ -37,7 +39,6 @@ foreach ($bannedIP as $ip) {
 foreach ($blocked_words as $word) {
 foreach ($Bot as $BotType) {
 fucker.php
-GODADDY
 HTTrack
 ia_archiver
 Jaybizzle
@@ -48,14 +49,11 @@ NETCRAFT
 p3pwgdsn
 PHISHTANK
 PycURL
-RACKSPACE
 ReferralSpamDetect
 safebrowsing-cache
 softlayer
 spyeyes
 tor-exit
-YahooSeeker
-Yahoo! Slurp
 #------------------------------------------------------------------------------------------------------------------------
 #                                                BOTEYE Setup (bot scripts)
 #------------------------------------------------------------------------------------------------------------------------

@@ -4,12 +4,12 @@
 # Kits associated with Amazon phishing campaigns will contain these indicators.
 # The indicators below have all been recorded from Amazon phishing kits, and cover multiple authors and variants.
 #------------------------------------------------------------------------------------------------------------------------
-#                                                Associated Kit URLs
-#------------------------------------------------------------------------------------------------------------------------
 freakz.site
 freakzbrothers.team
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Associated Kit Functions
+amazon.com
+amazon.de
+amazon.co.jp
+amazon.fr
 #------------------------------------------------------------------------------------------------------------------------
 include('amazon/
 src="../amazon/
@@ -40,8 +40,6 @@ $lang['login']['amzpassword'] = "Mot de passe Amazon"
 $lang['billing']['title'] = "Amazon - Informations de mise à jour"
 Activation Key	= "000-111-000"
 #------------------------------------------------------------------------------------------------------------------------
-#                                                Misc. Items
-#------------------------------------------------------------------------------------------------------------------------
 [ AMAZON ACCOUNT ]
 Account Amazon
 [ iDiot's Amazon ]
@@ -49,3 +47,4 @@ Account Amazon
 freakzbrothers-v2.0-$randomnumber
 idiot.is.here@goblok.plk
 amazon4-$randomnumber
+#------------------------------------------------------------------------------------------------------------------------

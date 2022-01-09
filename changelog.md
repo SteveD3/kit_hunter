@@ -1,101 +1,41 @@
-05-December-2021
-- [x] Added Generic Webmail Phishing Detection
-* Added a new detection rule to deal with a influx of new generic kits.
-
-- [x] Updated Microsoft detection rules
-* Added new indicators based on recent scans.
-
-- [x] Updated URL Indicators
-* Added new URLs based on recent scans.
-
-- [x] Updated Telegram Exfiltration Indicators
-* Updated known bot token list. Updated function list.
-
-- [x] Updated Author Indicators
-* Added new author tags, based on recent phishing kit scans.
-
-- [x] Updated Brand Indicators
-* Added new brand markers based on recent scans.
-
-- [x] Updated Function Indicators
-* Added new function tags, based on recent phishing kit scans.
-
-- [x] Updated Security Indicators
-* Added new blocking detections.
-
-I'll be taking a break from updates while I get some phishing collection issues sorted. Stay warm and safe! See you next year.
+## January 09 2022
+- [x] Updated all tag files and detections. Too many changes to list.
+	- Tag files reduced in size.
+	- Duplicate or overlapping detections were cleaned up / removed.
+	- New detections added based on scanning towards the end of December 2021, and the first week of January 2022.
+	- Quick Scan detection rules were updated.
 
 ---
-## November-2021
+## 2021 Updates
+- [x] Kit Hunter v2.6.0 Minor Release
+- [x] Kit Hunter v2.5.9 Major Release
+- [x] Added detections for BulletPro Phishing-as-a-Service kits
+- [x] Added Generic Webmail Phishing Detection
+- [x] Added INTERAC detection rules for financial phishing
+- [x] Added Netflix detection rules
+- [x] Added UPS indicators to USPS detection rules
+- [x] Added YASSCOM detection rules
+- [x] Bank of America Indicators
 - [x] Updated Adobe detection rules
 - [x] Updated Amazon detection rules
 - [x] Updated Author Indicators
+- [x] Updated Bank of America Indicators
 - [x] Updated Brand Indicators
-- [x] Updated Chalbhai detection rules
+- [x] Updated Chalbhai Indicators
+- [x] Updated Chase detection rules
+- [x] Updated cPanel detection rules
 - [x] Updated Discover detection rules
 - [x] Updated Function Indicators
 - [x] Updated General Indicators
+- [x] Updated Generic Phishing Setup Indicators
 - [x] Updated LogoKit detection rules
+- [x] Updated Microsoft detection rules
 - [x] Updated Obfuscation Indicators
+- [x] Updated PayPal detection rules
+- [x] Updated Quick Scan Indicators
+- [x] Updated script documentation under help.
 - [x] Updated Security Indicators
 - [x] Updated Telegram Exfiltration Indicators
 - [x] Updated True-Login detection rules
 - [x] Updated URL Indicators
 - [x] Updated Z118 detection rules
-
----
-## October-2021
-
-- [x] Added Netflix detection rules
-- [x] Added UPS indicators to USPS detection rules
-- [x] Added YASSCOM detection rules
-- [x] Updated Adobe detection rules
-- [x] Updated Author Indicators
-- [x] Updated Brand Indicators
-- [x] Updated Chalbhai detection rules
-- [x] Updated Chase detection rules
-- [x] Updated cPanel detection rules
-- [x] Updated Function Indicators
-- [x] Updated General Indicators
-- [x] Updated Generic Phishing Setup Indicators
-- [x] Updated Microsoft detection rules
-- [x] Updated Obfuscation Indicators
-- [x] Updated PayPal detection rules
-- [x] Updated Security Indicators
-- [x] Updated Telegram Exfiltration Indicators
-- [x] Updated URL Indicators
-
----
-## Kit Hunter v2.6.0 Minor Release
-
-- [x] Error checking
-  * Error checking added to the script to address problems experienced in Issue #2, raised by j75.
-    The error checking will log all errors to the end of the generated Kit Hunter report.
-
----
-## Kit Hunter v2.5.9 Major Release
-
-- [x] New function enabled
-  * Added shell scanning to the standard set of tools. Use -s to activate.
-
-- [x] Updated function
-  * Added direct input for directory switching (-d). The directory patch is now a commandline argument.
-
-- [x] Updated script documentation under help.
-
----
-## September-2021
-
-- [x] Added detections for BulletPro Phishing-as-a-Service kits
-- [x] Added INTERAC detection rules for financial phishing
-- [x] Bank of America Indicators
-- [x] Updated Author Indicators
-- [x] Updated Bank of America Indicators
-- [x] Updated Brand Indicators
-- [x] Updated Chalbhai Indicators
-- [x] Updated Function Indicators
-- [x] Updated General Indicators
-- [x] Updated Obfuscation Indicators
-- [x] Updated Quick Scan Indicators
-- [x] Updated Telegram Exfiltration Indicators
-- [x] Updated URL Indicators

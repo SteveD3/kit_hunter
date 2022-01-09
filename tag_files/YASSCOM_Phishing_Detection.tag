@@ -4,8 +4,6 @@
 # The files detected by tags in this list have been connected to YASSCOM phishing kits, which target 
 # PayPal and Apple. Detections should be immediately investigated.
 #------------------------------------------------------------------------------------------------------------------------
-#                                                Associated Kit Functions
-#------------------------------------------------------------------------------------------------------------------------
 $_SESSION['xcountryCodex']
 $_SESSION['xfilelangx']
 $_SESSION['xyscardnumberx']
@@ -28,3 +26,4 @@ XYSINCLUDEDX
 XYSLANGSX
 xysrecurse_copyx($YSS, $FOL)
 XYSSENDX
+#------------------------------------------------------------------------------------------------------------------------

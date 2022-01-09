@@ -4,48 +4,33 @@
 # recycled and used by crimials in their phishing kit development.
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Google Firebase
-#------------------------------------------------------------------------------------------------------------------------
 firebase-
 firebasestorage.googleapis.com
-#------------------------------------------------------------------------------------------------------------------------
 #                                                CodeIgnighter Calls / Cazanova Haxor
-#------------------------------------------------------------------------------------------------------------------------
 define('X_RESULT_NAME
 define('X_RESULT_EMAIL
 define('X_TEXT_ENCRYPTION
 define('X_ANTIBOT
 define('X_CAPTCHA
 define('X_USE_SMTP
-define('X_SMTP_HOST
-define('X_SMTP_PORT
-define('X_SMTP_USER
-define('X_SMTP_PASS
-define('X_SMTP_CRYP
+define('X_SMTP_
 $config['sess_cookie_name'] = 'cazanova'
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Google Safe Browsing API calls (Often Obfuscated)
-#------------------------------------------------------------------------------------------------------------------------
 AIzaSyCtXgqFgLIeo8DzI-Xn571TcLl2F2TGLbA
 const SAFE_BROWSING_API_KEY =
 const SAFE_BROWSING_CHECK_INTERVAL =
 const SAFE_BROWSING_CLIENT_ID =
 const SAFE_BROWSING_CLIENT_VERSION =
 /v4/threatMatches:find?key=
-#------------------------------------------------------------------------------------------------------------------------
 #                                                TodayZoo Phishing Kits (MSFT Research)
-#------------------------------------------------------------------------------------------------------------------------
 $('#Tombol1')
 vcoominctodayq.php
 todayzoo.php
 data: { u : email, p : password_v}
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Zimbra Phishing Kits
-#------------------------------------------------------------------------------------------------------------------------
 id="ZLoginAppName"
 class="zLoginField"
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Known Phishing Kit Function Calls
-#------------------------------------------------------------------------------------------------------------------------
 $a370a
 $a4ade
 $Abuse_Filter
@@ -85,6 +70,7 @@ $subject = "Card | $ip"
 $SYPHER_NAME
 $SYPHER_SUBJECT
 $VictimInfo
+$WELLS_SESSION_SPOX
 $xqiswxnwxf=
 $yahya_email
 $zabi
@@ -117,6 +103,7 @@ geoplugin
 geoplugincode
 gethostbyaddr($ip)
 git/uadmin/gate.php
+/uadmin/gate.php
 googletagmanager
 header('Location: ' . $url, true, ($permanent === true) ? 301 : 302)
 id82927
@@ -132,6 +119,7 @@ jpui
 kaptcha.php
 kerio_
 >{keyword}<
+kirim = mail($emailku, $subjek, $pesan, $headers)
 KLNDRR2
 knkgd6u1_sirus
 Kullanici Adi
@@ -141,6 +129,7 @@ localhost/uadmin/gates/
 >...Login...<
 Login Type Selection --
 + LOGS +
+".md5('XCLAY')."
 Mengunjungi
 news-
 NV 6588123

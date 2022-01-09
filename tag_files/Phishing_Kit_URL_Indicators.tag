@@ -1,74 +1,17 @@
 #------------------------------------------------------------------------------------------------------------------------
 # The URLs in this tag file have been observed in phishing kits, or victimized by phishing kits. Detections should be
-# treated as suspicious and confirmed manually. If you're not expecting to see a given URL used on your website or service
-# that should be seen as a red flag. When detections happen within this tag file and other tag files, 
+# treated as suspicious and confirmed manually. When detections happen within this tag file and other tag files, 
 # the weighted view should be seen as cause for investigation.
 #------------------------------------------------------------------------------------------------------------------------
-#                                                1-and-1 Phishing Kits
-#------------------------------------------------------------------------------------------------------------------------
-1and1.com
-1and1.co.uk
-ionos.de
-ionos.es
-1and1.fr
-ionos.com
-#------------------------------------------------------------------------------------------------------------------------
-#                                                ABSA Phishing Kits
-#------------------------------------------------------------------------------------------------------------------------
-absa.co.za
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Alibaba Phishing Kits
-#------------------------------------------------------------------------------------------------------------------------
-1688.com
-alibaba.com
-alibabagroup.com
-alicdn.com
-aliexpress.com
-alimama.com
-alitrip.com
-aliunicorn.com
-aliyun.com
-autonavi.com
-dingtalk.com
-intl.alipay.com
-laiwang.com
-taobao.com
-tmall.com
-ttpod.com
-umeng.com
-us.my.alibaba.com
-xiami.com
-yunos.com
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Amazon Phishing Kits
-#------------------------------------------------------------------------------------------------------------------------
-amazon.com
-amazon.de
-amazon.co.jp
-amazon.fr
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Apple Phishing Kits
-#------------------------------------------------------------------------------------------------------------------------
-apple.com
-appleid.apple.com
-icloud.com
-iforgot.apple.com
-#------------------------------------------------------------------------------------------------------------------------
-#                                                AT&T Phishing Kits
-#------------------------------------------------------------------------------------------------------------------------
-att.com
-att.net
-attplans.com
-currently.att.yahoo.com
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Banking
-#------------------------------------------------------------------------------------------------------------------------
 53.com
 akessiefbehrporle.com
 alaskausa.org
+anz.com.au
+anz.co.nz
+anz.com
 bancogalicia.com.ar
 bankia.es
-bankofamerica.com
 banqueentreprise.bnpparibas
 banquepopulaire.fr
 bcpzonasegurabeta.viabcp.com
@@ -79,12 +22,14 @@ caisse-epargne.fr
 caixabank.es
 cic.fr
 citi.com
+commercebank.com
 connect.secure.wellsfargo.com
+cra-arc.gc.ca
 credicard.com.br
 credit-agricole.fr
 credit-card-information.elliottback.com
 creditmutuel.fr
-discover.com
+ebank.dibpak.com
 eldni.com
 equabank.cz
 fibank.bg
@@ -102,6 +47,7 @@ mabanque.bnpparibas
 mabanqueprivee.bnpparibas
 moneyissues.ng
 mtb.com
+navyfederal.org
 nedbank.co.za
 nwolb.com
 online.adp.com
@@ -109,19 +55,21 @@ onlinebanking.firstcaribbeanbank.com
 onlinebanking.pnc.com
 openknowledge.worldbank.org
 portal.pnb.com.ph
+parsian-bank.ir
+relaxbanking.it
 regions.com
 santander.com.br
 secure.alpha.gr
 sella.it
+standardbank.com.na
 squareup.com
 tescobank.com
 visaprepaidprocessing.com
 western-security.net
 wetransfer.com
+www13.bmo.com
 www.kh.hu
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Credit Monitoring
-#------------------------------------------------------------------------------------------------------------------------
 creditkarma.ca
 creditkarma.com
 econsumer.equifax.ca
@@ -131,46 +79,14 @@ equifaxcreditwatch.ca
 members.transunion.ca
 transunion.ca
 transunion.com
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Bell Phishing Kits
-#------------------------------------------------------------------------------------------------------------------------
-sympatico.ca
-bell.net
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Blockchain Phishing Kits
-#------------------------------------------------------------------------------------------------------------------------
-coinbase.com
-commerce.coinbase.com
-prime.coinbase.com
-pro.coinbase.com
-developers.coinbase.com
-safemoon.net
-#------------------------------------------------------------------------------------------------------------------------
-#                                                BT Phishing Kits
-#------------------------------------------------------------------------------------------------------------------------
-btbusiness.custhelp.com
-bt.custhelp.com
-bt.co.uk
-btmail.bt.com
-home.bt.com
-btinternet.com
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Costco Phishing Kits
-#------------------------------------------------------------------------------------------------------------------------
 costco.ca
 costco.com
 costco.co.uk
 costcophotocenter.com
 costcotravel.ca
 costcotravel.co
-#------------------------------------------------------------------------------------------------------------------------
-#                                                DHL Phishing Kits
-#------------------------------------------------------------------------------------------------------------------------
-dhl.com
-dhl.de
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Document Scams
-#------------------------------------------------------------------------------------------------------------------------
 app.lawofficeneal.online
 app.nealrose-lawoffices.online
 files.lawoffice-nealroseberg.online
@@ -179,15 +95,25 @@ secured.lawfirmnearl.online
 secured.rosellawassocciates.online
 secure.lawoffices-of-neal.online
 secure.nealrose-lawofficerecords.online
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Education
-#------------------------------------------------------------------------------------------------------------------------
+adfs.lu.se
+correo.bl.fcen.uba.ar
+ident.univ-amu.fr
+luservicedesk.service-now.com
+mail.bl.fcen.uba.ar
+mail.ethz.ch
+nmail.unileoben.ac.at
 osu.edu
-#------------------------------------------------------------------------------------------------------------------------
+webmail.lu.se
+webmail.unvime.edu.ar
+wmail.hines.hokudai.ac.jp
 #                                                Government
-#------------------------------------------------------------------------------------------------------------------------
+acq.osd.mil
 benefits.ides.illinois.gov
+cdph.ca.gov
+edd.ca.gov
 gov.uk
+health.mo.gov
 health.ny.gov
 idot.illinois.gov
 labor.maryland.gov
@@ -198,63 +124,54 @@ pua.benefits.uc.pa.gov
 recruiting.jcf.gov.jm
 ui-cares-act.mass.gov
 wisconsin.gov
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Spectrum Phishing
-#------------------------------------------------------------------------------------------------------------------------
-spectrum.net
-watch.spectrum.net
-webmail.roadrunner.com
-webmail.spectrum.net
-#------------------------------------------------------------------------------------------------------------------------
 #                                                ISPs and Tech Services
-#------------------------------------------------------------------------------------------------------------------------
 accounts.login.idm.telekom.com
 ad.aruba.it
 akamaihd.net
 akamaized.net
 app-id=com.vzw.hss.myverizon
-auth.centurylink.net
 bitrix24.com
 csolve.net
 deloitte.com
 deloitteresources.com
-docusign.com
-docusign.net
 ftcdn.net
-godaddy.com
 kyivstar.net
 login.frontier.com
 login.t-online.de
 mega.bw
 mobile.de
+myhughesnet.com
 nexmo.com
 onetrust.com
 onlinehome.de
-optimum.net
 optusnet.com.au
 orange.fr
 rackspace.com
+rackspacemail.com
 sailpoint.com
 seanet.com
 siteserve.jp
 socket.net
 spotify.com
+spark.co.nz
 static.licdn.com
 swisscom.ch
+t-online.de
 tatic-exp1.licdn.com
 tawk.to
 telekom.de
 tiqcdn.com
 tlh.ro
+weebly.com
 westnet.com.au
 wowway.net
 wvtc.com
 www.nutopia.com.au
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Kit Functions
-#------------------------------------------------------------------------------------------------------------------------
 2no.co
 api.ipapi.com
+apilayer.net
+api.nichicodex.xyz
 api.npoint.io
 api.userstack.com
 bincodes.com
@@ -270,6 +187,7 @@ curl.haxx.se
 cutt.ly
 dancevida.com
 dclic-resolver.e-i.com
+dox2x.com
 extreme-ip-lookup.com
 i.ibb.co
 ip2geo.com
@@ -287,6 +205,7 @@ killbot.org
 likemyphp.com
 lookup.binlist.net
 me2mekrf.com
+mx-api.com
 nullrefer.com
 postimg.org
 proxy.mind-media.com
@@ -298,9 +217,7 @@ trublcon.com
 upcloud.host
 xooimage.com
 yimg.com
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Kit Markets and Advertising
-#------------------------------------------------------------------------------------------------------------------------
 7812w.pl
 7jyewu.cn
 a2ztoolz.com
@@ -313,6 +230,7 @@ indoxploit.blogspot.co.id
 jerux.to
 kuzuluy.app
 l34kc0de.today
+leafmailer.pw
 Market0day.com
 marketx.bz
 orvx.pw
@@ -333,13 +251,10 @@ webtoolhub.com
 withoutshadow.org
 wos-linuxers.blogspot.com
 www.a-l-e-x-u-s.ru
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Mail
-#------------------------------------------------------------------------------------------------------------------------
 antispam.spg-llc.com
 arsmtp.com
 banglamail.com
-email.rr.com
 emailsrvr.com
 email.t-online.de
 gallery.mailchimp.com
@@ -361,59 +276,33 @@ parsons-peebles.com
 portail.free.fr
 ppe-hosted.com
 pphosted.com
-rackspacemail.com
 secureserver.net
 skynet.be
 verizon.yahoo.com
 wakwak.com
 webmail.canvas.ne.jp
-webmail.earthlink.net
 webmail.shaw.ca
-webtop.webmail.optimum.net
 yandex.com
 yandex.ru
 ymail.com
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Media
-#------------------------------------------------------------------------------------------------------------------------
 2m.ma
 comrise.ru
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Microsoft Phishing Kits
-#------------------------------------------------------------------------------------------------------------------------
-live.com
-microsoftonline.com
-msauth.net
-msftauth.net
-logincdn.msauth.net
-#------------------------------------------------------------------------------------------------------------------------
-#                                                PayPal Phishing Kits
-#------------------------------------------------------------------------------------------------------------------------
-localheartz.club
-paypal.co.jp
-paypal.com
-paypal.de
-paypal.fr
-snsv-crew.id
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Postal Scams
-#------------------------------------------------------------------------------------------------------------------------
 bancoposta.poste.it
 correos.cl
+epg.ae
 fedex.com
 postandparcel.info
 postepay.poste.it
 postoffice.co.uk
 royalclass.com.ar
-usps.com
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Retail
-#------------------------------------------------------------------------------------------------------------------------
 shopifycdn.com
 shopify.com
-#------------------------------------------------------------------------------------------------------------------------
+etsy.com
+etsystatic.com
 #                                                Social Media
-#------------------------------------------------------------------------------------------------------------------------
 126.com
 163.com
 163.goooo
@@ -424,21 +313,15 @@ ourtime.com
 sina.com
 static.xx.fbcdn.net
 wa.me
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Spam Links Discovered in Kits
-#------------------------------------------------------------------------------------------------------------------------
 clearmen.lienquan.garena.vn
 1thang5.lienquan.garena.vn
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Quiz / Survey Scams
-#------------------------------------------------------------------------------------------------------------------------
 fsuxeua2yzwtgh.bar
 opgarwfw.hf28x.cn
 vxlwdyo.cn
 uzyivzf.cn
-#------------------------------------------------------------------------------------------------------------------------
 #                                                Miscellaneous
-#------------------------------------------------------------------------------------------------------------------------
 34.127.100.133
 acs4.3dsecure.no
 api.bestfriendstore.net
@@ -452,8 +335,9 @@ firb.br
 forwallpaper.com
 hkelectric.com
 ikhbaljb.com
-intuit.com
+ims.connectlar.org
 intuitcdn.net
+intuit.com
 jeann8.com
 maersk.com
 newlife.com
@@ -464,9 +348,12 @@ oneprosec.com
 sgp.fas.org
 shopget24.com
 spKINGS.com
+stewart.com
+surveygizmo.com
 szatr.com
 tmd-sa.co.za
 tourdeindia.asia
 tsbdumbs.com
 vdsafvdfgfdhdgfh.cz
+zixcorp.com
 #------------------------------------------------------------------------------------------------------------------------

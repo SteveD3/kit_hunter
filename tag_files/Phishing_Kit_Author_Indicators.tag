@@ -3,8 +3,6 @@
 # and distribute the kits themselves. Any detection of these tags should be inspected immediately, as they are a clear sign
 # of problems.
 #------------------------------------------------------------------------------------------------------------------------
-#                                                Phishing Kit Author Indicators
-#------------------------------------------------------------------------------------------------------------------------
 $$-ALEMAO DA LE$TE CC-$$
 $$ Anonymous $$
 $$ Dr.Don  $$
@@ -22,6 +20,7 @@ AJONWA
 aKangRudin
 Akun PP
 ALIBOBO 360
+AmeMoney
 Aniel
 Anonisma
 +[ Anonymous ]+
@@ -65,6 +64,8 @@ by dan
 BY FredyQuimby
 By fSOCIETY
 BY Great Wall
+by Hoye
+by ImSrabon
 by JFZ
 By JoCk
 By Lulz
@@ -78,11 +79,14 @@ BY MOET
 BY Mr.fnetwork
 BY Mr Oreo
 BY Mr S!CKICK
+BY NGUYEN THU WANN
 BY RANGER
 BY rYan
+BY SHADY ELKADY
 By Shaun
 by T.DOX
 By VMA
+BY XCLAY
 by Z10n
 by ZaiTsev X
 by zazzy
@@ -98,6 +102,7 @@ Coded By x-Phisher
 Coded & Tools By Hitman
 CODE~SPIRIT
 Codewizard
+?Cov!D19?
 Created By (~)
 Created BY $PG Bon
 created by 1gb4l0d3
@@ -115,6 +120,7 @@ Created BY Machine
 created by medpage[679849675]
 Created By MNP
 Created BY MORAN 2017
+Created BY Morodo
 created by n0b0dy
 Created By NymSmith Wirer
 Created by OVO-360
@@ -129,6 +135,7 @@ Created By yb
 Created in burhan
 Created One Chop & Crew
 cyb3r7  TeaM
+CyberTeamRox
 D3R3K
 D4rkL4B
 d4rkl4b
@@ -177,6 +184,7 @@ FREAKZBROTHERS
 Freazbrother
 FreeMobile
 FRESH [SPAM] TOOLS DOT COM
+From:orsted
 fudpages
 FUDPAGEs [.] RU
 FUDPAGES [.] RU
@@ -186,6 +194,8 @@ fudtools
 Fudtools
 Fully Undetected by LulzSec
 G4lici4
+GhostMode
+|Ghost Rider|
 GMGANG
 GOBE
 GRooT
@@ -205,8 +215,6 @@ HARDC0D3R
 hardc0d3r
 hgillck2014
 HijaIyh
-HijaIyh Init
-HijaIyh Project
 Hitman
 Hot-UK->
 iamcoke.boi
@@ -264,6 +272,7 @@ Mr-Anobs
 MR AT888
 mrbesfort
 MR DUDU
+MrGhost
 mr.hosam
 Mr.K4w4!
 *MR?LT•MRC404*
@@ -272,9 +281,11 @@ Mr.Undetected
 Mr-Unknown
 MrWeeBee
 Mrx Joker
+N1xon
 N1Y3R0
 New redirect Thor:
 Ngecek Saja
++nJoY+
 NoBODY
 nOob-Assasin
 nOobAssas!n
@@ -283,12 +294,14 @@ Notify HackeD NOOBS
 Nourblog1
 Nzube Post
 Oakvillee
+ODIN LIF3
 oluxshop
 Onye Mpa X
 OPETE WIRE
 OReo0o
 OUTLAWZ
 || outlook don ||
+Ownedby|v!nc3
 PaperBoy®
 Pira17dz
 [PP V LITE]
@@ -314,9 +327,9 @@ Scripted by Machine
 Semngka2K18
 [SFR]
 sgreg1501
-|SH33NZ0|
 SH33NZ0
 =Shadow=
+|shadow|
 SHANkS™
 Shevi
 shutdown57
@@ -335,12 +348,13 @@ spf-masters-2
 Spox_dz
 STARBOY
 Sudah Isi Email Account
-!-S.Wire-!
+swagkarn
 S.Wire
 SykRit
 SYPHER-PK
 Talal
 Techroins
+TeeJay NuNULogs
 TH3MRXYEAR
 THckingE TO GOD
 +[ The - Apprentice ]+
@@ -384,10 +398,12 @@ xWaliGhost
 Xwanted - Rezlt
 xX Majid NEXI Xx
 xX SAISON Xx
+XXX-MJ
 YAH-ALLAH
 Yass ht
 YomZee
 YOUNG XA+MA+Ni
+yulio6166
 z0n51
 Zetas Oujdi
 ZOMRA Result

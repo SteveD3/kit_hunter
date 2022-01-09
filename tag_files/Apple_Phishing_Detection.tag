@@ -3,22 +3,16 @@
 #------------------------------------------------------------------------------------------------------------------------
 # Detections made by the indicators in this tag file are associated with known Apple-based phishing kits.
 #------------------------------------------------------------------------------------------------------------------------
-#                                                Associated Kit URLs
-#------------------------------------------------------------------------------------------------------------------------
 appleid.cdn-apple.com
 cc.applelD.hk
-add.dioury.hk
-sm.dioury.hk
-sm2.dioury.hk
-sm3.dioury.hk
+.dioury.hk
 spoofsend.com
 api.ifreeicloud.co.uk
 ioserver.com
 fmipmobile.icloud.com
 hijaiyh.net
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Associated Kit Functions
-#------------------------------------------------------------------------------------------------------------------------
+.apple.com
+icloud.com
 omni_page
 From: F-U-L-L
 From: S-M-S
@@ -36,11 +30,11 @@ AIzaSyCKRO8VtfeNH_fAaf1NCVmknGpUsavkLDk
 474892305:AAE6VOEBxf47R7FxuKVR4l85m_GRsQJ6_rA
 64df52a03a4bc8c7a95aa8b29ee436e1
 name="beepsendtoken"
-#------------------------------------------------------------------------------------------------------------------------
-#                                                Misc. Items
-#------------------------------------------------------------------------------------------------------------------------
 Apple.Info
 AppleID
+iCloud
+iForgot
+iTunes
 App1e - My App1e ID
 App1e Inc.
 MustaphaOthman
@@ -49,3 +43,4 @@ SilentRemove
 Limitless
 Burhan
 Escobar
+#------------------------------------------------------------------------------------------------------------------------

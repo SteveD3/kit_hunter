@@ -1,18 +1,23 @@
 #------------------------------------------------------------------------------------------------------------------------
-#                                                Comcast PHISHING KIT
+#                                               ING PHISHING KIT Detection
 #------------------------------------------------------------------------------------------------------------------------
-# Detections made by the indicators in this tag file are associated with known Comcast (Xfinity) phishing kits.
+# The files detected by tags in this list have been connected to ING phishing attacks, which targets 
+# personal and financial informaion.
 #------------------------------------------------------------------------------------------------------------------------
-.comcast.net
-.xfinity.com
-mrmoz.com
-.comcast.com
-$headers = "From: comcastfula
-Comcast LOGS
-Comcast User Notification
-content="Get the most out of Xfinity from Comcast by signing in to your account.
->Sign in to Xfinity<
-xc-header--xfinity-logo
-Comcast
-Xfinity
+.ing.fr
+.ing.it
+.ing.com
+.ing.jobs
+ing.blueconic.net
+.ing.de
+ING PIN-
+-ING LOGIN-
+-ING Question-
+-ING SMS-
+>ING<
+>ING Login<
+>Log in bij Mijn ING - ING Bankieren<
+"./ING_files/
+"./ING Login_files
+ING Groep N.V.
 #------------------------------------------------------------------------------------------------------------------------
