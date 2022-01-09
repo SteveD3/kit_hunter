@@ -16,15 +16,12 @@ Ghost Logs
 gLoginCredMgtWA
 Infoos
 INTENTOS DE CODIGOS
-ISI PESAN
-Jawaban Kamu
 LOG!N INFO
 money@makers
 New Log (De-Activation)
 +_ #NoLimiT _+
 Ogonla Dubai
 OLUWA SUCCESS
-PDF MAIL REZULT
 Recovery Credentials
 + Reserved +
 R3SuLt
@@ -41,8 +38,6 @@ rezults
 ReZulTs
 rezult.txt
 $Txt_Rezlt
-ROAMNETLOG INC
-RSJKINGDOM
 rzlt2day
 rzlts
 ScAm Inf0
@@ -62,3 +57,4 @@ wipmania
 WVxoNFu
 WYSIWYG Web Builder
 zzz Result zzz
+#------------------------------------------------------------------------------------------------------------------------
