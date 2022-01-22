@@ -157,6 +157,7 @@ COVID-19 Financial Support
 Department of Labor
 Massachusetts Pandemic Unemployment Assistance
 + MASS Login +
+New Jersey Department of Labor and Workforce Development(NJLWD)
 New York State COVID-19
 NYS FULL
 Pennsylvania's Pandemic Unemployment Assistance Portal
@@ -169,6 +170,7 @@ HughesNet
 MagicMail WebMail
 mega.bw
 Optus
+SDA Webmail
 Seanet
 signin.shaw.ca Info
 Socket Telecom

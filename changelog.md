@@ -1,10 +1,26 @@
+## January 22 2022
+- [x] Kit Hunter v6.0.5 Minor Release
+	- Added detection support for *.ini and *.xml files, based on recent scanning.
+	- Several phishing kits have started using *.ini files and *.xml files for variable control,
+	  this update ensures that the tags will detect elements in those filetypes.
+
+- [x] Updated DHL Phishing detection rules. 
+- [x] Updated Microsoft Phishing detection rules.
+- [x] Updated Author Indicators.
+- [x] Updated Brand Indicators.
+- [x] Updated Function Indicators.
+- [x] Updated URL Indicators.
+- [x] Updated Shell Detection Indicators.
+- [x] Updated Obfuscation Detections.
+
+---
 ## January 09 2022
 - [x] Updated all tag files and detections. Too many changes to list.
 	- Tag files reduced in size.
 	- Duplicate or overlapping detections were cleaned up / removed.
 	- New detections added based on scanning towards the end of December 2021, and the first week of January 2022.
 	- Quick Scan detection rules were updated.
-	- Unless otherwise needed due to significant changes or new detections, tag updates will now happen monthly instead of weekly.
+	- Unless otherwise needed due to significant changes or new detections, tag updates will now happen as needed instead of weekly.
 
 ---
 ## 2021 Updates

@@ -15,6 +15,7 @@ $data = base64_decode(base64_decode(base64_decode($value
 $data = file_get_contents('php://input')
 $domain:2082
 $domain:2083
+$fc = str_replace('function wp_is_mobile()
 $file_info['is_group_
 $file_info['is_owner_
 $file_info['is_world_
@@ -30,6 +31,7 @@ $id=$sr/*+/*+*/("ri"."d_"."si")
 $I=file(__FILE__)
 $indexphp_pass =
 $info .= (
+$is_wp_mobile = ($_SERVER['HTTP_USER_AGENT'] == 'wp_is_mobile')
 $l___J='base'.(128/2).'_de'.'code'
 $l___WP='base'.(128/2).'_de'.'code'
 $lYsVJuM='VN RG.aV9Y+L= 7'
@@ -106,6 +108,7 @@ class c5fe08a4bd4577
 Class_UC_key(
 copy('/'.$home.'/'.$user.'/
 copy('/var/www/
+count($g) == 8 && $is_wp_mobile)
 default pass:  Dab
 ?dir=$dir&to=cmd
 ?dir=$dir&to=mass

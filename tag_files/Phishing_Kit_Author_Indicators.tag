@@ -65,6 +65,8 @@ BY FredyQuimby
 By fSOCIETY
 BY Great Wall
 by Hoye
+By HCrew
+by HURTICE
 by ImSrabon
 by JFZ
 By JoCk
@@ -87,6 +89,7 @@ By Shaun
 by T.DOX
 By VMA
 BY XCLAY
+BY WEALTH
 by Z10n
 by ZaiTsev X
 by zazzy
@@ -141,6 +144,7 @@ D4rkL4B
 d4rkl4b
 Dangerous Mailer
 Dark-Attacker
+Darkx_Coder
 Da Street
 Davidluna27
 Designed By Akira
@@ -344,6 +348,7 @@ SNIPNET
 Spaghy
 SPAIROW DA_VINCCI
 [SPAM]
+SpamLord00
 spf-masters-2
 Spox_dz
 STARBOY
@@ -398,6 +403,7 @@ xWaliGhost
 Xwanted - Rezlt
 xX Majid NEXI Xx
 xX SAISON Xx
+xxxcashout
 XXX-MJ
 YAH-ALLAH
 Yass ht

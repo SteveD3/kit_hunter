@@ -19,6 +19,7 @@ array(base64_decode(
 >".base64_decode("
 base64_decode($user)
 document.write(unescape(
+eval($
 eval(atob(
 eval(base64_decode(
 eval(gzinflate(base64_decode
@@ -49,4 +50,5 @@ PHP Encode by
 PHP Encode Sh*ll Auto v4 Fox
 php7.2 flame 5 3.2
 Respect C0ders.
+>Spam Lord Encryptor<
 #------------------------------------------------------------------------------------------------------------------------

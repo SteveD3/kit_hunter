@@ -120,6 +120,7 @@ labor.maryland.gov
 labor.ny.gov
 mass.gov
 my.ny.gov
+nj.gov
 pua.benefits.uc.pa.gov
 recruiting.jcf.gov.jm
 ui-cares-act.mass.gov
@@ -281,6 +282,7 @@ skynet.be
 verizon.yahoo.com
 wakwak.com
 webmail.canvas.ne.jp
+webmail.sda.it
 webmail.shaw.ca
 yandex.com
 yandex.ru

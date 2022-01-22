@@ -3,6 +3,20 @@
 # and more. They're cause for an immediate inspection, as these code elements are often not used for legitimate reasons, and instead are
 # recycled and used by crimials in their phishing kit development.
 #------------------------------------------------------------------------------------------------------------------------
+#                                                XML Phishing Functions
+$xml=simplexml_load_file
+echo $xml->htmltitle
+echo $xml->step1title
+echo $xml->step1subtitle
+echo $xml->step2title
+echo $xml->step2subtitle
+echo $xml->cardholder
+echo $xml->notice
+echo $xml->step3title
+echo $xml->step3subtitle
+echo $xml->sendcode
+echo $xml->msgimportant
+echo $xml->copyright
 #                                                Google Firebase
 firebase-
 firebasestorage.googleapis.com
@@ -30,11 +44,17 @@ data: { u : email, p : password_v}
 #                                                Zimbra Phishing Kits
 id="ZLoginAppName"
 class="zLoginField"
+#                                                Phishing Forwarding Script
+$BOT_LOOKUP_COUNTRY_CODE =
+$BOT_LOOKUP_ORG =
+$BOT_LOOKUP_COUNTRY =
+$BOT_COUNTRY =
 #                                                Known Phishing Kit Function Calls
 $a370a
 $a4ade
 $Abuse_Filter
 $ak47_Hacker
+_AREA16
 $c28dd9c
 $c5d6b
 $c97e57ec
@@ -52,6 +72,7 @@ $email_result
 $('#ExpirationDate').mask('00/0000')
 $_F=__FILE__;$_X
 $final = strtolower($p10)
+$handle=fopen("usernames.txt","a");
 $headers .= $_POST['ZMailXdd']
 $icoooo->email
 $icoooo->password
@@ -95,6 +116,7 @@ Checksum: b2d1bed66c34c0d462e33111a6d08c37
 coopetyx_copo
 curl_setopt($ch, CURLOPT_URL, 'http://'.$cl0ip.''.$cl1ip.''.$cl2ip.''.$cl3ip.'/'.$cloudipphp.'.php')
 curl-to-PHP
+data-ad-client="ca-pub-6563733770190681"
 EA1610330223UK
 function Redirect($url, $permanent = false)
 FZ32FEZ234
@@ -155,6 +177,7 @@ qsdq21sd5s4d4s1
 rand=13
 .rand=13vqcr8bp0gud&lc=1033
 rc21x6p3
+"/reg/?cid=
 saved from url
 sendgo
 seth_db
@@ -168,6 +191,7 @@ tbn:ANd9GcSAxbW97fpHJXh7lSdvCdrvBQP-1nWnRuE1_CRB8yBjMBzqkbFp
 Th@ w@s yOur LOG : SeNt tO
 t-online.de.tp2
 UA-23581568-13
+UA-46020583-1
 urlredirectresolver
 Validate_cc.js
 var firebaseConfig
