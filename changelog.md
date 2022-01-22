@@ -2,7 +2,7 @@
 - [x] Kit Hunter v2.6.5 Minor Release
 	- Added detection support for *.ini and *.xml files, based on recent scanning.
 	- Several phishing kits have started using *.ini files and *.xml files for variable control,
-	  this update ensures that the tags will detect elements in those filetypes.
+	  this update ensures that the tags will detect elements in those file types.
 
 - [x] Updated DHL Phishing detection rules. 
 - [x] Updated Microsoft Phishing detection rules.
