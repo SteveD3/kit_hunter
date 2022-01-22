@@ -6,7 +6,7 @@
 # @nullcookies @dyngnosis @olihough86 @dave_daves @JCyberSec_ @n0p1shing @ANeilan @selenalarson @sysgoblin @PaulWebSec @BushidoToken @sjhilt @phage_nz
 #
 #
-# Version 2.6.0
+# Version 2.6.5
 
 import os
 import time
@@ -29,7 +29,7 @@ kh_full_scan = '/path/to/tag_files/'
 
 # Script directions and basic settings. This also generates the help listing.
 ####################################################################################
-parser = argparse.ArgumentParser(description='Kit Hunter v2.6.0')
+parser = argparse.ArgumentParser(description='Kit Hunter v2.6.5')
 group = parser.add_mutually_exclusive_group()
 
 parser.add_argument('-d', '--dir', type=str, help='Scan a custom directory. Usage: -d /full/path/to/files/')
@@ -224,7 +224,7 @@ supported_compressed_files_formats = ['.zip', '.tar.xz', '.rar', '.gz']
 # You can add additional file_formats if needed, such as .js files.
 # However, keep in mind that certain folder names (i.e. /.js/) could cause the sctipt to throw errors.
 ####################################################################################
-supported_file_formats = ['.conf', '.txt', '.php', '.htm', '.html', '.dat', '.htaccess']
+supported_file_formats = ['.conf', '.txt', '.php', '.htm', '.html', '.dat', '.ini', '.xml', '.htaccess']
 
 # Several tag files were created for this release. However, you can have as many as you want.
 # Just remember to give the file the .tag extention so the script picks it up.
