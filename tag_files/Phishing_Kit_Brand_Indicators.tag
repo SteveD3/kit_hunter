@@ -126,6 +126,7 @@ SANTANDER ES
 San.tan'der Info
 Scotiabank
 scotia full
+Société Générale
 Solutions Banking-Investors Group
 SQSpace Info
 SQSpace Login
@@ -167,6 +168,7 @@ Wisconsin Unemployment Insurance
 #                                                Internet Services (ISP)
 Frontier
 HughesNet
+iiNet
 MagicMail WebMail
 mega.bw
 Optus
@@ -184,6 +186,7 @@ WOWWAY
 #                                                Internet Services (Non-ISP)
 Deloitte
 HiNet
+MTS Mail
 Netflix
 ProtonMail
 Rackspace
@@ -195,6 +198,8 @@ Tutanota
 WhatsApp
 #------------------------------------------------------------------------------------------------------------------------
 #                                                Misc. Brands
+Canada Air
+Air Canada
 Aix-Marseille Université
 Anmeldung bei nmail1/MU-Leoben/AT
 BIG GLOBE Result
@@ -229,6 +234,7 @@ maerskline
 Maersk Line Shipping
 Maersk Logs||
 Overstock
+RoyalMail
 SF Express Rezult
 Shopify
 Windcave Payment Page

@@ -17,6 +17,12 @@ echo $xml->step3subtitle
 echo $xml->sendcode
 echo $xml->msgimportant
 echo $xml->copyright
+#                                                OAUTH App Phishing
+auth?client_id=
+authorize?client_id=
+&response_mode=query&scope=People.Read
+userinfo.email
+userinfo.profile
 #                                                Google Firebase
 firebase-
 firebasestorage.googleapis.com
@@ -81,6 +87,7 @@ $keyword = str_replace(" ", "+", $keyword)
 $loginfmt
 $One_Time_Access=1
 $password='azerty123.0@10'
+$parcel_tracking =
 $pwd = crypt($password,'$6$roottn$')
 $sambisa .=
 $scamname

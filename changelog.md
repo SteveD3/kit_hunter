@@ -1,3 +1,15 @@
+## February 07 2022
+- [x] Updated DHL Phishing detection rules. 
+- [x] Updated Microsoft Phishing detection rules.
+- [x] Updated Author Indicators.
+- [x] Updated Brand Indicators.
+- [x] Updated Function Indicators.
+- [x] Updated URL Indicators.
+- [x] Updated Adobe Phishing detection rules.
+- [x] Updated Dropbox Phishing detection rules.
+- [x] Updated Telegram Exfiltration Indicators.
+
+---
 ## January 22 2022
 - [x] Kit Hunter v2.6.5 Minor Release
 	- Added detection support for *.ini and *.xml files, based on recent scanning.

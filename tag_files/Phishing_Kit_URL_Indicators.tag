@@ -64,6 +64,7 @@ sella.it
 standardbank.com.na
 squareup.com
 tescobank.com
+.ubs.com
 visaprepaidprocessing.com
 western-security.net
 wetransfer.com
@@ -136,6 +137,7 @@ csolve.net
 deloitte.com
 deloitteresources.com
 ftcdn.net
+iinet.net.au
 kyivstar.net
 login.frontier.com
 login.t-online.de
@@ -189,6 +191,7 @@ cutt.ly
 dancevida.com
 dclic-resolver.e-i.com
 dox2x.com
+evil-payment.com
 extreme-ip-lookup.com
 i.ibb.co
 ip2geo.com
@@ -272,6 +275,7 @@ mail.ru
 mail.sina.com.cn
 msgsafe.io
 mtaroutes.com
+mtsmail.ca
 mxthunder.co
 parsons-peebles.com
 portail.free.fr
@@ -299,6 +303,7 @@ postandparcel.info
 postepay.poste.it
 postoffice.co.uk
 royalclass.com.ar
+royalmail.com
 #                                                Retail
 shopifycdn.com
 shopify.com

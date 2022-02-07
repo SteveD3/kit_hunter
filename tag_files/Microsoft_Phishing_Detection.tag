@@ -34,7 +34,7 @@ mail.outlook.com
 mail.protection.outlook.com
 mainallpppppp
 Micr0s0ft
-microsoftonline.com
+.microsoftonline.com
 >Microsoft services<
 .msauth.net
 msftauth.net
@@ -48,11 +48,14 @@ Office 365 Business Interface
 Official3655
 On3Driv3 AYO
 OneDrive
+>Outlook Web App<
 ("/owa/auth/15.1
 r4.res.office365.com
 script.google.com/macros/
 secure.aadcdn.microsoftonline-p
+>Share Point Online<
 sharepoint.outlook.33s40i
+>Sign in to sharepoint<
 thanky0u
 Windows Live ID
 #------------------------------------------------------------------------------------------------------------------------

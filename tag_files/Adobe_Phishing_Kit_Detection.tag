@@ -12,6 +12,8 @@ $username = $_POST['email']
 Access to PDF Files On Adobe Server is denied due to invalid credentials| Error 401.
 Ad0be
 AdobeCloud
+>Adobe ID<
+>Adobe Document Cloud<
 Adobe Document Cloud Info
 adobeid-na1.services.adobe.com
 Adobe PDF

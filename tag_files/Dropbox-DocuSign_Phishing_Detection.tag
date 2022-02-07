@@ -5,20 +5,23 @@
 # It's important to note that DocuSign and Dropbox phishing attacks are often closely related to Office365 and financial phishing.
 # The goal is credentials and future access.
 #------------------------------------------------------------------------------------------------------------------------
-cfl.dropboxstatic.com
-.docusign.com
-.docusign.net
-.dropbox.com
 $headers = "From: Docusign
-id="ds_docubody"
-DocuSign
-Docu Sign
-DocuSlgn
-Docusign, Inc
+cfl.dropboxstatic.com
+>confirm identity<
 + Docusign +
-Dropboox
+Docu Sign
+DocuSign
+.docusign.com
+Docusign, Inc
+.docusign.net
+DocuSlgn
+downinspector.com
 DropB0x Info
+Dropboox
 Dropbox
+.dropbox.com
 Good News Sha
 Good NEWS We works On
+id="ds_docubody"
+>New Business document(s) available for
 #------------------------------------------------------------------------------------------------------------------------

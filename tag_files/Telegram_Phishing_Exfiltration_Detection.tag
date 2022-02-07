@@ -12,6 +12,8 @@ api.telegram.org
 $api = "
 $api="
 $api_key  = '
+$apik =
+$apik1 =
 $api_token = "
 $apiToken = "
 $apiToken ="
@@ -28,6 +30,7 @@ $chatid = "
 $chatID = '
 $chatId=
 $chatID='
+$ChatID =
 $chatId = trim(file_get_contents(
 $ch = curl_init($METRI_TOKEN . '/sendMessage')
 $config['bot_id'] =
@@ -52,6 +55,7 @@ $token = "
 $token = '
 $token ='
 $Token="
+$Token ="
 $token='
 $tokenlink
 $user=$id

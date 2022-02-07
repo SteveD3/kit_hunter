@@ -198,6 +198,7 @@ fudtools
 Fudtools
 Fully Undetected by LulzSec
 G4lici4
+G66K
 GhostMode
 |Ghost Rider|
 GMGANG
@@ -307,11 +308,13 @@ OUTLAWZ
 || outlook don ||
 Ownedby|v!nc3
 PaperBoy®
+*Pinky*
 Pira17dz
 [PP V LITE]
 PremierGhost
 Prince Du Scam
 Priv8 Mailer
+PYR3X
 - RAZ -
 RBC LOGIN
 rbcResults
