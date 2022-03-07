@@ -1,3 +1,14 @@
+## March 07 2022
+- [x] Updated Telegram Exfiltration Indicators.
+- [x] Updated Author Indicators.
+- [x] Updated Brand Indicators.
+- [x] Updated Function Indicators.
+- [x] Updated General Indicators.
+- [x] Updated Microsoft Phishing detection rules.
+- [x] Added Monzo Phishing detection rules.
+- [x] Added Fake Anti-Virus detection rules.
+
+---
 ## February 07 2022
 - [x] Updated DHL Phishing detection rules. 
 - [x] Updated Microsoft Phishing detection rules.

@@ -11,26 +11,27 @@ api.telegram.org
 #------------------------------------------------------------------------------------------------------------------------
 $api = "
 $api="
-$api_key  = '
 $apik =
 $apik1 =
+$api_key  = '
 $api_token = "
-$apiToken = "
-$apiToken ="
+$apiToken =
+$bot = "{$url}{$tokens}"
 $botName =
 $BotTelegramToken
 $botToken
 $bottoken
+$bot_url =
 $botUrl = trim(file_get_contents(
 $chat = "
 $chat_id  = '
 $chat_id = "
 $chatId
+$ChatID =
 $chatid = "
 $chatID = '
 $chatId=
 $chatID='
-$ChatID =
 $chatId = trim(file_get_contents(
 $ch = curl_init($METRI_TOKEN . '/sendMessage')
 $config['bot_id'] =
@@ -47,17 +48,24 @@ $tanitatikaram
 $telegrambot
 $telegram_BOT_rahal =
 $telegramchatid
+$telegramLuffy
+$telegram = trim(file_get_contents(
 $TGBotToken_Ranger
 $TGYourID_Ranger
 $tiko
+$tok="
 $tok=$api
+$token  = '
 $token = "
 $token = '
-$token ='
-$Token="
 $Token ="
+$token ='
+$token ="
+$Token="
 $token='
 $tokenlink
+$tokens = 
+$tokenss=
 $user=$id
 $user_ids =
 $user_ids=array(
@@ -76,6 +84,7 @@ define("TELEGRAM_TOKEN"
 define('TOKEN', '
 define('USER_ID',
 di_tahc?
+file_get_contents("config/token.txt")
 sendMessage?chat_id=
 sendMessageT(
 'tele_key' =>

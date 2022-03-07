@@ -54,6 +54,7 @@ r4.res.office365.com
 script.google.com/macros/
 secure.aadcdn.microsoftonline-p
 >Share Point Online<
+SharePoint
 sharepoint.outlook.33s40i
 >Sign in to sharepoint<
 thanky0u

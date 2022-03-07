@@ -132,6 +132,7 @@ SQSpace Info
 SQSpace Login
 Standard Bank Namibia
 [stripe] login
+SunNet Online Banking
 Swisscom - Espace Clients
 Tangerine Bank
 -TD $dev-

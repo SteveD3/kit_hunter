@@ -26,6 +26,8 @@ userinfo.profile
 #                                                Google Firebase
 firebase-
 firebasestorage.googleapis.com
+#                                                Email Filter - Ameli 
+pattern="([a-zA-Z0-9]+([_|\.|-]{1})?[a-zA-Z0-9]+)([_|\.|-]{1})?([a-zA-Z0-9]?){1,}@(orange|wanadoo|gmail|hotmail|aol|yahoo|laposte|sfr|numericable|free|neuf|netcourrier|)\.(com|net|fr)"
 #                                                CodeIgnighter Calls / Cazanova Haxor
 define('X_RESULT_NAME
 define('X_RESULT_EMAIL
@@ -102,6 +104,9 @@ $WELLS_SESSION_SPOX
 $xqiswxnwxf=
 $yahya_email
 $zabi
+.$userIa.
+.$userIb.
+.$userIc.
 13InboxLight
 16lnboxLight
 19lnboxLight
