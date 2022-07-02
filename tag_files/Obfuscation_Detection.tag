@@ -19,6 +19,7 @@ array(base64_decode(
 >".base64_decode("
 base64_decode($user)
 document.write(unescape(
+}eval(
 eval($
 eval(atob(
 eval(base64_decode(
@@ -29,6 +30,7 @@ eval(str_rot13(gzinflate(str_rot13(base64_decode(
 eval("\x65\x76\x61\x6C\x28\x67\x7A\x69\x6E\x66\x6C\x61\x74\x65\x28\x62\x61\x73\x65\x36\x34\x5F\x64\x65\x63\x6F\x64\x65\x28
 eval(xppbrlmshkjbqlpvxgbs(
 fopo.com.ar
+gzinflate(base64_decode(
 ioncube.com
 ionCube Loader
 key.inc.php

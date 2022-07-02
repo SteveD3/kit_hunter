@@ -9,6 +9,7 @@
 gro.margelet.ipa
 api.telegram.org
 #------------------------------------------------------------------------------------------------------------------------
+$a = "
 $api = "
 $api="
 $apik =
@@ -16,13 +17,17 @@ $apik1 =
 $api_key  = '
 $api_token = "
 $apiToken =
+$bing = '
 $bot = "{$url}{$tokens}"
+$botkey = "
 $botName =
 $BotTelegramToken
+$bot_token = "
 $botToken
 $bottoken
 $bot_url =
 $botUrl = trim(file_get_contents(
+$ch = "
 $chat = "
 $chat_id  = '
 $chat_id = "
@@ -37,14 +42,20 @@ $ch = curl_init($METRI_TOKEN . '/sendMessage')
 $config['bot_id'] =
 $config_chat =
 $config_token =
+$google = '
+$http_api = "
 $id="
 $key = "
 $METRI_TOKEN
 $nofezID = "
 $nofezToken = "
+$ovnitoken = "
 $rs = base64_decode($api)
 $t = "
 $tanitatikaram
+$telebot = "
+$telegam_bot_token = "
+$telegam_chatID = "
 $telegrambot
 $telegram_BOT_rahal =
 $telegramchatid
@@ -59,8 +70,8 @@ $token  = '
 $token = "
 $token = '
 $Token ="
-$token ='
 $token ="
+$token ='
 $Token="
 $token='
 $tokenlink
@@ -79,13 +90,17 @@ bot" . $token . "
 'chat_id'=>
 const TELEGRAM_BOT_ADMIN_USERID =
 const TELEGRAM_BOT_TOKEN =
+const token = '
 define("TELEGRAM_CHAT_ID"
 define("TELEGRAM_TOKEN"
 define('TOKEN', '
 define('USER_ID',
 di_tahc?
 file_get_contents("config/token.txt")
+instagram("
 sendMessage?chat_id=
 sendMessageT(
 'tele_key' =>
+Token='
+viewsToken='
 #------------------------------------------------------------------------------------------------------------------------

@@ -323,6 +323,7 @@ wa.me
 #                                                Spam Links Discovered in Kits
 clearmen.lienquan.garena.vn
 1thang5.lienquan.garena.vn
+vida-lp.ch
 #                                                Quiz / Survey Scams
 fsuxeua2yzwtgh.bar
 opgarwfw.hf28x.cn
@@ -345,6 +346,7 @@ ikhbaljb.com
 ims.connectlar.org
 intuitcdn.net
 intuit.com
+linde.com
 jeann8.com
 maersk.com
 newlife.com

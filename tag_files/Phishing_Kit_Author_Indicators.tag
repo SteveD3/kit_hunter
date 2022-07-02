@@ -13,6 +13,7 @@ $4ridon
 +6tboi+
 A2Ztoolz
 abdel.sykrit
+acxXxLORDxXxkey
 Agung Satrio Kuy
 AhMad
 aid3n173
@@ -52,6 +53,7 @@ bNX Lab
 BocahShop X BocahTeam
 Bodibag
 BoyXD
+BR4D3SC0
 BrnV3y
 Brothers V!rus
 Built By HustleLogic
@@ -60,19 +62,23 @@ BULDREG
 Burhan
 BY AnTiBoTs7
 By Bams
+by CO-DEAD
 By Cole
 by Cyborg99
 by dan
+BY FR4UDS
 BY FredyQuimby
 By fSOCIETY
 BY Great Wall
-by Hoye
 By HCrew
+by Hoye
 by HURTICE
 by ImSrabon
 by JFZ
 By JoCk
 By Lulz
+By M3dL4m!n3
+By M3RC1
 By madman
 By Manisso
 BY M.C
@@ -84,19 +90,22 @@ BY Mr.fnetwork
 BY Mr Oreo
 BY Mr S!CKICK
 BY NGUYEN THU WANN
+BY @RAFTAARSIR
 BY RANGER
 BY rYan
 BY SHADY ELKADY
 By Shaun
 by T.DOX
+BY TMNUVO
+By Uce
 By VMA
-BY XCLAY
-BY WEALTH
 by w3sts1d3
+BY WEALTH
+BY XCLAY
 by Z10n
+By Zae3m
 by ZaiTsev X
 by zazzy
-By Zae3m
 C0d3d by Cybersuperstar
 Cazanova
 CiPhErHat
@@ -174,6 +183,7 @@ EL GH03T
 ELGH03T
 El Senor
 Equa CZ log
+ErrorMan
 Escobar
 Esraa3zzo
 EVO J4CK3R
@@ -204,10 +214,12 @@ Fudtools
 Fully Undetected by LulzSec
 G4lici4
 G66K
+Gh0St_kSa
 GhostMode
 |Ghost Rider|
 GMGANG
 GOBE
+GreyHatPakistan
 GRooT
 Gucci
 Gwaraminds
@@ -237,6 +249,7 @@ Indramayu CyBer
 IzlAden BenGazi
 JBoy®
 jdpoweredx
+[+] J E A N [+]
 JOkEr7
 JSARZ
 @Kako1336
@@ -413,7 +426,9 @@ xX Majid NEXI Xx
 xX SAISON Xx
 xxxcashout
 XXX-MJ
+xXx-SNIPER-xXx
 YAH-ALLAH
+Yasser Sa
 Yass ht
 YomZee
 YOUNG XA+MA+Ni

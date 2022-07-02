@@ -9,7 +9,6 @@ $base=base64_encode($md5md5)
 $characters = '0123456789abcdefghijklmnopqrstuvwxyz'
 $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 $charactersLength = strlen($characters)
-$charactersLength = strlen($characters)
 $DIR    = substr(md5($random), 0, 15)
 $dispatch = substr(md5($random), 0, 17)
 $dst=md5("$base")
@@ -35,4 +34,5 @@ recurse_copy( $home, $DIR )
 recurse_copy( $src, $dst )
 recurse_copy($src . '/' . $file,$dst . '/' . $file)
 str_shuffle("0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+substr(str_shuffle(
 #------------------------------------------------------------------------------------------------------------------------

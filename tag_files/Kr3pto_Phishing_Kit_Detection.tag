@@ -19,4 +19,14 @@ Kr3ptodominos
 MrProfessor
 guccibase
 awesome.triz
+$('#idForm').submit(function(e){
+var ccname = $('#ccname').val()
+var ccnum = $('#ccnum').val()
+var ccexp = $('#ccexp').val()
+var cccvv = $('#cccvv').val()
+var securityNumber = $('#securityNumber').val()
+$("#cccvv").attr("maxlength", "3")
+$("#cccvv").attr("maxlength", "4")
+if(response == 
+console.log("Worked
 #------------------------------------------------------------------------------------------------------------------------
